@@ -1,3 +1,8 @@
+---
+title: Text Formatting
+parent: Actions and Conditions
+---
+
 # Text Formatting
 
 When sending text on behalf of a bot in Snack or Github, several formatting options are available:

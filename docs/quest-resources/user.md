@@ -1,3 +1,9 @@
+---
+title: User
+parent: Quest Resources
+nav_order: 1
+---
+
 # user
 
 Description: Used to modify user configuration

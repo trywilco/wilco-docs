@@ -1,3 +1,8 @@
+---
+title: Heroku Frontend
+parent: Quest Resources
+---
+
 # heroku_frontend
 
 Description: Heroku app hosting the frontend
