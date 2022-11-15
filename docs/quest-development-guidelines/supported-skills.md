@@ -1,3 +1,9 @@
+---
+title: Supported Skills
+parent: Quest Development Guidelines
+permalink: 
+---
+
 # Supported Skills
 
 - communication
