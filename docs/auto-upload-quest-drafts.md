@@ -6,7 +6,7 @@ title: Auto-Upload Quest Drafts
 
 To simplify the process of uploading draft versions, quest developers can configure their repo to upload an updated version after pushing new code to the `main` branch.
 
-1. First, you will need to generate a Quest Developer token. Open the [Quest Builder](https://app.wilco.gg/quest-builder) page and find the `More Options` button (three vertical dots). Select the `Generate New Token` option and follow the instructions to create a new token.
+1. First, you will need to generate a Quest Developer token. Open the [Quest Builder](https://app.wilco.gg/quest-builder){:target="_blank"} page and find the `More Options` button (three vertical dots). Select the `Generate New Token` option and follow the instructions to create a new token.
 2. Add the token to the quest repo secrets:
     1. Open quest repo settings.
     2. Tap `Secrets` on the left panel and select `Actions` in the drop-down.

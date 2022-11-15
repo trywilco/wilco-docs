@@ -6,7 +6,9 @@ theme: just-the-docs
 url: https://trywilco.github.io/wilco-docs
 
 aux_links:
-  Get Started: https://app.wilco.gg  
+  Get Started: https://app.wilco.gg
+
+aux_links_new_tab: true
 
 defaults:
   -
