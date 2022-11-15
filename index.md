@@ -19,10 +19,12 @@ Not a user yet? Click here to sign up as a creator.
 ### **Getting started with the Wilco Builder SDK**
 The following repository outlines how to create a quest from scratch or using provided examples.
 
-[Start here](https://github.com/trywilco/wilcosdk/blob/main/questcreation.md)
+[Start here]
 
 ### **Issues**
-If you have encountered a problem while working with the Builder SDK or this documentation, please create a new [issue](https://github.com/trywilco/wilcosdk/issues) to bring it to our team’s attention. 
+If you have encountered a problem while working with the Builder SDK or this documentation, please create a new [issue] to bring it to our team’s attention. 
 
+[Start here]: {{ site.baseurl }}{% link docs/quest-creation.md %}
+[issue]: {{ site.gh_edit_repository }}/issues/new/choose
 [Wilco Quest Builder]: https://user-images.githubusercontent.com/108607031/195384783-a098d06e-fa09-4463-a9ec-4de5122d704e.png
 {:.centered width="300px"}
