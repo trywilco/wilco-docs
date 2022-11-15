@@ -1,8 +1,9 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Wilco Quest Builder
+description: A documentation website for Wilco's Quest Builder
+logo: "/assets/images/logo.png"
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://wilco-docs.github.io
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Get Started: https://app.wilco.gg  
