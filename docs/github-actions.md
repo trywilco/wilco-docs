@@ -1,6 +1,5 @@
 ---
 title: GitHub Actions
-layout: default
 nav_order: 5
 ---
 

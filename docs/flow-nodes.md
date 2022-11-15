@@ -1,6 +1,5 @@
 ---
 title: Flow Nodes
-layout: default
 nav_order: 4
 ---
 

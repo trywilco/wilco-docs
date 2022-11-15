@@ -1,6 +1,5 @@
 ---
 title: Triggers and Payload
-layout: default
 nav_order: 4
 ---
 

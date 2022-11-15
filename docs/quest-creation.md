@@ -1,6 +1,5 @@
 ---
 title: Quest Creation
-layout: default
 nav_order: 1
 ---
 

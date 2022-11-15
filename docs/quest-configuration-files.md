@@ -1,6 +1,5 @@
 ---
 title: Quest Configuration Files
-layout: default
 nav_order: 6
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Auto-Upload Quest Drafts
-layout: default
 nav_order: 4
 ---
 
