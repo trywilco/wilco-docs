@@ -1,7 +1,6 @@
 ---
 title: User
 parent: Quest Resources
-nav_order: 1
 ---
 
 # user

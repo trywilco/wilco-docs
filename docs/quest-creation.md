@@ -1,6 +1,5 @@
 ---
 title: Quest Creation
-nav_order: 2
 ---
 
 # Quests Creation

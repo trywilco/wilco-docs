@@ -1,6 +1,5 @@
 ---
 title: Triggers and Payload
-nav_order: 4
 ---
 
 # Triggers and Payload

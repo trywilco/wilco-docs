@@ -1,6 +1,5 @@
 ---
 title: Quest Configuration Files
-nav_order: 6
 ---
 
 # Quest Configuration Files
