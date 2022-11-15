@@ -1,5 +1,7 @@
 ---
-title: 'Lucca Marle'
+title: Lucca Marle
+parent: Characters
+grand_parent: Quest Development Guidelines
 ---
 
 # Lucca

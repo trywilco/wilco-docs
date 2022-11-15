@@ -1,6 +1,10 @@
 ---
 title: 'Keen Blazkowicz'
+parent: Characters
+grand_parent: Quest Development Guidelines
 ---
+
+# Keen 
 
 **Keen Blazkowicz, Team Manager B**
 

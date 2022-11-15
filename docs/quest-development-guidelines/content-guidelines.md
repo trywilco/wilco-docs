@@ -1,5 +1,6 @@
 ---
-title: 'Content Guidelines'
+title: Content Guidelines
+parent: Quest Development Guidelines
 ---
 
 # Content Guidelines

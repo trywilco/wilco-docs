@@ -1,5 +1,6 @@
 ---
-title: 'Quest Submission Checklist'
+title: Quest Submission Checklist
+parent: Quest Development Guidelines
 ---
 
 # Quest Submission Checklist

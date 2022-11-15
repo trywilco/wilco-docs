@@ -1,5 +1,6 @@
 ---
-title: 'Graphic Design Guidelines'
+title: Graphic Design Guidelines
+parent: Quest Development Guidelines
 ---
 
 # Graphic Design Guidelines
