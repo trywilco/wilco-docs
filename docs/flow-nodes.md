@@ -7,7 +7,7 @@ nav_order: 4
 
 When the step starts or when the user performs an action (trigger) that the step expects, a logical flow will be executed. The flow is defined using flow nodes.  Each flow node consists of `do`, `if`, and `switch` blocks. 
 
-![Untitled](flow-nodes/flow-node.jpeg)
+![flow nodes](/assets/images/flow-node/flow-node.jpeg)
 
 Each flow node contains any of the following:
 
