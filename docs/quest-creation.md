@@ -28,7 +28,7 @@ Examples: advance to next step, approve/reject user’s PR, send a message from 
     2. Manually zip the files located on your local machine.
     3. Auto-upload using Github Workflow : [Auto-Upload Quest Drafts](Quests%20Creation/Auto-Upload%20Quest%20Drafts.md)
         
-        **NOTE**: *Make sure you have Quests Editor permissions in Wilco.*
+        **NOTE**: *Make sure you have Quests Builder permissions in Wilco.*
         
 4. If you don't use auto-upload, please upload the zip file manually. Open the [my-quests](https://app.wilco.gg/my-quests) page, tap on the `upload new quest` button and select the zip file. If you're uploading a new version for an existing quest, find the quest in the list and click the `upload version` button.
 5. Once the quest has finished uploading, click the `test quest in Snack` button and test the full quest flow.
