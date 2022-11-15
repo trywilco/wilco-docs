@@ -28,7 +28,7 @@ Examples: advance to next step, approve/reject user’s PR, send a message from 
         
         **NOTE**: *Make sure you have Quests Builder permissions in Wilco.*
         
-4. If you don't use auto-upload, please upload the zip file manually. Open the [my-quests](https://app.wilco.gg/my-quests) page, tap on the `upload new quest` button and select the zip file. If you're uploading a new version for an existing quest, find the quest in the list and click the `upload version` button.
+4. If you don't use auto-upload, please upload the zip file manually. Open the [Quest Builder](https://app.wilco.gg/quest-builder) page, tap on the `upload new quest` button and select the zip file. If you're uploading a new version for an existing quest, find the quest in the list and click the `upload version` button.
 5. Once the quest has finished uploading, click the `test quest in Snack` button and test the full quest flow.
 6. When the quest is ready, click the `submit for review` button. ([See: Review Process and Submission Guidelines](https://github.com/trywilco/wilcosdk/blob/Documentation_Quest_Guidelines/Quests%20Creation/Quest%20Development%20Guidelines/Review%20Process%20and%20Submission%20Guidelines))
 7. Once a quest is approved, it will automatically be published to the Wilco Quest Catalog and become available to all Wilco users.
