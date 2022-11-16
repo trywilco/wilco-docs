@@ -25,7 +25,7 @@ The following repository outlines how to create a quest from scratch or using pr
 ### **Issues**
 If you have encountered a problem while working with the Builder SDK or this documentation, please create a new [issue] to bring it to our team’s attention. 
 
-[Start here]: {{ site.baseurl }}{% link docs/quest-creation/quest-creation.md %}
+[Start here]: {% link docs/quest-creation/quest-creation.md %}
 [issue]: {{ site.gh_edit_repository }}/issues/new/choose
 [Wilco Quest Builder]: https://user-images.githubusercontent.com/108607031/195384783-a098d06e-fa09-4463-a9ec-4de5122d704e.png
 {:.centered width="300px"}

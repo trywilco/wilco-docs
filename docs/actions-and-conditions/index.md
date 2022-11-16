@@ -229,37 +229,37 @@ Note the use of `equals: false` and the use of `paramsFramework` in this example
 
 [Text Formatting]
 
-[Triggers and Payload]: {{ site.baseurl }}{% link docs/triggers-and-payload.md %}
-[Text Formatting]: {{ site.baseurl }}{% link docs/actions-and-conditions/text-formatting.md %}
+[Triggers and Payload]: {% link docs/triggers-and-payload.md %}
+[Text Formatting]: {% link docs/actions-and-conditions/text-formatting.md %}
 
-[text_contains_strings]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/text-contains-strings.md %}
-[text_match_regex]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/text-match-regex.md %}
-[is_user_message_text_ready_to_continue]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/is-user-message-text-ready-to-continue.md %}
-[bot_message]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/bot-message.md %}
-[github_is_user_valid]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-is-user-valid.md %}
-[github_is_file_modified]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-is-file-modified.md %}
-[github_is_one_of_files_modified]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-is-one-of-files-modified.md %}
-[github_is_file_add]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-is-file-add.md %}
-[github_is_file_contains]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-is-file-contains.md %}
-[github_is_repo_collaborator]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-is-repo-collaborator.md %}
-[github_is_file_added_in_push]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-is-file-added-in-push.md %}
-[github_create_repo]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-create-repo.md %}
-[github_invite_user]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-invite-user.md %}
-[github_pr_comment]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-pr-comment.md %}
-[github_pr_approve]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-pr-approve.md %}∏
-[github_pr_reject]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-pr-reject.md %}
-[github_open_issue]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-open-issue.md %}
-[github_commit_file]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-commit-file.md %}
-[heroku_check_backend_config_var]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/heroku-check-backend-config-var.md %}
-[heroku_check_frontend_config_var]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/heroku-check-frontend-config-var.md %}
-[newrelic_license_key_valid]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/newrelic-license-key-valid.md %}
-[newrelic_configure_with_key]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/newrelic-configure-with-key.md %}
-[action_success]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/action-success.md %}
-[network_http_request]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/network-http-request.md %}
-[is_truthy]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/is-truthy.md %}
-[is_falsy]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/is-falsy.md %}
-[database_check_connection_url]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/database-check-connection-url.md %}
-[array_find]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/array-find.md %}
-[array_every]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/array-every.md %}
-[finish_step]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/finish-step.md %}
-[quest_notification]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/quest-notification.md %}
+[text_contains_strings]: {% link docs/actions-and-conditions/pages/text-contains-strings.md %}
+[text_match_regex]: {% link docs/actions-and-conditions/pages/text-match-regex.md %}
+[is_user_message_text_ready_to_continue]: {% link docs/actions-and-conditions/pages/is-user-message-text-ready-to-continue.md %}
+[bot_message]: {% link docs/actions-and-conditions/pages/bot-message.md %}
+[github_is_user_valid]: {% link docs/actions-and-conditions/pages/github-is-user-valid.md %}
+[github_is_file_modified]: {% link docs/actions-and-conditions/pages/github-is-file-modified.md %}
+[github_is_one_of_files_modified]: {% link docs/actions-and-conditions/pages/github-is-one-of-files-modified.md %}
+[github_is_file_add]: {% link docs/actions-and-conditions/pages/github-is-file-add.md %}
+[github_is_file_contains]: {% link docs/actions-and-conditions/pages/github-is-file-contains.md %}
+[github_is_repo_collaborator]: {% link docs/actions-and-conditions/pages/github-is-repo-collaborator.md %}
+[github_is_file_added_in_push]: {% link docs/actions-and-conditions/pages/github-is-file-added-in-push.md %}
+[github_create_repo]: {% link docs/actions-and-conditions/pages/github-create-repo.md %}
+[github_invite_user]: {% link docs/actions-and-conditions/pages/github-invite-user.md %}
+[github_pr_comment]: {% link docs/actions-and-conditions/pages/github-pr-comment.md %}
+[github_pr_approve]: {% link docs/actions-and-conditions/pages/github-pr-approve.md %}∏
+[github_pr_reject]: {% link docs/actions-and-conditions/pages/github-pr-reject.md %}
+[github_open_issue]: {% link docs/actions-and-conditions/pages/github-open-issue.md %}
+[github_commit_file]: {% link docs/actions-and-conditions/pages/github-commit-file.md %}
+[heroku_check_backend_config_var]: {% link docs/actions-and-conditions/pages/heroku-check-backend-config-var.md %}
+[heroku_check_frontend_config_var]: {% link docs/actions-and-conditions/pages/heroku-check-frontend-config-var.md %}
+[newrelic_license_key_valid]: {% link docs/actions-and-conditions/pages/newrelic-license-key-valid.md %}
+[newrelic_configure_with_key]: {% link docs/actions-and-conditions/pages/newrelic-configure-with-key.md %}
+[action_success]: {% link docs/actions-and-conditions/pages/action-success.md %}
+[network_http_request]: {% link docs/actions-and-conditions/pages/network-http-request.md %}
+[is_truthy]: {% link docs/actions-and-conditions/pages/is-truthy.md %}
+[is_falsy]: {% link docs/actions-and-conditions/pages/is-falsy.md %}
+[database_check_connection_url]: {% link docs/actions-and-conditions/pages/database-check-connection-url.md %}
+[array_find]: {% link docs/actions-and-conditions/pages/array-find.md %}
+[array_every]: {% link docs/actions-and-conditions/pages/array-every.md %}
+[finish_step]: {% link docs/actions-and-conditions/pages/finish-step.md %}
+[quest_notification]: {% link docs/actions-and-conditions/pages/quest-notification.md %}
