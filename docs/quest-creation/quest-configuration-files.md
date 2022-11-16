@@ -88,7 +88,7 @@ githubAction: Github Actions configuration to run in opened PRs | optional
 
 [Flow Nodes](Flow%20Nodes.md)
 
-[Actions and Conditions APIs](Actions%20and%20Conditions%20APIs.md)
+[Actions and Conditions](Actions%20and%20Conditions%20APIs.md)
 
 ## Assets
 

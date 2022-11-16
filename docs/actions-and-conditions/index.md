@@ -4,9 +4,9 @@ has_children: true
 has_toc: false
 ---
 
-# Actions and Conditions APIs
+# Actions and Conditions
 
-This page explains how actions and conditions work and documents all actions and conditions supported. This document assumes the reader is familiar with how [Triggers and Payload](Triggers%20and%20Payload.md) work.
+This page explains how actions and conditions work and documents all actions and conditions supported. This document assumes the reader is familiar with how [Triggers and Payload] work.
 
 ## Actions - General
 
@@ -196,36 +196,71 @@ Note the use of `equals: false` and the use of `paramsFramework` in this example
 
 | Name                                                                                                               | Category | Type      | Description | More Info |
 |--------------------------------------------------------------------------------------------------------------------|----------|-----------| --- | --- |
-| [text_contains_strings](Actions%20and%20Conditions%20APIs/text_contains_strings.md)                                  | String   | Condition | Check if text contains subset of strings |
-| [text_match_regex](Actions%20and%20Conditions%20APIs/text_match_regex.md)                                            | String   | Condition | Check if text matches regex |
-| [is_user_message_text_ready_to_continue](Actions%20and%20Conditions%20APIs/is_user_message_text_ready_to_continue.md) | Chat     | Condition | Check if user replied with a message that means they are ready to continue |
-| [bot_message](Actions%20and%20Conditions%20APIs/bot_message.md)                                                      | Chat     | Action    | Send message from user to a bot |
-| [github_is_user_valid](Actions%20and%20Conditions%20APIs/github_is_user_valid.md)                                    | Github   | Condition | Check if username exists in Github |
-| [github_is_file_modified](Actions%20and%20Conditions%20APIs/github_is_file_modified.md)                              | String   | Condition | Check if a specified file was modified as part of PR changes |
-| [github_is_one_of_files_modified](Actions%20and%20Conditions%20APIs/github_is_one_of_files_modified.md)              | Github   | Condition | Check if one of the specified files was modified as part of PR changes |
-| [github_is_file_add](Actions%20and%20Conditions%20APIs/github_is_file_add.md)                                        | Github   | Condition | Check if specified files were added as part of PR changes. |
-| [github_is_file_contains](Actions%20and%20Conditions%20APIs/github_is_file_contains.md)                              | Github   | Condition | Check if a file added in the PR contains text that matches a regex |
-| [github_is_repo_collaborator](Actions%20and%20Conditions%20APIs/github_is_repo_collaborator.md)                      | Github   | Condition | "Check if the user accepted the invitation for their repo. " |
-| [github_is_file_added_in_push](Actions%20and%20Conditions%20APIs/github_is_file_added_in_push.md)                    | Github   | Condition | Check if a file was added in the head commit of a git push (not specific to a PR) |
-| [github_create_repo](Actions%20and%20Conditions%20APIs/github_create_repo.md)                                        | Github   | Action    | Create new repo for the user. |
-| [github_invite_user](Actions%20and%20Conditions%20APIs/github_invite_user.md)                                        | Github   | Action    | Invite user to collaborate on a Github repo. |
-| [github_pr_comment](Actions%20and%20Conditions%20APIs/github_pr_comment.md)                                          | Github   | Action    | Add comment on a PR on behalf of one the bots. |
-| [github_pr_approve](Actions%20and%20Conditions%20APIs/github_pr_approve.md)                                          | Github   | Action    | Approve the PR and add a comment on behalf of a bot. |
-| [github_pr_reject](Actions%20and%20Conditions%20APIs/github_pr_reject.md)                                            | Github   | Action    | Reject the PR and add a comment on behalf of a bot. |
-| [github_open_issue](Actions%20and%20Conditions%20APIs/github_open_issue.md)                                          | Github   | Action    | Opens an issue in the user’s Github repository |
-| [github_commit file](Actions%20and%20Conditions%20APIs/github_commit_file.md)                                          | Github   | Action    | Fommit a file to the user's repository|
-| [heroku_check_backend_config_var](Actions%20and%20Conditions%20APIs/heroku_check_backend_config_var.md)              | Heroku   | Condition | Check if a config variable is set (exists) for the backend Heroku app. |
-| [heroku_check_frontend_config_var](Actions%20and%20Conditions%20APIs/heroku_check_frontend_config_var.md)            | Heroku   | Condition | Check if a config variable is set (exists) for the frontend Heroku app. |
-| [newrelic_license_key_valid](Actions%20and%20Conditions%20APIs/newrelic_license_key_valid.md)                        | NewRelic | Condition | Check if the given key is a valid new relic license key. |
-| [newrelic_configure_with_key](Actions%20and%20Conditions%20APIs/newrelic_configure_with_key.md)                      | NewRelic | Action    | Configure user New Relic properties using given license key |
-| [action_success](Actions%20and%20Conditions%20APIs/action_success.md)                                                | General  | Condition | Check if the previously executed action block finished successfully |
-| [network_http_request](Actions%20and%20Conditions%20APIs/network_http_request.md)                                    | Network  | Action    | Perform an http request |
-| [is_truthy](Actions%20and%20Conditions%20APIs/is_truthy.md)                                                          | General  | Condition | Test if the expression is truthy |
-| [is_falsy](Actions%20and%20Conditions%20APIs/is_falsy.md)                                                            | General  | Condition | Test if the expression is falsy |
-| [database_check_connection_url](Actions%20and%20Conditions%20APIs/database_check_connection_url.md)                  | Database | Condition | Verify if the database connection url is valid |
-| [array_find](Actions%20and%20Conditions%20APIs/array_find.md)                                                        | Array    | Condition | Find an element in the array that matches specified conditions |
-| [array_every](Actions%20and%20Conditions%20APIs/array_every.md)                                                      | Array    | Condition | Tests whether all elements in an array pass specified conditions |
-| [finish_step](Actions%20and%20Conditions%20APIs/finish_step.md)                                                      | Quest    | Action    | Advance the user to next step or finish quest in case this is the last step |
-| [quest_notification](Actions%20and%20Conditions%20APIs/quest_notification.md)                                        | Quest    | Action    | Notify a user about an event that happened while in a quest. |
+| [text_contains_strings]                                  | String   | Condition | Check if text contains subset of strings |
+| [text_match_regex]                                            | String   | Condition | Check if text matches regex |
+| [is_user_message_text_ready_to_continue] | Chat     | Condition | Check if user replied with a message that means they are ready to continue |
+| [bot_message]                                                      | Chat     | Action    | Send message from user to a bot |
+| [github_is_user_valid]                                    | Github   | Condition | Check if username exists in Github |
+| [github_is_file_modified]                              | String   | Condition | Check if a specified file was modified as part of PR changes |
+| [github_is_one_of_files_modified]              | Github   | Condition | Check if one of the specified files was modified as part of PR changes |
+| [github_is_file_add]                                        | Github   | Condition | Check if specified files were added as part of PR changes. |
+| [github_is_file_contains]                              | Github   | Condition | Check if a file added in the PR contains text that matches a regex |
+| [github_is_repo_collaborator]                      | Github   | Condition | "Check if the user accepted the invitation for their repo. " |
+| [github_is_file_added_in_push]                    | Github   | Condition | Check if a file was added in the head commit of a git push (not specific to a PR) |
+| [github_create_repo]                                        | Github   | Action    | Create new repo for the user. |
+| [github_invite_user]                                        | Github   | Action    | Invite user to collaborate on a Github repo. |
+| [github_pr_comment]                                          | Github   | Action    | Add comment on a PR on behalf of one the bots. |
+| [github_pr_approve]                                          | Github   | Action    | Approve the PR and add a comment on behalf of a bot. |
+| [github_pr_reject]                                            | Github   | Action    | Reject the PR and add a comment on behalf of a bot. |
+| [github_open_issue]                                          | Github   | Action    | Opens an issue in the user’s Github repository |
+| [github_commit_file]                                          | Github   | Action    | Fommit a file to the user's repository|
+| [heroku_check_backend_config_var]              | Heroku   | Condition | Check if a config variable is set (exists) for the backend Heroku app. |
+| [heroku_check_frontend_config_var]            | Heroku   | Condition | Check if a config variable is set (exists) for the frontend Heroku app. |
+| [newrelic_license_key_valid]                        | NewRelic | Condition | Check if the given key is a valid new relic license key. |
+| [newrelic_configure_with_key]                      | NewRelic | Action    | Configure user New Relic properties using given license key |
+| [action_success]                                                | General  | Condition | Check if the previously executed action block finished successfully |
+| [network_http_request]                                    | Network  | Action    | Perform an http request |
+| [is_truthy]                                                          | General  | Condition | Test if the expression is truthy |
+| [is_falsy]                                                            | General  | Condition | Test if the expression is falsy |
+| [database_check_connection_url]                  | Database | Condition | Verify if the database connection url is valid |
+| [array_find]                                                        | Array    | Condition | Find an element in the array that matches specified conditions |
+| [array_every]                                                      | Array    | Condition | Tests whether all elements in an array pass specified conditions |
+| [finish_step]                                                      | Quest    | Action    | Advance the user to next step or finish quest in case this is the last step |
+| [quest_notification]                                        | Quest    | Action    | Notify a user about an event that happened while in a quest. |
 
-[Text Formatting](Actions%20and%20Conditions%20APIs/Text%20Formatting.md)
+[Text Formatting]
+
+[Triggers and Payload]: {{ site.baseurl }}{% link docs/triggers-and-payload.md %}
+[Text Formatting]: {{ site.baseurl }}{% link docs/actions-and-conditions/text-formatting.md %}
+
+[text_contains_strings]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/text-contains-strings.md %}
+[text_match_regex]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/text-match-regex.md %}
+[is_user_message_text_ready_to_continue]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/is-user-message-text-ready-to-continue.md %}
+[bot_message]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/bot-message.md %}
+[github_is_user_valid]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-is-user-valid.md %}
+[github_is_file_modified]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-is-file-modified.md %}
+[github_is_one_of_files_modified]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-is-one-of-files-modified.md %}
+[github_is_file_add]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-is-file-add.md %}
+[github_is_file_contains]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-is-file-contains.md %}
+[github_is_repo_collaborator]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-is-repo-collaborator.md %}
+[github_is_file_added_in_push]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-is-file-added-in-push.md %}
+[github_create_repo]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-create-repo.md %}
+[github_invite_user]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-invite-user.md %}
+[github_pr_comment]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-pr-comment.md %}
+[github_pr_approve]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-pr-approve.md %}∏
+[github_pr_reject]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-pr-reject.md %}
+[github_open_issue]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-open-issue.md %}
+[github_commit_file]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/github-commit-file.md %}
+[heroku_check_backend_config_var]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/heroku-check-backend-config-var.md %}
+[heroku_check_frontend_config_var]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/heroku-check-frontend-config-var.md %}
+[newrelic_license_key_valid]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/newrelic-license-key-valid.md %}
+[newrelic_configure_with_key]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/newrelic-configure-with-key.md %}
+[action_success]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/action-success.md %}
+[network_http_request]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/network-http-request.md %}
+[is_truthy]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/is-truthy.md %}
+[is_falsy]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/is-falsy.md %}
+[database_check_connection_url]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/database-check-connection-url.md %}
+[array_find]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/array-find.md %}
+[array_every]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/array-every.md %}
+[finish_step]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/finish-step.md %}
+[quest_notification]: {{ site.baseurl }}{% link docs/actions-and-conditions/pages/quest-notification.md %}

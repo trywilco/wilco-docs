@@ -89,7 +89,7 @@ For documentation on flow nodes:
 
 For documentation of all supported actions and conditions that can be used in the flows:
 
-[Actions and Conditions APIs](Quests%20Creation/Actions%20and%20Conditions%20APIs.md)
+[Actions and Conditions](Quests%20Creation/Actions%20and%20Conditions%20APIs.md)
 
 ### GitHub Actions
 
