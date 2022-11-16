@@ -3,7 +3,7 @@ description: A documentation website for Wilco's Quest Builder
 logo: "/assets/images/logo.png"
 theme: just-the-docs
 
-url: https://trywilco.github.io/wilco-docs
+url: https://dev.trywilco.com
 
 aux_links:
   Get Started: https://app.wilco.gg
