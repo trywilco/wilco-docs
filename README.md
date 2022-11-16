@@ -1,78 +1,24 @@
-# just-the-docs-template
+<p align="center">
+  <img src="/assets/images/logo.png">
+</p>
 
-This is a *bare-minimum* template to create a [Jekyll] site that:
+# Wilco Developers Documentation
 
-- uses the [Just the Docs] theme;
-- can be built and published on [GitHub Pages];
-- can be built and previewed locally, and published on other platforms.
+Welcome! This is the repository that generates [dev.trywilco.com](dev.trywilco.com). It contains all the source code and Markdown files we use to build and serve our documentation.
 
-More specifically, the created site:
+## Wilco ❤️ Developers
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem;
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages.
+The documentation in this repository is meant to help anyone build new and amazing quests in Wilco, but we could also use your help improving it. 
 
-To get started with creating a site, just click "[use this template]"!
+On each page of the website, you have an edit button, which will lead you directly to GitHub's editor. You can also [create an issue](https://github.com/trywilco/wilco-docs/issues/new/choose), and we'll take a look at it right away.
 
-After completing the creation of your new site on GitHub, update it as needed:
+## Local Development
 
-## Replace the content of the template pages
+This repository uses [Jekyll] with [Just the Docs] template to generate and serve a static HTML website directly from [GitHub Pages].
 
-Update the following files to your own content:
+Assuming [Ruby], [Jekyll] and [Bundler] are installed on your computer:
 
-- `index.md` (your new home page)
-- `README.md` (information for those who access your site repo on GitHub)
-
-## Changing the version of the theme and/or Jekyll
-
-Simply edit the relevant line(s) in the `Gemfile`.
-
-## Adding a plugin
-
-The Just the Docs theme automatically includes the [`jekyll-seo-tag`] plugin.
-
-To add an extra plugin, you need to add it in the `Gemfile` *and* in `_config.yml`. For example, to add [`jekyll-default-layout`]:
-
-- Add the following to your site's `Gemfile`:
-
-  ```ruby
-  gem "jekyll-default-layout"
-  ```
-
-- And add the following to your site's `_config.yml`:
-
-  ```yaml
-  plugins:
-    - jekyll-default-layout
-  ```
-  
-Note: If you are using a Jekyll version less than 3.5.0, use the `gems` key instead of `plugins`.
-
-## Publishing your site on GitHub Pages
-
-1.  If your created site is `YOUR-USERNAME/YOUR-SITE-NAME`, update `_config.yml` to:
-
-    ```yaml
-    title: YOUR TITLE
-    description: YOUR DESCRIPTION
-    theme: just-the-docs
-
-    url: https://YOUR-USERNAME.github.io/YOUR-SITE-NAME
-
-    aux_links: # remove if you don't want this link to appear on your pages
-      Template Repository: https://github.com/YOUR-USERNAME/YOUR-SITE-NAME
-    ```
-
-2.  Push your updated `_config.yml` to your site on GitHub.
-
-3.  In your newly created repo on GitHub:
-    - go to the `Settings` tab -> `Pages` -> `Build and deployment`, then select `Source`: `GitHub Actions`.
-    - if there were any failed Actions, go to the `Actions` tab and click on `Re-run jobs`.
-
-## Building and previewing your site locally
-
-Assuming [Jekyll] and [Bundler] are installed on your computer:
-
-1.  Change your working directory to the root directory of your site.
+1.  Clone this repository.
 
 2.  Run `bundle install`.
 
@@ -80,24 +26,17 @@ Assuming [Jekyll] and [Bundler] are installed on your computer:
 
     The built site is stored in the directory `_site`.
 
-## Publishing your built site on a different platform
+## Deployment
 
-Just upload all the files in the directory `_site`.
+Any commits to main trigger an automatic rebuild and deployment to [dev.trywilco.com](dev.trywilco.com). You can see the [deployment status here](https://github.com/trywilco/wilco-docs/deployments).
 
-## Customization
-
-You're free to customize sites that you create with this template, however you like!
-
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+## Additional Resources
+- [Jekyll Documentation]
+- [Just the Docs]
 
 [Jekyll]: https://jekyllrb.com
+[Jekyll Documentation]: https://jekyllrb.com/docs/
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
 [GitHub Pages]: https://docs.github.com/en/pages
+[Ruby]: https://www.ruby-lang.org/en/documentation/installation/
 [Bundler]: https://bundler.io
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
-[`jekyll-default-layout`]: https://github.com/benbalter/jekyll-default-layout
-[`jekyll-seo-tag`]: https://jekyll.github.io/jekyll-seo-tag
