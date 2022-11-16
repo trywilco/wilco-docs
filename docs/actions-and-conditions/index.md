@@ -10,18 +10,18 @@ This page explains how actions and conditions work and documents all actions and
 
 ## Actions - General
 
-Actions are part of `do` statements and can be used to change the state of the user, provide them with information or offer guidance. Some actions also add information to the payload `outputs` to be used by other conditions or actions. A common example for this is communicating `success` and `error`. 
+Actions are part of `do` statements and can be used to change the state of the user, provide them with information or offer guidance. Some actions also add information to the payload `outputs` to be used by other conditions or actions. A common example for this is communicating `success` and `error` . 
 
 If `name` is set for the action, `outputs.<action_name>.success` will always be set and will default to `true` unless the action changed it.
 
 Actions support the following params:
 
-| Name | Type | Mandatory | Default | Description |
-| --- | --- | --- | --- | --- |
-| actionId | String | YES | - | String representing the actions. See section below for supported actions ids. |
-| name | String | NO | null | Name is mandatory in order to use action outputs. If name is specified and action enriches payload outputs, it can be accessed using `${outputs.<action_name>.<param_name>}`. |
-| params | Map | NO | null | Each action specifies which parameters it requires. Some parameters are passed transparently from the trigger payload and some must be configured. |
-| paramsFramework | Map | NO | null | Used in cases framework selected by the user affects the parameterss passed to the action. It is a map from the framework name to the parameters.|
+| Name            | Type   | Mandatory | Default | Description                                                                                                                                                                    |
+|-----------------|--------|-----------|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| actionId        | String | YES       | -       | String representing the actions. See section below for supported actions ids.                                                                                                  |
+| name            | String | NO        | null    | Name is mandatory in order to use action outputs. If name is specified and action enriches payload outputs, it can be accessed using `${outputs.<action_name>.<param_name>}` . |
+| params          | Map    | NO        | null    | Each action specifies which parameters it requires. Some parameters are passed transparently from the trigger payload and some must be configured.                             |
+| paramsFramework | Map    | NO        | null    | Used in cases framework selected by the user affects the parameterss passed to the action. It is a map from the framework name to the parameters.                              |
 
 Example:
 
@@ -70,14 +70,14 @@ Conditions are part of `if` statements which are used to check the user’s stat
 
 Conditions support the following params:
 
-| Name | Type | Mandatory | Default | Description                                                                                                                                                                           |
-| --- | --- | --- | --- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| conditionid | String | YES | - | String representing the condition. See section below for supported condition ids.                                                                                                     |
-| equals | Object | NO | true | Condition is successful if its return value is equals. Common usage is to evaluate the negation of the condition by setting equals: false.                                     |
-| name | String | NO | null | Name is mandatory in order to use condition outputs. If name is specified and condition enriches payload outputs, it can be accessed using: ${outputs.<condition_name>.<param_name>}. |
-| params | Map | NO | null | Each condition specifies which parameters it requires. Some parameters are passed transparently from the trigger payload and some must be configured.                                         |
-| paramsFramework | Map | NO | null | Used in cases framework selected by the user affects the parameters passed to the condition. It is a map from framework name to parameters.                                                   |
-| onFalseParams | Map | NO | null | Parameters to set on the global payload in case condition is unsuccessful. Common usage is list of conditions, each having its error message to be sent by the bot in case of a failure.  |
+| Name            | Type   | Mandatory | Default | Description                                                                                                                                                                              |
+|-----------------|--------|-----------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| conditionid     | String | YES       | -       | String representing the condition. See section below for supported condition ids.                                                                                                        |
+| equals          | Object | NO        | true    | Condition is successful if its return value is equals. Common usage is to evaluate the negation of the condition by setting equals: false.                                               |
+| name            | String | NO        | null    | Name is mandatory in order to use condition outputs. If name is specified and condition enriches payload outputs, it can be accessed using: ${outputs.<condition_name>.<param_name>}.    |
+| params          | Map    | NO        | null    | Each condition specifies which parameters it requires. Some parameters are passed transparently from the trigger payload and some must be configured.                                    |
+| paramsFramework | Map    | NO        | null    | Used in cases framework selected by the user affects the parameters passed to the condition. It is a map from framework name to parameters.                                              |
+| onFalseParams   | Map    | NO        | null    | Parameters to set on the global payload in case condition is unsuccessful. Common usage is list of conditions, each having its error message to be sent by the bot in case of a failure. |
 
 Example:
 
@@ -187,46 +187,45 @@ if:
         messageName: "${pr_reject_message_name}"
 ```
 
-In this example, we see an `if` statement with several conditions. If all conditions are successful, a message is sent by the bot and the PR is approved. If a condition fails, the PR is rejected with a rejection message. The message text is set by each condition using `onFalseParams`.
+In this example, we see an `if` statement with several conditions. If all conditions are successful, a message is sent by the bot and the PR is approved. If a condition fails, the PR is rejected with a rejection message. The message text is set by each condition using `onFalseParams` .
 
 Note the use of `equals: false` and the use of `paramsFramework` in this example.
 
 ## Supported Actions and Conditions
 
-
-| Name                                                                                                               | Category | Type      | Description | More Info |
-|--------------------------------------------------------------------------------------------------------------------|----------|-----------| --- | --- |
-| [text_contains_strings]                                  | String   | Condition | Check if text contains subset of strings |
-| [text_match_regex]                                            | String   | Condition | Check if text matches regex |
-| [is_user_message_text_ready_to_continue] | Chat     | Condition | Check if user replied with a message that means they are ready to continue |
-| [bot_message]                                                      | Chat     | Action    | Send message from user to a bot |
-| [github_is_user_valid]                                    | Github   | Condition | Check if username exists in Github |
-| [github_is_file_modified]                              | String   | Condition | Check if a specified file was modified as part of PR changes |
-| [github_is_one_of_files_modified]              | Github   | Condition | Check if one of the specified files was modified as part of PR changes |
-| [github_is_file_add]                                        | Github   | Condition | Check if specified files were added as part of PR changes. |
-| [github_is_file_contains]                              | Github   | Condition | Check if a file added in the PR contains text that matches a regex |
-| [github_is_repo_collaborator]                      | Github   | Condition | "Check if the user accepted the invitation for their repo. " |
-| [github_is_file_added_in_push]                    | Github   | Condition | Check if a file was added in the head commit of a git push (not specific to a PR) |
-| [github_create_repo]                                        | Github   | Action    | Create new repo for the user. |
-| [github_invite_user]                                        | Github   | Action    | Invite user to collaborate on a Github repo. |
-| [github_pr_comment]                                          | Github   | Action    | Add comment on a PR on behalf of one the bots. |
-| [github_pr_approve]                                          | Github   | Action    | Approve the PR and add a comment on behalf of a bot. |
-| [github_pr_reject]                                            | Github   | Action    | Reject the PR and add a comment on behalf of a bot. |
-| [github_open_issue]                                          | Github   | Action    | Opens an issue in the user’s Github repository |
-| [github_commit_file]                                          | Github   | Action    | Fommit a file to the user's repository|
-| [heroku_check_backend_config_var]              | Heroku   | Condition | Check if a config variable is set (exists) for the backend Heroku app. |
-| [heroku_check_frontend_config_var]            | Heroku   | Condition | Check if a config variable is set (exists) for the frontend Heroku app. |
-| [newrelic_license_key_valid]                        | NewRelic | Condition | Check if the given key is a valid new relic license key. |
-| [newrelic_configure_with_key]                      | NewRelic | Action    | Configure user New Relic properties using given license key |
-| [action_success]                                                | General  | Condition | Check if the previously executed action block finished successfully |
-| [network_http_request]                                    | Network  | Action    | Perform an http request |
-| [is_truthy]                                                          | General  | Condition | Test if the expression is truthy |
-| [is_falsy]                                                            | General  | Condition | Test if the expression is falsy |
-| [database_check_connection_url]                  | Database | Condition | Verify if the database connection url is valid |
-| [array_find]                                                        | Array    | Condition | Find an element in the array that matches specified conditions |
-| [array_every]                                                      | Array    | Condition | Tests whether all elements in an array pass specified conditions |
-| [finish_step]                                                      | Quest    | Action    | Advance the user to next step or finish quest in case this is the last step |
-| [quest_notification]                                        | Quest    | Action    | Notify a user about an event that happened while in a quest. |
+| Name                                     | Category | Type      | Description                                                                       | More Info |
+| ---------------------------------------- | -------- | --------- | --------------------------------------------------------------------------------- | --------- |
+| [text_contains_strings]                  | String   | Condition | Check if text contains subset of strings                                          |           |
+| [text_match_regex]                       | String   | Condition | Check if text matches regex                                                       |           |
+| [is_user_message_text_ready_to_continue] | Chat     | Condition | Check if user replied with a message that means they are ready to continue        |           |
+| [bot_message]                            | Chat     | Action    | Send message from user to a bot                                                   |           |
+| [github_is_user_valid]                   | Github   | Condition | Check if username exists in Github                                                |           |
+| [github_is_file_modified]                | String   | Condition | Check if a specified file was modified as part of PR changes                      |           |
+| [github_is_one_of_files_modified]        | Github   | Condition | Check if one of the specified files was modified as part of PR changes            |           |
+| [github_is_file_add]                     | Github   | Condition | Check if specified files were added as part of PR changes.                        |           |
+| [github_is_file_contains]                | Github   | Condition | Check if a file added in the PR contains text that matches a regex                |           |
+| [github_is_repo_collaborator]            | Github   | Condition | "Check if the user accepted the invitation for their repo. "                      |           |
+| [github_is_file_added_in_push]           | Github   | Condition | Check if a file was added in the head commit of a git push (not specific to a PR) |           |
+| [github_create_repo]                     | Github   | Action    | Create new repo for the user.                                                     |           |
+| [github_invite_user]                     | Github   | Action    | Invite user to collaborate on a Github repo.                                      |           |
+| [github_pr_comment]                      | Github   | Action    | Add comment on a PR on behalf of one the bots.                                    |           |
+| [github_pr_approve]                      | Github   | Action    | Approve the PR and add a comment on behalf of a bot.                              |           |
+| [github_pr_reject]                       | Github   | Action    | Reject the PR and add a comment on behalf of a bot.                               |           |
+| [github_open_issue]                      | Github   | Action    | Opens an issue in the user’s Github repository                                    |           |
+| [github_commit_file]                     | Github   | Action    | Fommit a file to the user's repository                                            |           |
+| [heroku_check_backend_config_var]        | Heroku   | Condition | Check if a config variable is set (exists) for the backend Heroku app.            |           |
+| [heroku_check_frontend_config_var]       | Heroku   | Condition | Check if a config variable is set (exists) for the frontend Heroku app.           |           |
+| [newrelic_license_key_valid]             | NewRelic | Condition | Check if the given key is a valid new relic license key.                          |           |
+| [newrelic_configure_with_key]            | NewRelic | Action    | Configure user New Relic properties using given license key                       |           |
+| [action_success]                         | General  | Condition | Check if the previously executed action block finished successfully               |           |
+| [network_http_request]                   | Network  | Action    | Perform an http request                                                           |           |
+| [is_truthy]                              | General  | Condition | Test if the expression is truthy                                                  |           |
+| [is_falsy]                               | General  | Condition | Test if the expression is falsy                                                   |           |
+| [database_check_connection_url]          | Database | Condition | Verify if the database connection url is valid                                    |           |
+| [array_find]                             | Array    | Condition | Find an element in the array that matches specified conditions                    |           |
+| [array_every]                            | Array    | Condition | Tests whether all elements in an array pass specified conditions                  |           |
+| [finish_step]                            | Quest    | Action    | Advance the user to next step or finish quest in case this is the last step       |           |
+| [quest_notification]                     | Quest    | Action    | Notify a user about an event that happened while in a quest.                      |           |
 
 [Text Formatting]
 
