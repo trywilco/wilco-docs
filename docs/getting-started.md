@@ -1,10 +1,11 @@
 ---
-title: Quest Creation
+title: Getting Started
+nav_order: 2
 ---
 
-# Quests Creation
+# Getting Started
 
-### **Terminology**
+## **Terminology**
 
 - **Step:** A task that usually represents a single user interaction.
 - **Quest:** A series of connected steps that present a complete scenario for users to go through. A typical quest will have 2-5 steps.
@@ -15,7 +16,7 @@ Examples: advance to next step, approve/reject user’s PR, send a message from 
 - **FlowNode:** when a step starts or triggers are recognized, a Flow will begin. A single element in the flow is called FlowNode. A node is a combination of actions and conditions.
 - **GitHub Actions:** command executed as part of GitHub workflow during PR checks.
 
-### **How to Create a Quest**
+## **How to Create a Quest**
 
 1. Create a new repository by going to the [quest template](https://github.com/trywilco/quest-template){:target="_blank"} and clicking the "use this template" button. This template is a clone of the ["Funnel Drop" quest](https://app.wilco.gg/catalog/quest/mobile-responsiveness){:target="_blank"} and is fully playable as-is.
 2. Update the files to support your new quest, according to the [quest development guidelines](https://github.com/trywilco/wilcosdk/tree/main/Quests%20Creation/Quest%20Development%20Guidelines):
@@ -37,7 +38,7 @@ Examples: advance to next step, approve/reject user’s PR, send a message from 
 💡 To publish a quest only to users from your company, you'll need **Wilco for Teams**. Learn more [here](https://www.trywilco.com/teams/join).
 
 
-### Quest Configuration Files
+# Quest Configuration Files
 
 The uploaded zip must follow the following file structure:
 

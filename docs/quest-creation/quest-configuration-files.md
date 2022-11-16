@@ -1,5 +1,6 @@
 ---
 title: Quest Configuration Files
+parent: Quest Creation
 ---
 
 # Quest Configuration Files
