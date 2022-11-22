@@ -1,5 +1,6 @@
 ---
 title: Uploading and Testing Your Quest
+nav_order: 5
 ---
 
 # Uploading and Testing Your Quest
