@@ -1,4 +1,7 @@
-#Glossary
+---
+title: Glossary
+---
+# Glossary
 
 Step: A task that usually represents a single user interaction.
 Quest: A series of connected steps that present a complete scenario for users to go through. A typical quest will have 2-5 steps.
