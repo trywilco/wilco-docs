@@ -1,6 +1,6 @@
 ---
 title: Auto-Upload Quest Drafts
-parent: Quest Creation
+parent: Uploading and Testing Your Quest
 ---
 
 # Auto-Upload Quest Drafts

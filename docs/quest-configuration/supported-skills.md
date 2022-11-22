@@ -1,6 +1,6 @@
 ---
 title: Supported Skills
-parent: Quest Development Guidelines
+parent: Quest Configuration
 permalink: 
 ---
 
@@ -13,7 +13,6 @@ permalink:
 - database
 - documentation
 - debugging
-- lucca
 - observability
 - operations
 - performance

@@ -1,6 +1,6 @@
 ---
 title: Quest Submission Checklist
-parent: Quest Development Guidelines
+parent: Submitting Your Quest for Review
 ---
 
 # Quest Submission Checklist
