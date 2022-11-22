@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Building Your Quest
 nav_order: 2
 ---
 
