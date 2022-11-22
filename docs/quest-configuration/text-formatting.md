@@ -1,6 +1,6 @@
 ---
 title: Text Formatting
-parent: Actions and Conditions
+parent: Quest Configuration
 ---
 
 # Text Formatting
