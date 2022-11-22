@@ -1,9 +1,9 @@
 ---
-title: Building Your Quest
+title: The Quest Creation Process
 nav_order: 2
 ---
 
-## **Building Your Quest**
+## **The Quest Creation Process**
 
 1. Create a new repository by going to the [quest template](https://github.com/trywilco/quest-template){:target="_blank"} and clicking the "use this template" button. This template is a clone of the ["Funnel Drop" quest](https://app.wilco.gg/catalog/quest/mobile-responsiveness){:target="_blank"} and is fully playable as-is.
 2. Update the files to support your new quest, according to the [quest development guidelines](https://github.com/trywilco/wilcosdk/tree/main/Quests%20Creation/Quest%20Development%20Guidelines):
