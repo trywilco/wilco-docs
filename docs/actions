@@ -62,3 +62,21 @@ switch:key: "${outputs.newrelic_configure_with_key.error}"
       ...
 ```
 
+## Supported Actions
+
+| Name                                     | Category | Type      | Description                                                                       | More Info |
+| ---------------------------------------- | -------- | --------- | --------------------------------------------------------------------------------- | --------- |
+| [bot_message]                            | Chat     | Action    | Send message from user to a bot                                                   |           |
+| [github_create_repo]                     | Github   | Action    | Create new repo for the user.                                                     |           |
+| [github_invite_user]                     | Github   | Action    | Invite user to collaborate on a Github repo.                                      |           |
+| [github_pr_comment]                      | Github   | Action    | Add comment on a PR on behalf of one the bots.                                    |           |
+| [github_pr_approve]                      | Github   | Action    | Approve the PR and add a comment on behalf of a bot.                              |           |
+| [github_pr_reject]                       | Github   | Action    | Reject the PR and add a comment on behalf of a bot.                               |           |
+| [github_open_issue]                      | Github   | Action    | Opens an issue in the user’s Github repository                                    |           |
+| [github_commit_file]                     | Github   | Action    | Fommit a file to the user's repository                                            |           |
+| [newrelic_configure_with_key]            | NewRelic | Action    | Configure user New Relic properties using given license key                       |           |
+| [network_http_request]                   | Network  | Action    | Perform an http request                                                           |           |
+| [finish_step]                            | Quest    | Action    | Advance the user to next step or finish quest in case this is the last step       |           |
+| [quest_notification]                     | Quest    | Action    | Notify a user about an event that happened while in a quest.                      |           |
+
+
