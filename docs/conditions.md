@@ -136,7 +136,6 @@ Note the use of `equals: false` and the use of `paramsFramework` in this example
 | [text_contains_strings]                  | String   | Condition | Check if text contains subset of strings                                          |           |
 | [text_match_regex]                       | String   | Condition | Check if text matches regex                                                       |           |
 | [is_user_message_text_ready_to_continue] | Chat     | Condition | Check if user replied with a message that means they are ready to continue        |           |
-| [bot_message]                            | Chat     | Action    | Send message from user to a bot                                                   |           |
 | [github_is_user_valid]                   | Github   | Condition | Check if username exists in Github                                                |           |
 | [github_is_file_modified]                | String   | Condition | Check if a specified file was modified as part of PR changes                      |           |
 | [github_is_one_of_files_modified]        | Github   | Condition | Check if one of the specified files was modified as part of PR changes            |           |
@@ -144,24 +143,13 @@ Note the use of `equals: false` and the use of `paramsFramework` in this example
 | [github_is_file_contains]                | Github   | Condition | Check if a file added in the PR contains text that matches a regex                |           |
 | [github_is_repo_collaborator]            | Github   | Condition | "Check if the user accepted the invitation for their repo. "                      |           |
 | [github_is_file_added_in_push]           | Github   | Condition | Check if a file was added in the head commit of a git push (not specific to a PR) |           |
-| [github_create_repo]                     | Github   | Action    | Create new repo for the user.                                                     |           |
-| [github_invite_user]                     | Github   | Action    | Invite user to collaborate on a Github repo.                                      |           |
-| [github_pr_comment]                      | Github   | Action    | Add comment on a PR on behalf of one the bots.                                    |           |
-| [github_pr_approve]                      | Github   | Action    | Approve the PR and add a comment on behalf of a bot.                              |           |
-| [github_pr_reject]                       | Github   | Action    | Reject the PR and add a comment on behalf of a bot.                               |           |
-| [github_open_issue]                      | Github   | Action    | Opens an issue in the user’s Github repository                                    |           |
-| [github_commit_file]                     | Github   | Action    | Fommit a file to the user's repository                                            |           |
 | [heroku_check_backend_config_var]        | Heroku   | Condition | Check if a config variable is set (exists) for the backend Heroku app.            |           |
 | [heroku_check_frontend_config_var]       | Heroku   | Condition | Check if a config variable is set (exists) for the frontend Heroku app.           |           |
 | [newrelic_license_key_valid]             | NewRelic | Condition | Check if the given key is a valid new relic license key.                          |           |
-| [newrelic_configure_with_key]            | NewRelic | Action    | Configure user New Relic properties using given license key                       |           |
 | [action_success]                         | General  | Condition | Check if the previously executed action block finished successfully               |           |
-| [network_http_request]                   | Network  | Action    | Perform an http request                                                           |           |
 | [is_truthy]                              | General  | Condition | Test if the expression is truthy                                                  |           |
 | [is_falsy]                               | General  | Condition | Test if the expression is falsy                                                   |           |
 | [database_check_connection_url]          | Database | Condition | Verify if the database connection url is valid                                    |           |
 | [array_find]                             | Array    | Condition | Find an element in the array that matches specified conditions                    |           |
 | [array_every]                            | Array    | Condition | Tests whether all elements in an array pass specified conditions                  |           |
-| [finish_step]                            | Quest    | Action    | Advance the user to next step or finish quest in case this is the last step       |           |
-| [quest_notification]                     | Quest    | Action    | Notify a user about an event that happened while in a quest.                      |           |
 
