@@ -1,13 +1,10 @@
 ---
-title: Content Guidelines
-parent: Quest Development Guidelines
----
+title: Planning Your Quest
 
-# Content Guidelines
+---
+### **Planning Your Quest**
 
 Before you begin building your quest, it is essential to start by thoroughly planning out the key aspects and outlining its content and structure. By doing so, you'll be able to create better quests and save a lot of time. 
-
-### **Planning your quest**
 
 Things to think about: 
 
