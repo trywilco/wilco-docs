@@ -1,5 +1,6 @@
 ---
 title: Triggers and Payload
+parent: Quest Configuration
 ---
 
 # Triggers and Payload

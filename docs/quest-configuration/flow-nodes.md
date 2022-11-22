@@ -1,5 +1,6 @@
 ---
 title: Flow Nodes
+parent: Quest Configuration
 ---
 
 # Flow Nodes

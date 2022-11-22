@@ -1,5 +1,6 @@
 ---
 title: Conditions
+parent: Quest Configuration
 ---
 
 # Conditions 

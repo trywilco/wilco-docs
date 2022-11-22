@@ -1,6 +1,6 @@
 ---
 title: The Quest Creation Process
-nav_order: 2
+parent: getting-started
 ---
 
 ## **The Quest Creation Process**

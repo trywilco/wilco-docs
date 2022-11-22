@@ -1,5 +1,6 @@
 ---
 title: Anatomy of a Quest
+parent: getting-started
 ---
 
 # Quest Configuration Files

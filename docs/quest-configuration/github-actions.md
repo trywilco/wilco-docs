@@ -1,6 +1,6 @@
 ---
 title: GitHub Actions
-parent: Quest Creation
+parent: Quest Configuration
 ---
 
 # GitHub Actions
