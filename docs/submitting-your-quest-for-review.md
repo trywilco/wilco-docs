@@ -1,5 +1,6 @@
 ---
 title: 'Submitting Your Quest for Review'
+nav_order: 5
 ---
 
 # Submitting your Quest for Review
