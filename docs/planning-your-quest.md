@@ -1,5 +1,6 @@
 ---
 title: Planning Your Quest
+nav_order: 3
 
 ---
 ### **Planning Your Quest**
