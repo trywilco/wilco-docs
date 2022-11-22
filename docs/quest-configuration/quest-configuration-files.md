@@ -55,11 +55,11 @@ skills: List of skills the user will work on when playing the quest | mandatory
 questDependency: Quest that must be complete before playing this quest | optional
 ```
 
-[Supported Skills](Quest%20Configuration%20Files/Supported%20Skills.md)
+→ [Supported Skills]
 
-[Quest Resources](Quest%20Resources.md)
+→ [Quest Resources]
 
-![Screen Shot 2022-09-06 at 22.37.35.png](Quest%20Configuration%20Files/Screen_Shot_2022-09-06_at_22.37.35.png)
+![funnel-drop]
 
 ## Steps
 
@@ -85,11 +85,13 @@ trigger: Trigger type and flow node logic. Each step has one trigger | mandatory
 githubAction: Github Actions configuration to run in opened PRs | optional
 ```
 
-[Triggers and Payload](Triggers%20and%20Payload.md)
+→ [Triggers and Payload](Triggers%20and%20Payload.md)
 
-[Flow Nodes](Flow%20Nodes.md)
+→ [Flow Nodes](Flow%20Nodes.md)
 
-[Actions and Conditions](Actions%20and%20Conditions%20APIs.md)
+→ [Actions]
+
+→ [Conditions]
 
 ## Assets
 
@@ -106,11 +108,11 @@ The following files must be placed in the assets folder:
 
 - **cover:**  The main cover image of the quest, shown in the catalog. The name of this file must be `cover`.
     
-    ![Screen Shot 2022-09-06 at 23.53.34.png](Quest%20Configuration%20Files/Screen_Shot_2022-09-06_at_23.53.34.png)
+    ![gitting-started]
     
 - **logo**: The logo image presented when selecting a quest from the catalog. The name of this file must be `logo`.
     
-    ![Screen Shot 2022-09-06 at 23.53.48.png](Quest%20Configuration%20Files/Screen_Shot_2022-09-06_at_23.53.48.png)
+    ![gitting-started-catalog]
     
 
 ### tests
@@ -119,4 +121,12 @@ The tests folder is optional and contains test files to be accessed by GitHub Ac
 
 For information on supported file types and usage:
 
-[GitHub Actions](GitHub%20Actions.md)
+[GitHub Actions]: {% link docs/quest-configuration/github-actions.md %}
+[Supported Skills]: {% link docs/quest-configuration/supported-skills.md %}
+[Quest Resources]: {% link docs/quest-resources/index.md %}
+[Actions]: {% link docs/quest-configuration/actions.md %}
+[Conditions]: {% link docs/quest-configuration/conditions.md %}
+
+[funnel-drop]: {% link /assets/images/quest-configuration/funnel-drop.png %}
+[gitting-started]: {% link assets/images/quest-configuration/gitting-started.png %}
+[gitting-started-catalog]: {% link assets/images/quest-configuration/gitting-started-catalog.png %}

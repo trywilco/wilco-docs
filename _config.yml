@@ -31,3 +31,22 @@ gh_edit_link_text: "Edit this page on GitHub."
 gh_edit_repository: "https://github.com/trywilco/wilco-docs" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+
+# define callouts colors
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red

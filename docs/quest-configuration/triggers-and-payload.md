@@ -72,7 +72,7 @@ Triggered when a new Heroku release is created.
 Payload:
 
 - `eventType:` type of the event that caused new release. For example, when setting config var: `^Set (.*) config var`
-- `eventData:` The full body sent by Heroku. See example here: [https://devcenter.heroku.com/articles/webhook-events#api-release](https://devcenter.heroku.com/articles/webhook-events#api-release).
+- `eventData:` The full body sent by Heroku. See more example at [Heroku's webhook event documentation].
 
 ### GITHUB_USER_CONNECTED
 
@@ -281,3 +281,5 @@ A default result is initialized for all conditions and actions.
     ```
     
     There's no need for `success` as conditions always return true/false and `success` is set according to the result. Meaning, `output.condition_name` will contain `success` as well.
+
+[Heroku's webhook event documentation]: https://devcenter.heroku.com/articles/webhook-events#api-release

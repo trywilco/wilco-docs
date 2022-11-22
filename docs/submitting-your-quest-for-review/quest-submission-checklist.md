@@ -5,14 +5,14 @@ parent: Submitting Your Quest for Review
 
 # Quest Submission Checklist
 
-### Structure
+## Structure
 
 - [ ]  Quest consists of 2-5 steps
 - [ ]  Order of steps is logical
 - [ ]  Quest overview README is included with the submission
 - [ ]  Textbook solution is included with the submission
 
-### Quest Design and Functionality
+## Quest Design and Functionality
 
 - [ ]  Learning objectives are clear
 - [ ]  Scenario makes sense
@@ -27,17 +27,21 @@ parent: Submitting Your Quest for Review
 - [ ]  PR steps have adequate checks/tests to verify that users have done the step correctly
 - [ ]  Sufficient feedback is provided to users at the end of each step
 
-### Text
+## Text
 
 - [ ]  Instructions in each step are worded clearly and marked appropriately
-- [ ]  No spelling or grammatical errors (we recommend using [Grammarly](http://www.grammarly.com) and [Wordtune](http://www.wordtune.com))
+- [ ]  No spelling or grammatical errors (we recommend using [Grammarly] and [Wordtune])
 - [ ]  Acronyms are written out the first time they are used
 - [ ]  Code/commands are properly marked as such
 - [ ]  No offensive language
 
-### Graphics
+## Graphics
 
-- [ ]  Cover image and logo adhere to [Graphics Guidelines](https://www.notion.so/Graphic-Design-Guidelines-f6583641215e4668883cf0014f743362)
+- [ ]  Cover image and logo adhere to [Graphics Design Guidelines]
 - [ ]  Cover image file is named `Cover`
 - [ ]  Logo file is named `Logo`
 - [ ]  Cover and logo images use supported file types: `png|jpg|jpeg|svg`
+
+[Grammarly]: http://www.grammarly.com
+[Wordtune]: http://www.wordtune.com
+[Graphics Design Guidelines]: {% link docs/submitting-your-quest-for-review/graphic-design-guidelines.md %}
