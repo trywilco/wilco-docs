@@ -7,7 +7,7 @@ parent: Quest Configuration
 
 Each step that requires the user to open and merge a pull request (PR) can include the GitHub Actions configuration. These actions will run as part of a workflow triggered on every PR when the PR code changes. 
 
-More on GitHub Workflows and GitHub Actions: [https://docs.github.com/en/actions/using-workflows](https://docs.github.com/en/actions/using-workflows).
+→ Read more about GitHub Workflows and Actions on their [official documentation].
 
 Configuring GitHub Actions on a step is done by adding the `githubActions` key to the step YAML file. `githubActions` can include one or both of the keys, `backend` or `frontend`. Each allows configuring the actions for the specific part of the application.
 
@@ -51,15 +51,14 @@ Each part of the application can define the following configuration keys:
     Some capabilities perform more complicated actions and are used to simplify the configuration of common behaviors:
     
     - `seeds`: Seeds the database with information for tests which require seeded data. This will generate an action according to the current backend database type.
-    - `jest-puppeteer`: Frontend tests frequently require running [jest-puppeteer](https://jestjs.io/docs/puppeteer). If this capability is set, default `jest-puppeteer` configuration files will be downloaded to the workflow environment and the test command will be replaced with:
+    - `jest-puppeteer`: Frontend tests frequently require running [jest-puppeteer]. If this capability is set, default `jest-puppeteer` configuration files will be downloaded to the workflow environment and the test command will be replaced with:
         
         `yarn run jest -c src/jest.config.js`
         
         The downloaded files are: 
         
-        [https://engine.wilco.gg/quests/jest-puppeteer/jest-puppeteer.config.js](https://engine.wilco.gg/quests/jest-puppeteer/jest-puppeteer.config.js)
-        
-        [https://engine.wilco.gg/quests/jest-puppeteer/jest.config.js](https://engine.wilco.gg/quests/jest-puppeteer/jest.config.js)
+        - [jest.config.js]
+        - [jest-puppeteer.config.js]
         
 - `cmd`: In most cases, using the default `capabilities` and test commands should be enough, but sometimes there is a need for custom commands. `cmd` can be either a single command or an array of commands. In any case, each command will add an action with the structure:
     
@@ -138,3 +137,8 @@ githubActions:
 ```
 
 In this example, we see the usage of both `paramsFramework` and `cmd` keys. The default test command does not work in this case, so `cmd` is used to specify a custom test command. Also, in case the backend framework is `node`, we use specific configurations for both the test file and the command.
+
+[official documentation]: https://docs.github.com/en/actions/using-workflows
+[jest-puppeteer]: https://jestjs.io/docs/puppeteer
+[jest.config.js]: https://engine.wilco.gg/quests/jest-puppeteer/jest.config.js
+[jest-puppeteer.config.js]: https://engine.wilco.gg/quests/jest-puppeteer/jest-puppeteer.config.js

@@ -4,13 +4,13 @@
 
 # Wilco Developers Documentation
 
-Welcome! This is the repository that generates [dev.trywilco.com](dev.trywilco.com). It contains all the source code and Markdown files we use to build and serve our documentation.
+Welcome! This is the repository that generates [dev.trywilco.com]. It contains all the source code and Markdown files we use to build and serve our documentation.
 
 ## Wilco ❤️ Developers
 
 The documentation in this repository is meant to help anyone build new and amazing quests in Wilco, but we could also use your help improving it. 
 
-On each page of the website, you have an edit button, which will lead you directly to GitHub's editor. You can also [create an issue](https://github.com/trywilco/wilco-docs/issues/new/choose), and we'll take a look at it right away.
+On each page of the website, you have an edit button, which will lead you directly to GitHub's editor. You can also [create an issue], and we'll take a look at it right away.
 
 ## Local Development
 
@@ -28,12 +28,14 @@ Assuming [Ruby], [Jekyll] and [Bundler] are installed on your computer:
 
 ## Deployment
 
-Any commits to main trigger an automatic rebuild and deployment to [dev.trywilco.com](dev.trywilco.com). You can see the [deployment status here](https://github.com/trywilco/wilco-docs/deployments).
+Any commits to main trigger an automatic rebuild and deployment to [dev.trywilco.com]. You can see the [deployment status here](https://github.com/trywilco/wilco-docs/deployments).
 
 ## Additional Resources
 - [Jekyll Documentation]
 - [Just the Docs]
 
+[dev.trywilco.com]: https://dev.trywilco.com
+[create an issue]: https://github.com/trywilco/wilco-docs/issues/new/choose
 [Jekyll]: https://jekyllrb.com
 [Jekyll Documentation]: https://jekyllrb.com/docs/
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/

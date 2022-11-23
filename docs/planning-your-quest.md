@@ -1,9 +1,9 @@
 ---
 title: Planning Your Quest
 nav_order: 3
-
 ---
-### **Planning Your Quest**
+
+# Planning Your Quest
 
 Before you begin building your quest, it is essential to start by thoroughly planning out the key aspects and outlining its content and structure. By doing so, you'll be able to create better quests and save a lot of time. 
 
@@ -15,7 +15,7 @@ Things to think about:
 - What is the prerequisite knowledge required to successfully complete the quest?
 
 **Skills** 
-- What skill topics is your quest related to? (See [supported skills](https://github.com/trywilco/wilcosdk/blob/main/Quests%20Creation/Quest%20Configuration%20Files/Supported%20Skills.md))
+- What skill topics is your quest related to? (See [supported skills]
 
 **Learning Objectives**
 - What can developers expect that they will be able to DO after they complete this quest?
@@ -54,8 +54,8 @@ Things to think about:
 
 When building a new quest, you’ll be able to use one of the following characters to communicate with users: 
 
-- **[Lucca](https://github.com/trywilco/wilcosdk/blob/Documentation_Quest_Guidelines/Quests%20Creation/Quest%20Development%20Guidelines/Lucca.md)**
-- **[Keen](https://github.com/trywilco/wilcosdk/blob/Documentation_Quest_Guidelines/Quests%20Creation/Quest%20Development%20Guidelines/Keen.md)**
+- [Lucca]
+- [Keen]
 
 To make your quest feel more like a conversation with a real human, make sure that conversation texts align with the voice and tone of each character. 
 
@@ -69,7 +69,7 @@ When writing the conversation texts, it is best to read the texts aloud to yours
 - Is all necessary information provided? (ex: definition of acronyms, links to information about terminology/concepts that may be unfamiliar to some users)
 - Is there any extraneous text that can be cut out?
 - Does the conversation read out as a dialogue or a long monologue?
-- Is text formatted properly to highlight instructions, code, etc.? [Learn more](https://github.com/trywilco/wilcosdk/blob/main/Quests%20Creation/Actions%20%26%20Conditions%20APIs/Text%20Formatting.md)
+- Is text formatted properly to highlight instructions, code, etc.? [Learn more]
 
 **Hints**
 - Have you provided enough hints for each step? 
@@ -78,3 +78,8 @@ When writing the conversation texts, it is best to read the texts aloud to yours
 **Feedback** 
 
 The feedback users receive throughout the quest is not only an opportunity to let users know if they did something right or wrong. Frequent meaningful can help users stay engaged in the quest, point them in the right direction when they make a mistake and build their confidence.
+
+[Lucca]: {% link docs/quest-development-guidelines/characters/lucca.md %}
+[Keen]: {% link docs/quest-development-guidelines/characters/keen.md %}
+[supported skills]: {% link docs/quest-configuration/supported-skills.md %}
+[Learn more]: {% link docs/quest-configuration/text-formatting.md %}

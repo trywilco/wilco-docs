@@ -1,9 +1,9 @@
 ---
 title: Anatomy of a Quest
-parent: getting-started
+parent: Getting Started
 ---
 
-# Quest Configuration Files
+# Anatomy of a Quest
 
 The uploaded zip must follow the following file structure:
 
@@ -28,9 +28,9 @@ quest.zip
 
 The full documentation on the quest files configuration files can be found here:
 
-[Quest configuration files ](Quests%20Creation/Quest%20Configuration%20Files.md)
+[Quest configuration files]
 
-[Quest resources](Quests%20Creation/Quest%20Resources.md)
+[Quest resources]
 
 ### Triggers and Payload
 
@@ -38,7 +38,7 @@ Each trigger in the system generates a payload that is passed to actions and con
 
 For full specification:
 
-[Triggers and Payload](Quests%20Creation/Triggers%20and%20Payload.md)
+[Triggers and Payload]
 
 ### Logic flow (FlowNode)
 
@@ -51,11 +51,12 @@ In both cases, the flow is defined using flow nodes. Each flow node consists of 
 
 For documentation on flow nodes:
 
-[Flow Nodes](Quests%20Creation/Flow%20Nodes.md)
+[Flow Nodes]
 
 For documentation of all supported actions and conditions that can be used in the flows:
 
-[Actions and Conditions](Quests%20Creation/Actions%20and%20Conditions%20APIs.md)
+→ [Actions]
+→ [Conditions]
 
 ### GitHub Actions
 
@@ -63,4 +64,10 @@ Each step that requires the user to open and merge a pull request (PR) can inclu
 
 For full specification:
 
-[GitHub Actions](Quests%20Creation/GitHub%20Actions.md)
+[GitHub Actions] {% link docs/quest-configuration/github-actions.md %}
+[Quest configuration files] {% link docs/quest-configuration/quest-configuration-files.md %}
+[Quest resources] {% link docs/quest-resources/index.md %}
+[Triggers and Payload] {% link docs/quest-configuration/triggers-and-payload.md %}
+[Flow Nodes] {% link docs/quest-configuration/flow-nodes.md %}
+[Actions]: {% link docs/quest-configuration/actions.md %}
+[Conditions]: {% link docs/quest-configuration/conditions.md %}

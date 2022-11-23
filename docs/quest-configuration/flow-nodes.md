@@ -7,7 +7,7 @@ parent: Quest Configuration
 
 When the step starts or when the user performs an action (trigger) that the step expects, a logical flow will be executed. The flow is defined using flow nodes.  Each flow node consists of `do`, `if`, and `switch` blocks. 
 
-![flow nodes](/assets/images/flow-node/flow-node.jpeg)
+![flow nodes]
 
 Each flow node contains any of the following:
 
@@ -72,3 +72,5 @@ Each flow node contains any of the following:
           if:
             ...
     ```
+
+[flow nodes]: {% link /assets/images/flow-node/flow-node.jpeg %}
