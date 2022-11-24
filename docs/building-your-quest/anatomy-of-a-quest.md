@@ -1,5 +1,6 @@
 ---
 title: Anatomy of a Quest
+parent: Building Your Quest
 ---
 
 # Anatomy of a Quest
