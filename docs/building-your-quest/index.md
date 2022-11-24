@@ -61,7 +61,7 @@ questDependency: Quest that must be complete before playing this quest | optiona
 ```
 
 → [Supported Skills]
-  [Quest Resources]
+→ [Quest Resources]
 
 
 [Steps]: {% link docs/building-your-quest/creating-steps.md %}
