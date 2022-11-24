@@ -63,7 +63,7 @@ Each step that requires the user to open and merge a pull request (PR) can inclu
 For full specification:
 
 [GitHub Actions] {% link docs/building-your-quest/github-actions.md %}
-[Quest resources] {% link docs/quest-resources/index.md %}
+[Quest resources] {% link docs/building-your-quest/quest-resources/index.md %}
 [Triggers and Payload] {% link docs/building-your-quest/triggers-and-payload.md %}
 [Flow Nodes] {% link docs/building-your-quest/flow-nodes.md %}
 [Actions]: {% link docs/building-your-quest/actions.md %}

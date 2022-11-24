@@ -1,9 +1,10 @@
 ---
-title: Quest Configuration Files
-parent: Quest Configuration
+title: Creating Steps
+parent: Buiding Your Quest
+nav_order: 1
 ---
 
-# Quest Configuration Files
+# Quest Structure
 
 Every uploaded quest must include a file called `quest.yml` that configures the metadata of the quest, an `assets` folder with cover and logo images, and a `steps` folder with a yaml file for each step. In addition, a `tests` folder can be added with test files to be used by the steps.
 

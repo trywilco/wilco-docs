@@ -4,7 +4,7 @@ has_children: true
 nav_order: 5
 ---
 
-# Quest Configuration
+# Quest Structure
 
 Every uploaded quest must include a file called `quest.yml` that configures the metadata of the quest, an `assets` folder with cover and logo images, and a `steps` folder with a yaml file for each step. In addition, a `tests` folder can be added with test files to be used by the steps.
 
@@ -124,7 +124,7 @@ For information on supported file types and usage:
 
 [GitHub Actions]: {% link docs/building-your-quest/github-actions.md %}
 [Supported Skills]: {% link docs/building-your-quest/supported-skills.md %}
-[Quest Resources]: {% link docs/quest-resources/index.md %}
+[Quest Resources]: {% link docs/building-your-quest/quest-resources/index.md %}
 [Actions]: {% link docs/building-your-quest/actions.md %}
 [Conditions]: {% link docs/building-your-quest/conditions.md %}
 
