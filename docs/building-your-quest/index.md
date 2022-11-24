@@ -8,11 +8,10 @@ nav_order: 5
 
 Every uploaded quest must the following components: 
 - A file called `quest.yml` that configures the metadata of the quest
-- An `assets` folder with cover and logo images
-- A `steps` folder with a yaml file for each step [Learn more]
+- An `assets` folder with cover and logo images → [Assets]
+- A `steps` folder with a yaml file for each step  → [Steps]
 
-In addition, a `tests` folder can be added with test files to be used by the steps.
-
+In addition, a `tests` folder can be added with test files to be used by the steps. → [Tests]
 ```
 quest.zip
 ├── quest.yml
@@ -62,52 +61,11 @@ questDependency: Quest that must be complete before playing this quest | optiona
 ```
 
 → [Supported Skills]
+  [Quest Resources]
 
 
-## Steps
-
-This is a mandatory folder containing a file for each step defined in `quest.yml` file. There are no rules regarding the file names.
-
-```yaml
-id: Step id as specified in quest.yml file | mandatory
-learningObjectives: Bulletpoints stating what users will learn to do in the quest | mandatory
-- learning_objective_1
-- learning_objective_2
-- ...
-hints: List of hints to give the user when they are stuck | optional
-- hint_1
-- hint_2
-- ...
-- hint_n
-startFlow: Flow node logic to execute when the step begins | optional
-	...
-trigger: Trigger type and flow node logic. Each step has one trigger | mandatory
-  type: Type of trigger (user action) the step waits for
-  flowNode: Flow node logic to execute when user perform the action | mandatory
-    ...
-githubAction: Github Actions configuration to run in opened PRs | optional
-```
-
-→ [Triggers and Payload](Triggers%20and%20Payload.md)
-
-→ [Flow Nodes](Flow%20Nodes.md)
-
-→ [Actions]
-
-→ [Conditions]
-    
-
-
-### tests
-
-The tests folder is optional and contains test files to be accessed by GitHub Actions.
-
-For information on supported file types and usage:
-
-[GitHub Actions]: {% link docs/building-your-quest/github-actions.md %}
+[Steps]: {% link docs/building-your-quest/creating-steps.md %}
+[Assets]: {% link docs/building-your-quest/assets.md %}
+[Tests]: {% link docs/building-your-quest/tests.md %}
 [Supported Skills]: {% link docs/building-your-quest/supported-skills.md %}
 [Quest Resources]: {% link docs/building-your-quest/quest-resources/index.md %}
-[Actions]: {% link docs/building-your-quest/actions.md %}
-[Conditions]: {% link docs/building-your-quest/conditions.md %}
-
-

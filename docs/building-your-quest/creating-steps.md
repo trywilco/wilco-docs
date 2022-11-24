@@ -37,15 +37,6 @@ githubAction: Github Actions configuration to run in opened PRs | optional
 → [Conditions]
     
 
-
-### tests
-
-The tests folder is optional and contains test files to be accessed by GitHub Actions.
-
-For information on supported file types and usage:
-
-[GitHub Actions]: {% link docs/building-your-quest/github-actions.md %}
-[Supported Skills]: {% link docs/building-your-quest/supported-skills.md %}
-[Quest Resources]: {% link docs/building-your-quest/quest-resources/index.md %}
+    
 [Actions]: {% link docs/building-your-quest/actions.md %}
 [Conditions]: {% link docs/building-your-quest/conditions.md %}

@@ -1,6 +1,7 @@
 ---
 title: Assets
 parent: Building Your Quest
+nav_order: 2
 ---
 
 # Assets
