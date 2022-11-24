@@ -1,68 +1,10 @@
 ---
 title: Creating Steps
-parent: Buiding Your Quest
+parent: Building Your Quest
 nav_order: 1
 ---
 
-# Quest Structure
-
-Every uploaded quest must include a file called `quest.yml` that configures the metadata of the quest, an `assets` folder with cover and logo images, and a `steps` folder with a yaml file for each step. In addition, a `tests` folder can be added with test files to be used by the steps.
-
-```
-quest.zip
-├── quest.yml
-│
-├── assets
-│   ├── cover.jpeg
-│   └── logo.svg
-├── steps
-│   ├── <step_id_1>.yml
-│   ├── <step_id_2>.yml
-│   ├── ...
-│   └── <step_id_n>.yml
-└── tests
-    ├── <test_file_name_1>
-    ├── <test_file_name_2>
-    ├── ...
-    └── <test_file_name_n>
-```
-
-## quest.yml
-
-This is a mandatory file that must be placed at the root of the zip archive's structure. This file defines the metadata of the quest:
-
-```yaml
-id: a unique quest identifier. Should not change. 3-50 characters, must begin with a letter. Accepted characters are A-Z, a-z, 0-9, and "_" | mandatory
-title: Quest title. 2-80 characters. All characters are accepted. "Funnel Drop" in the sample below | mandatory
-description: Quest description. All characters are accepted. "What's worse.." in the sample below | mandatory
-slogan: Quest slogan. 2-1000 characters. "It's time for.." in the sample below | mandatory
-level: Quest level. beginner/intermediate/advance | mandatory
-duration: Estimated number of hours required to finish the quest | mandatory
-resources: A list of resources that should be avaiable to the user when quest begins | optional 
-- resource_1
-- resource_2
-- ...
-- resource_n
-steps: List of all quest step ids | mandatory
-- step_id_1
-- step_id_2
-- ...
-- step_id_n
-skills: List of skills the user will work on when playing the quest | mandatory
-- skill_1
-- skill_2
-- ...
-- skill_n
-questDependency: Quest that must be complete before playing this quest | optional
-```
-
-→ [Supported Skills]
-
-→ [Quest Resources]
-
-![funnel-drop]
-
-## Steps
+# Creating Steps
 
 This is a mandatory folder containing a file for each step defined in `quest.yml` file. There are no rules regarding the file names.
 
@@ -94,40 +36,45 @@ githubAction: Github Actions configuration to run in opened PRs | optional
 
 → [Conditions]
 
-## Assets
+```
 
-The assets folder contains images that are required to present the quest in the catalog or in the list of users’ quests. The folder and the files are mandatory. 
+[Quest resources]
 
-Supported image extensions:
+### Triggers and Payload
 
-- png
-- jpg / jpeg
-- gif
-- svg
+Each trigger in the system generates a payload that is passed to actions and conditions blocks along with the global payload. When defining a call to action/condition block in the flow nodes, the developer specifies how to map a param from the payload to a param passed to the block.
 
-The following files must be placed in the assets folder:
+For full specification:
 
-- **cover:**  The main cover image of the quest, shown in the catalog. The name of this file must be `cover`.
-    
-    ![gitting-started]
-    
-- **logo**: The logo image presented when selecting a quest from the catalog. The name of this file must be `logo`.
-    
-    ![gitting-started-catalog]
-    
+[Triggers and Payload]
 
-### tests
+### Logic flow (FlowNode)
 
-The tests folder is optional and contains test files to be accessed by GitHub Actions.
+Each step consists of two logical parts
 
-For information on supported file types and usage:
+1. `startFlow`: logic to be performed when step starts. Usually includes sending instructions to the user from one of the bots. 
+2. `trigger`: logic to be performed when the user performs a specific action. 
 
-[GitHub Actions]: {% link docs/building-your-quest/github-actions.md %}
-[Supported Skills]: {% link docs/building-your-quest/supported-skills.md %}
-[Quest Resources]: {% link docs/building-your-quest/quest-resources/index.md %}
+In both cases, the flow is defined using flow nodes. Each flow node consists of `do`, `if` and `switch` blocks. Each of them is built using actions and conditions.
+
+For documentation on flow nodes:
+
+[Flow Nodes]
+
+For documentation of all supported actions and conditions that can be used in the flows:
+
+→ [Actions]
+→ [Conditions]
+
+### GitHub Actions
+
+Each step that requires the user to open and merge a pull request (PR) can include the GitHub Actions configuration. These actions will run as part of a workflow triggered on every PR when the PR code changes. 
+
+For full specification:
+
+[GitHub Actions] {% link docs/building-your-quest/github-actions.md %}
+[Quest resources] {% link docs/building-your-quest/quest-resources/index.md %}
+[Triggers and Payload] {% link docs/building-your-quest/triggers-and-payload.md %}
+[Flow Nodes] {% link docs/building-your-quest/flow-nodes.md %}
 [Actions]: {% link docs/building-your-quest/actions.md %}
 [Conditions]: {% link docs/building-your-quest/conditions.md %}
-
-[funnel-drop]: {% link /assets/images/building-your-quest/funnel-drop.png %}
-[gitting-started]: {% link assets/images/building-your-quest/gitting-started.png %}
-[gitting-started-catalog]: {% link assets/images/building-your-quest/gitting-started-catalog.png %}

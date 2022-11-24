@@ -6,7 +6,12 @@ nav_order: 5
 
 # Quest Structure
 
-Every uploaded quest must include a file called `quest.yml` that configures the metadata of the quest, an `assets` folder with cover and logo images, and a `steps` folder with a yaml file for each step. In addition, a `tests` folder can be added with test files to be used by the steps.
+Every uploaded quest must the following components: 
+- A file called `quest.yml` that configures the metadata of the quest
+- An `assets` folder with cover and logo images
+- A `steps` folder with a yaml file for each step
+
+In addition, a `tests` folder can be added with test files to be used by the steps.
 
 ```
 quest.zip
@@ -58,9 +63,6 @@ questDependency: Quest that must be complete before playing this quest | optiona
 
 → [Supported Skills]
 
-→ [Quest Resources]
-
-![funnel-drop]
 
 ## Steps
 
