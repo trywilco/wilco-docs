@@ -9,7 +9,7 @@ nav_order: 5
 Every uploaded quest must the following components: 
 - A file called `quest.yml` that configures the metadata of the quest
 - An `assets` folder with cover and logo images
-- A `steps` folder with a yaml file for each step
+- A `steps` folder with a yaml file for each step [Learn more]
 
 In addition, a `tests` folder can be added with test files to be used by the steps.
 
@@ -95,28 +95,8 @@ githubAction: Github Actions configuration to run in opened PRs | optional
 → [Actions]
 
 → [Conditions]
-
-## Assets
-
-The assets folder contains images that are required to present the quest in the catalog or in the list of users’ quests. The folder and the files are mandatory. 
-
-Supported image extensions:
-
-- png
-- jpg / jpeg
-- gif
-- svg
-
-The following files must be placed in the assets folder:
-
-- **cover:**  The main cover image of the quest, shown in the catalog. The name of this file must be `cover`.
     
-    ![gitting-started]
-    
-- **logo**: The logo image presented when selecting a quest from the catalog. The name of this file must be `logo`.
-    
-    ![gitting-started-catalog]
-    
+
 
 ### tests
 
@@ -129,4 +109,5 @@ For information on supported file types and usage:
 [Quest Resources]: {% link docs/building-your-quest/quest-resources/index.md %}
 [Actions]: {% link docs/building-your-quest/actions.md %}
 [Conditions]: {% link docs/building-your-quest/conditions.md %}
+
 

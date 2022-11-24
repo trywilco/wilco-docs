@@ -1,7 +1,6 @@
 ---
 title: Assets
 parent: Building Your Quest
-nav_order: 2
 ---
 
 # Assets
@@ -25,6 +24,5 @@ The following files must be placed in the assets folder:
     
     ![gitting-started-catalog]
     
-[funnel-drop]: {% link /assets/images/building-your-quest/funnel-drop.png %}
 [gitting-started]: {% link assets/images/building-your-quest/gitting-started.png %}
 [gitting-started-catalog]: {% link assets/images/building-your-quest/gitting-started-catalog.png %}
