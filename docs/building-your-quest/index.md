@@ -61,6 +61,7 @@ questDependency: Quest that must be complete before playing this quest | optiona
 ```
 
 → [Supported Skills]
+
 → [Quest Resources]
 
 
