@@ -1,7 +1,7 @@
 ---
-title: Quest Configuration
+title: Building Your Quest
 has_children: true
-nav_order: 4
+nav_order: 5
 ---
 
 # Quest Configuration

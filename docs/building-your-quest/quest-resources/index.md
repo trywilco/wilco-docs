@@ -1,4 +1,5 @@
 ---
+parent: Building Your Quest
 title: Quest Resources
 has_children: true
 has_toc: false

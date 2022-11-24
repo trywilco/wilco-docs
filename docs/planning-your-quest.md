@@ -1,6 +1,6 @@
 ---
 title: Planning Your Quest
-nav_order: 3
+nav_order: 4
 ---
 
 # Planning Your Quest
@@ -15,7 +15,7 @@ Things to think about:
 - What is the prerequisite knowledge required to successfully complete the quest?
 
 **Skills** 
-- What skill topics is your quest related to? (See [supported skills]
+- What skill topics is your quest related to? (See [supported skills])
 
 **Learning Objectives**
 - What can developers expect that they will be able to DO after they complete this quest?
