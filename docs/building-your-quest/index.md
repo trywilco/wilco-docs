@@ -130,6 +130,3 @@ For information on supported file types and usage:
 [Actions]: {% link docs/building-your-quest/actions.md %}
 [Conditions]: {% link docs/building-your-quest/conditions.md %}
 
-[funnel-drop]: {% link /assets/images/building-your-quest/funnel-drop.png %}
-[gitting-started]: {% link assets/images/building-your-quest/gitting-started.png %}
-[gitting-started-catalog]: {% link assets/images/building-your-quest/gitting-started-catalog.png %}
