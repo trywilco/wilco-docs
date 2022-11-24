@@ -81,5 +81,5 @@ The feedback users receive throughout the quest is not only an opportunity to le
 
 [Lucca]: {% link docs/quest-development-guidelines/characters/lucca.md %}
 [Keen]: {% link docs/quest-development-guidelines/characters/keen.md %}
-[supported skills]: {% link docs/quest-configuration/supported-skills.md %}
-[Learn more]: {% link docs/quest-configuration/text-formatting.md %}
+[supported skills]: {% link docs/building-your-quest/supported-skills.md %}
+[Learn more]: {% link docs/building-your-quest/text-formatting.md %}

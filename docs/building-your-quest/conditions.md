@@ -160,23 +160,23 @@ Note the use of `equals: false` and the use of `paramsFramework` in this example
 | [array_find]                             | Array     | Find an element in the array that matches specified conditions                    |
 | [array_every]                            | Array     | Tests whether all elements in an array pass specified conditions                  |
 
-[text_contains_strings]: {% link docs/quest-configuration/conditions/text-contains-strings.md %}
-[text_match_regex]: {% link docs/quest-configuration/conditions/text-match-regex.md %}
-[is_user_message_text_ready_to_continue]: {% link docs/quest-configuration/conditions/is-user-message-text-ready-to-continue.md %}
-[github_is_user_valid]: {% link docs/quest-configuration/conditions/github-is-user-valid.md %}
-[github_is_file_modified]: {% link docs/quest-configuration/conditions/github-is-file-modified.md %}
-[github_is_one_of_files_modified]: {% link docs/quest-configuration/conditions/github-is-one-of-files-modified.md %}
-[github_is_file_add]: {% link docs/quest-configuration/conditions/github-is-file-add.md %}
-[github_is_file_contains]: {% link docs/quest-configuration/conditions/github-is-file-contains.md %}
-[github_is_repo_collaborator]: {% link docs/quest-configuration/conditions/github-is-repo-collaborator.md %}
-[github_is_file_added_in_push]: {% link docs/quest-configuration/conditions/github-is-file-added-in-push.md %}
-[heroku_check_backend_config_var]: {% link docs/quest-configuration/conditions/heroku-check-backend-config-var.md %}
-[heroku_check_frontend_config_var]: {% link docs/quest-configuration/conditions/heroku-check-frontend-config-var.md %}
-[newrelic_license_key_valid]: {% link docs/quest-configuration/conditions/newrelic-license-key-valid.md %}
-[action_success]: {% link docs/quest-configuration/conditions/action-success.md %}
-[is_truthy]: {% link docs/quest-configuration/conditions/is-truthy.md %}
-[is_falsy]: {% link docs/quest-configuration/conditions/is-falsy.md %}
-[database_check_connection_url]: {% link docs/quest-configuration/conditions/database-check-connection-url.md %}
-[array_find]: {% link docs/quest-configuration/conditions/array-find.md %}
-[array_every]: {% link docs/quest-configuration/conditions/array-every.md %}
+[text_contains_strings]: {% link docs/building-your-quest/conditions/text-contains-strings.md %}
+[text_match_regex]: {% link docs/building-your-quest/conditions/text-match-regex.md %}
+[is_user_message_text_ready_to_continue]: {% link docs/building-your-quest/conditions/is-user-message-text-ready-to-continue.md %}
+[github_is_user_valid]: {% link docs/building-your-quest/conditions/github-is-user-valid.md %}
+[github_is_file_modified]: {% link docs/building-your-quest/conditions/github-is-file-modified.md %}
+[github_is_one_of_files_modified]: {% link docs/building-your-quest/conditions/github-is-one-of-files-modified.md %}
+[github_is_file_add]: {% link docs/building-your-quest/conditions/github-is-file-add.md %}
+[github_is_file_contains]: {% link docs/building-your-quest/conditions/github-is-file-contains.md %}
+[github_is_repo_collaborator]: {% link docs/building-your-quest/conditions/github-is-repo-collaborator.md %}
+[github_is_file_added_in_push]: {% link docs/building-your-quest/conditions/github-is-file-added-in-push.md %}
+[heroku_check_backend_config_var]: {% link docs/building-your-quest/conditions/heroku-check-backend-config-var.md %}
+[heroku_check_frontend_config_var]: {% link docs/building-your-quest/conditions/heroku-check-frontend-config-var.md %}
+[newrelic_license_key_valid]: {% link docs/building-your-quest/conditions/newrelic-license-key-valid.md %}
+[action_success]: {% link docs/building-your-quest/conditions/action-success.md %}
+[is_truthy]: {% link docs/building-your-quest/conditions/is-truthy.md %}
+[is_falsy]: {% link docs/building-your-quest/conditions/is-falsy.md %}
+[database_check_connection_url]: {% link docs/building-your-quest/conditions/database-check-connection-url.md %}
+[array_find]: {% link docs/building-your-quest/conditions/array-find.md %}
+[array_every]: {% link docs/building-your-quest/conditions/array-every.md %}
 

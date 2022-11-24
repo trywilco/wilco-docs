@@ -1,6 +1,5 @@
 ---
 title: Anatomy of a Quest
-parent: Getting Started
 ---
 
 # Anatomy of a Quest
@@ -28,7 +27,6 @@ quest.zip
 
 The full documentation on the quest files configuration files can be found here:
 
-[Quest configuration files]
 
 [Quest resources]
 
@@ -65,7 +63,6 @@ Each step that requires the user to open and merge a pull request (PR) can inclu
 For full specification:
 
 [GitHub Actions] {% link docs/building-your-quest/github-actions.md %}
-[Quest configuration files] {% link docs/building-your-quest/building-your-quest-files.md %}
 [Quest resources] {% link docs/quest-resources/index.md %}
 [Triggers and Payload] {% link docs/building-your-quest/triggers-and-payload.md %}
 [Flow Nodes] {% link docs/building-your-quest/flow-nodes.md %}

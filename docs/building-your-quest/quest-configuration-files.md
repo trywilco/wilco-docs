@@ -121,12 +121,12 @@ The tests folder is optional and contains test files to be accessed by GitHub Ac
 
 For information on supported file types and usage:
 
-[GitHub Actions]: {% link docs/quest-configuration/github-actions.md %}
-[Supported Skills]: {% link docs/quest-configuration/supported-skills.md %}
+[GitHub Actions]: {% link docs/building-your-quest/github-actions.md %}
+[Supported Skills]: {% link docs/building-your-quest/supported-skills.md %}
 [Quest Resources]: {% link docs/quest-resources/index.md %}
-[Actions]: {% link docs/quest-configuration/actions.md %}
-[Conditions]: {% link docs/quest-configuration/conditions.md %}
+[Actions]: {% link docs/building-your-quest/actions.md %}
+[Conditions]: {% link docs/building-your-quest/conditions.md %}
 
-[funnel-drop]: {% link /assets/images/quest-configuration/funnel-drop.png %}
-[gitting-started]: {% link assets/images/quest-configuration/gitting-started.png %}
-[gitting-started-catalog]: {% link assets/images/quest-configuration/gitting-started-catalog.png %}
+[funnel-drop]: {% link /assets/images/building-your-quest/funnel-drop.png %}
+[gitting-started]: {% link assets/images/building-your-quest/gitting-started.png %}
+[gitting-started-catalog]: {% link assets/images/building-your-quest/gitting-started-catalog.png %}
