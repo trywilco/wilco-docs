@@ -2,6 +2,7 @@
 title: Conditions
 parent: Building Your Quest
 has_children: true
+nav_order: 5
 ---
 
 # Conditions 

@@ -1,6 +1,7 @@
 ---
 title: GitHub Actions
 parent: Building Your Quest
+nav_order: 7
 ---
 
 # GitHub Actions

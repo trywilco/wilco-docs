@@ -3,6 +3,7 @@ parent: Building Your Quest
 title: Quest Resources
 has_children: true
 has_toc: false
+nav_order: 8
 ---
 
 # Quest Resources

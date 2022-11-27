@@ -1,6 +1,7 @@
 ---
 title: Text Formatting
 parent: Building Your Quest
+nav_order: 11
 ---
 
 # Text Formatting

@@ -4,7 +4,11 @@ nav_order: 8
 ---
 
 # Marketing Your Quest
-You’ve gone through the effort of designing and developing your quest, great! Now it’s time to get it out to the world. By being part of the Wilco quest catalog, your quest will get exposure to Wilco’s users. When you submit your quest for review, the Wilco team will also assess your quest for additional promotional activities that we have available, such as a case study or spotlight that will be shared on Wilco’s blog, newsletter, website, social and community. Having a quest gives you an opportunity to showcase your development skills to the world while helping people upskill themselves. There are multiple ways you can share the word about your quest with the world. 
+You’ve gone through the effort of designing and developing your quest, great! Now it’s time to get it out to the world. By being part of the Wilco quest catalog, your quest will get exposure to Wilco’s users. 
+
+When you submit your quest for review, the Wilco team will also assess your quest for additional promotional activities that we have available, such as a case study or spotlight that will be shared on Wilco’s blog, newsletter, website, social and community. 
+
+Having a quest gives you an opportunity to showcase your development skills to the world while helping people upskill themselves. There are multiple ways you can share the word about your quest with the world. 
 
 ## What you should share:
 - **The quest page** - each quest has its own dedicated page that includes a direct link to the quest. This will allow anyone who signs up through this page to go directly to your quest after their initial onboarding is complete. 
