@@ -1,6 +1,6 @@
 ---
 title: Planning Your Quest
-nav_order: 3
+nav_order: 4
 ---
 
 # Planning Your Quest
@@ -15,7 +15,7 @@ Things to think about:
 - What is the prerequisite knowledge required to successfully complete the quest?
 
 **Skills** 
-- What skill topics is your quest related to? (See [supported skills]
+- What skill topics is your quest related to? (See [supported skills])
 
 **Learning Objectives**
 - What can developers expect that they will be able to DO after they complete this quest?
@@ -81,5 +81,5 @@ The feedback users receive throughout the quest is not only an opportunity to le
 
 [Lucca]: {% link docs/quest-development-guidelines/characters/lucca.md %}
 [Keen]: {% link docs/quest-development-guidelines/characters/keen.md %}
-[supported skills]: {% link docs/quest-configuration/supported-skills.md %}
-[Learn more]: {% link docs/quest-configuration/text-formatting.md %}
+[supported skills]: {% link docs/building-your-quest/supported-skills.md %}
+[Learn more]: {% link docs/building-your-quest/text-formatting.md %}

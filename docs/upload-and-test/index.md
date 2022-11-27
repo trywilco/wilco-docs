@@ -2,7 +2,7 @@
 title: Uploading and Testing Your Quest
 has_children: true
 has_toc: false
-nav_order: 5
+nav_order: 6
 ---
 
 # Uploading and Testing Your Quest

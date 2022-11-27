@@ -1,7 +1,7 @@
 ---
 title: Submitting Your Quest for Review
 has_children: true
-nav_order: 6
+nav_order: 7
 ---
 
 # Submitting your Quest for Review
