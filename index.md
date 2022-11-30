@@ -6,7 +6,7 @@ nav_order: 1
 
 ![Wilco Quest Builder]
 
-# Welcome to Wilco’s Builder SDK Documentation
+# Welcome to Wilco’s Builder SDK Documentation 2
 
 Here, you can learn and contribute to the Wilco Builder SDK Documentation.
 
