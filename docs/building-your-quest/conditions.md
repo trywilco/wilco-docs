@@ -146,7 +146,7 @@ Note the use of `equals: false` and the use of `paramsFramework` in this example
 | [github_is_user_valid]                   | GitHub    | Check if username exists in Github                                                |
 | [github_is_file_modified]                | GitHub    | Check if a specified file was modified as part of PR changes                      |
 | [github_is_one_of_files_modified]        | GitHub    | Check if one of the specified files was modified as part of PR changes            |
-| [github_is_file_add]                     | GitHub    | Check if specified files were added as part of PR changes.                        |
+| [github_is_file_added]                   | GitHub    | Check if specified files were added as part of PR changes.                        |
 | [github_is_file_contains]                | GitHub    | Check if a file added in the PR contains text that matches a regex                |
 | [github_is_repo_collaborator]            | GitHub    | "Check if the user accepted the invitation for their repo. "                      |
 | [github_is_file_added_in_push]           | GitHub    | Check if a file was added in the head commit of a git push (not specific to a PR) |
@@ -166,7 +166,7 @@ Note the use of `equals: false` and the use of `paramsFramework` in this example
 [github_is_user_valid]: {% link docs/building-your-quest/conditions/github-is-user-valid.md %}
 [github_is_file_modified]: {% link docs/building-your-quest/conditions/github-is-file-modified.md %}
 [github_is_one_of_files_modified]: {% link docs/building-your-quest/conditions/github-is-one-of-files-modified.md %}
-[github_is_file_add]: {% link docs/building-your-quest/conditions/github-is-file-add.md %}
+[github_is_file_added]: {% link docs/building-your-quest/conditions/github-is-file-added.md %}
 [github_is_file_contains]: {% link docs/building-your-quest/conditions/github-is-file-contains.md %}
 [github_is_repo_collaborator]: {% link docs/building-your-quest/conditions/github-is-repo-collaborator.md %}
 [github_is_file_added_in_push]: {% link docs/building-your-quest/conditions/github-is-file-added-in-push.md %}
