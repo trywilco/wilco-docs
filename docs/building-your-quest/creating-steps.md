@@ -28,9 +28,9 @@ trigger: Trigger type and flow node logic. Each step has one trigger | mandatory
 githubAction: Github Actions configuration to run in opened PRs | optional
 ```
 
-→ [Triggers and Payload](Triggers-and-Payload.md)
+→ [Triggers and Payload](triggers-and-payload.html)
 
-→ [Flow Nodes](Flow%20Nodes.md)
+→ [Flow Nodes](flow-nodes.html)
 
 → [Actions]
 
