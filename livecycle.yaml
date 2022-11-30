@@ -1,0 +1,9 @@
+version: v1alpha1
+web:
+    build:
+        type: Dockerfile
+        build_args: []
+    output:
+        type: static
+        static:
+            path: /app/_site
