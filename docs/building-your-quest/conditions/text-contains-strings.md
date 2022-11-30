@@ -48,9 +48,7 @@ In case each string param is array of strings, the condition will search for one
       strings:
       - one
       - - two
-        - three
-        
-        
+        - three    
 ```
 Will search for `"one" **and** ("two" **or** "three")`
 
