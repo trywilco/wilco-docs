@@ -46,7 +46,7 @@ startFlow:
           job.
         delay: 2500
       - text: "So, to help familiarize you with your new work environment, I was thinking
-          that maybe you first should set it up. \U0001F60A"
+          that maybe you first should set it up."
         delay: 3000
       - text: Just **let me know once you’re ready** to start your first task!
         delay: 5000
