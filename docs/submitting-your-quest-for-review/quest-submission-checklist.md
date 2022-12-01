@@ -11,6 +11,7 @@ parent: Submitting Your Quest for Review
 - [ ]  Order of steps is logical
 - [ ]  Quest overview README is included with the submission
 - [ ]  Textbook solution is included with the submission
+- [ ]  Make sure you included the names and email addresses of all contributors to the quest's README file
 
 ## Quest Design and Functionality
 
