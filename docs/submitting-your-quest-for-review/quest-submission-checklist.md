@@ -12,6 +12,7 @@ parent: Submitting Your Quest for Review
 - [ ]  Quest overview README is included with the submission
 - [ ]  All contributors are listed in the README file (Full name and Email adress)
 - [ ]  Textbook solution is included with the submission
+- [ ]  Make sure you included the names and email addresses of all contributors to the quest's README file
 
 ## Quest Design and Functionality
 

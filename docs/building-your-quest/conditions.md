@@ -3,6 +3,7 @@ title: Conditions
 parent: Building Your Quest
 has_children: true
 nav_order: 5
+has_toc: false
 ---
 
 # Conditions 
@@ -131,11 +132,12 @@ if:
         message: "${pr_reject_message}"
         messageName: "${pr_reject_message_name}"
 ```
-</details>
-
+  
 In this example, we see an `if` statement with several conditions. If all conditions are successful, a message is sent by the bot and the PR is approved. If a condition fails, the PR is rejected with a rejection message. The message text is set by each condition using `onFalseParams` .
 
 Note the use of `equals: false` and the use of `paramsFramework` in this example.
+
+</details>
 
 ## Supported Conditions
 
