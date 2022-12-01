@@ -38,6 +38,6 @@ When writing the conversation texts, it is best to read the texts aloud to yours
 
 The feedback users receive throughout the quest is not only an opportunity to let users know if they did something right or wrong. Frequent meaningful can help users stay engaged in the quest, point them in the right direction when they make a mistake and build their confidence.
 
-[Lucca]: {% link docs/writing-quest-texts/keen.md %}
+[Lucca]: {% link docs/building-your-quest/writing-quest-texts/keen.md %}
 [Keen]: {% link docs/building-your-quest/writing-quest-texts/lucca.md %}
 [Learn more]: {% link docs/building-your-quest/text-formatting.md %}
