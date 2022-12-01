@@ -1,10 +1,10 @@
 ---
-title: github_is_file_add
+title: github_is_file_added
 parent: Conditions
 grand_parent: Building Your Quest
 ---
 
-# github_is_file_add
+# github_is_file_added
 
 Category: Github
 Description: Check if specified files was added as part of PR changes.

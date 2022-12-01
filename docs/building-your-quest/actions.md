@@ -2,6 +2,7 @@
 title: Actions
 has_children: true
 parent: Building Your Quest
+has_toc: false
 ---
 
 # Actions 
@@ -54,7 +55,8 @@ Another example:
 In this example, the action `newrelic_configure_with_key` might fail with several error types. A name is set in order to fetch the error type:
 
 ```yaml
-switch:key: "${outputs.newrelic_configure_with_key.error}"
+switch:
+  key: "${outputs.newrelic_configure_with_key.error}"
   cases:
     invalid_key_format:
       do:
