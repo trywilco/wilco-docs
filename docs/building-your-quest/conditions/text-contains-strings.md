@@ -34,23 +34,23 @@ if:
     params:
       text: "${userMessageText}"
       strings:
-      - - mobile
-      - - non web
-      - - android
-        - ios
-      - - android
-        - iphone
-      - - android
-        - mobile
-      - - iphone
-        - mobile
-      - - ios
-        - mobile
+      - mobile
+      - ios
+      - android
   then:
     ...
 ```
 
 The `text_contains_strings` condition is used to verify that text entered by the user in Snack means mobile/ios/android.
+
+In case each string param is array of strings, the condition will search for one of the string, so for example:
+```yaml
+      strings:
+      - one
+      - - two
+        - three    
+```
+Will search for `"one" **and** ("two" **or** "three")`
 
 ## Relevant Triggers
 
