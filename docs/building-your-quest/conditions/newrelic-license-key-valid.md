@@ -2,6 +2,7 @@
 title: newrelic_license_key_valid
 parent: Conditions
 grand_parent: Building Your Quest
+nav_exclude: true
 ---
 
 # newrelic_license_key_valid

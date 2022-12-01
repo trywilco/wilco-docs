@@ -2,6 +2,7 @@
 title: quest_notification
 parent: Actions
 grand_parent: Building Your Quest
+nav_exclude: true
 ---
 
 # quest_notification

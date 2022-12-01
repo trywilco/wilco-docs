@@ -3,12 +3,12 @@ title: Actions
 has_children: true
 parent: Building Your Quest
 nav_order: 4
-has_toc: false
-=======
+has_toc: false 
+---
 
 # Actions 
 
-This page explains how actions work and all supported actions are documented. This document assumes the reader is familiar with how [Triggers and Payload] work.
+This page explains how actions work and all supported actions are documented. This document assumes the reader is familiar with how [Triggers and Payloads] work.
 
 ## Actions - General
 
@@ -85,6 +85,9 @@ switch:
 | [quest_notification]                     | Quest     | Notify a user about an event that happened while in a quest.                      |
 
 
+{: .note }
+We look forward to adding new actions in the future. Please reach out to us at [Creators@wilcohq.com](creators@wilcohq.com) with any questions.
+
 [bot_message]: {% link docs/building-your-quest/actions/bot-message.md %}
 [github_create_repo]: {% link docs/building-your-quest/actions/github-create-repo.md %}
 [github_invite_user]: {% link docs/building-your-quest/actions/github-invite-user.md %}
@@ -97,3 +100,5 @@ switch:
 [network_http_request]: {% link docs/building-your-quest/actions/network-http-request.md %}
 [finish_step]: {% link docs/building-your-quest/actions/finish-step.md %}
 [quest_notification]: {% link docs/building-your-quest/actions/quest-notification.md %}
+[Triggers and Payloads]: {% link docs/building-your-quest/triggers-and-payloads.md %}
+

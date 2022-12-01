@@ -2,6 +2,7 @@
 title: heroku_check_frontend_config_var
 parent: Conditions
 grand_parent: Building Your Quest
+nav_exclude: true
 ---
 
 # heroku_check_frontend_config_var

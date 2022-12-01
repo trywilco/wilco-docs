@@ -1,5 +1,5 @@
 ---
-title: Triggers and Payload
+title: Triggers and Payloads
 parent: Building Your Quest
 ---
 

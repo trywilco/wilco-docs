@@ -2,6 +2,7 @@
 title: bot_message
 parent: Actions
 grand_parent: Building Your Quest
+nav_exclude: true
 ---
 
 # bot_message
@@ -57,4 +58,4 @@ The action `bot_message` is used to send instructions from the bot `keen` to the
 
 All triggers
 
-[Text Formatting]: {% link docs/building-your-quest/text-formatting.md %}
+[Text Formatting]: {% link docs/building-your-quest/writing-quest-texts/text-formatting.md %}

@@ -1,7 +1,8 @@
 ---
 title: Text Formatting
-parent: Building Your Quest
-nav_order: 11
+parent: Writing Quest Texts
+grand_parent: Building Your Quest
+nav_order: 2
 ---
 
 # Text Formatting

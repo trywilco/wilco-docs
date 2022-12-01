@@ -2,6 +2,7 @@
 title: is_user_message_text_ready_to_continue
 parent: Conditions
 grand_parent: Building Your Quest
+nav_exclude: true
 ---
 
 # is_user_message_text_ready_to_continue
