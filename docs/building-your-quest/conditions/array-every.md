@@ -2,6 +2,7 @@
 title: array_every
 parent: Conditions
 grand_parent: Building Your Quest
+nav_exclude: true
 ---
 
 # array_every

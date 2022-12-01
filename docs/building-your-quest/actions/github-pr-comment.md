@@ -2,6 +2,7 @@
 title: github_pr_comment
 parent: Actions
 grand_parent: Building Your Quest
+nav_exclude: true
 ---
 
 # github_pr_comment
@@ -44,4 +45,4 @@ The `github_pr_comment` action is used to add comment from `keen` letting user k
 
 - `github_pr_lifecycle_status`
 
-[Text Formatting]: {% link docs/building-your-quest/text-formatting.md %}
+[Text Formatting]: {% link docs/building-your-quest/writing-quest-texts/text-formatting.md %}

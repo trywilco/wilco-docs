@@ -38,5 +38,5 @@ githubAction: Github Actions configuration to run in opened PRs | optional
     
 
     
-[Actions]: {% link docs/building-your-quest/actions.md %}
+[Actions]: {% link docs/building-your-quest/actions/index.md %}
 [Conditions]: {% link docs/building-your-quest/conditions.md %}

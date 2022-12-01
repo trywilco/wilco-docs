@@ -2,6 +2,7 @@
 title: github_pr_reject
 parent: Actions
 grand_parent: Building Your Quest
+nav_exclude: true
 ---
 
 # github_pr_reject
@@ -44,4 +45,4 @@ The `github_pr_reject` action is used to reject the PR and let user know why. Th
 
 - `github_pr_lifecycle_status`
 
-[Text Formatting]: {% link docs/building-your-quest/text-formatting.md %}
+[Text Formatting]: {% link docs/building-your-quest/writing-quest-texts/text-formatting.md %}
