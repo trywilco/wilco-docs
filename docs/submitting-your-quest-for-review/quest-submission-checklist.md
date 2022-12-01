@@ -10,9 +10,8 @@ parent: Submitting Your Quest for Review
 - [ ]  Quest consists of 2-5 steps
 - [ ]  Order of steps is logical
 - [ ]  Quest overview README is included with the submission
-- [ ] Make sure all contributors are listed in the README file (Full name and Email adress)
+- [ ]  All contributors are listed in the README file (Full name and Email adress)
 - [ ]  Textbook solution is included with the submission
-- [ ]  Make sure you included the names and email addresses of all contributors to the quest's README file
 
 
 ## Quest Design and Functionality
