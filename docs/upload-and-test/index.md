@@ -31,6 +31,7 @@ Quest Builder enables you to run your quest in a Snack Testing environment that 
 > 
 > You should also familiarize yourself with the Anythink repo. Once you accept Navi's invitation to join the Anythink repo, you'll be able to access it directly from the left-hand panel in Snack.
 
+
 It is important to go through each step of your quest thoroughly to make sure that everything works as expected. 
 
 Once you have verified that your quest works well, you can use **Manual mode** to speed up testing interations. 

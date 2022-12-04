@@ -27,5 +27,5 @@ If you have encountered a problem while working with the Builder SDK or this doc
 
 [Start here]: {% link docs/quickstart-guide.md %}
 [issue]: {{ site.gh_edit_repository }}/issues/new/choose
-[Wilco Quest Builder]: https://user-images.githubusercontent.com/108607031/195384783-a098d06e-fa09-4463-a9ec-4de5122d704e.png
+[Wilco Quest Builder]: {% link assets/images/quest-builder.svg %}
 {:.centered width="300px"}
