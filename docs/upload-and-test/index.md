@@ -26,7 +26,10 @@ nav_order: 6
 ## Testing Quests 
 Quest Builder enables you to run your quest in a Snack Testing environment that simulates the quest exactly as users would see it in Production. 
 
-Before testing your quest, you will need to complete the Tutorial and Setup quests to set up your Anythink environment (If you haven't done so already). Afterwards, you should familiarize yourself with the Anythink repo. Once you accept the invitation from Navi to join the Anythink repo, you'll be able to access it directly from the left-hand side panel in Snack. 
+{: .note }
+> Ensure your Anythink environment is set up by completing the Tutorial and Setup quests before you test your quest.
+> 
+> You should also familiarize yourself with the Anythink repo. Once you accept Navi's invitation to join the Anythink repo, you'll be able to access it directly from the left-hand panel in Snack.
 
 It is important to go through each step of your quest thoroughly to make sure that everything works as expected. 
 
