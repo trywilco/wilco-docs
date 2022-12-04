@@ -2,7 +2,6 @@
 title: newrelic_configure_with_key
 parent: Actions
 grand_parent: Building Your Quest
-nav_exclude: true
 ---
 
 # newrelic_configure_with_key

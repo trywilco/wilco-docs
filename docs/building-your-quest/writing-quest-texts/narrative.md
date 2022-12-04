@@ -1,24 +1,29 @@
 ---
-title: Characters
+title: Narrative
 parent: Writing Quest Texts
 grand_parent: Building Your Quest
 nav_order: 1
 ---
 
-# Characters 
-{: .no_toc }
+## The Anythink Backstory
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
-## Lucca
+Anythink is an e-commerce website to sell everything “you really need” - the products appear to be completely useless, but as you dig, you’ll find what each product actually has to offer behind the random product description.
 
-**Lucca Marle, Team Manager A**
+The Anythink website has a lot of improvement to be made, but despite that, there is very large customer and fan base.
+
+Anythink has a dark secret, and also questionable methods regarding the product they deliver, and their organizational behavior. 
+
+Some tips on how to use this backstory to build your own quests:
+- You can play around with the importance of certain products
+- You can create a sense of urgency and invent critical situations such as cyber threats, competitors, or large customers placing massive orders that we’ll need to find out how to fulfill. 
+- You can invent new secrets that reinforce that the company behaves in a questionable way
+- You can hide things in the products of the Anythink marketplace
+- Make sure to use the right character to deliver your quest and information you will offer
+
+
+## Characters 
+
+### Lucca Marle, Team Manager A
 
 Age: 36
 
@@ -80,11 +85,8 @@ Lucca (being offended by something that Ness has said): I have never been so ins
 Navi: You don't listen much, do you?
 </Details>
 
-## Keen 
 
-**Keen Blazkowicz, Team Manager B**
-
-
+### Keen Blazkowicz, Team Manager B
 
 Age: 42
 

@@ -2,7 +2,6 @@
 title: user_check_authentication_exists
 parent: Conditions
 grand_parent: Building Your Quest
-nav_exclude: true
 ---
 
 # user_check_authentication_exists

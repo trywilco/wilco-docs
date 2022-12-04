@@ -2,7 +2,6 @@
 title: finish_step
 parent: Actions
 grand_parent: Building Your Quest
-nav_exclude: true
 ---
 
 # finish_step

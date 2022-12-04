@@ -2,7 +2,6 @@
 title: array_find
 parent: Conditions
 grand_parent: Building Your Quest
-nav_exclude: true
 ---
 
 # array_find

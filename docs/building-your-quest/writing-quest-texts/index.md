@@ -12,8 +12,10 @@ child_nav_order: desc
 ## Narrative
 
 When building a new quest, you’ll be able to use one of the following characters to communicate with users: 
-- [**Lucca**](https://karenuriah5-congenial-orbit-45gj55w747q2jxvw-4000.preview.app.github.dev/docs/building-your-quest/writing-quest-texts/characters.html#lucca) 
-- [**Keen**](https://karenuriah5-congenial-orbit-45gj55w747q2jxvw-4000.preview.app.github.dev/docs/building-your-quest/writing-quest-texts/characters.html#keen)
+- **Lucca**
+- **Keen**
+
+[Learn more about the Anythink backstory and the characters]
 
 To make your quest feel more like a conversation with a real human, make sure that conversation texts align with the voice and tone of each character. 
 
@@ -37,5 +39,5 @@ When writing the conversation texts, it is best to read the texts aloud to yours
 
 The feedback users receive throughout the quest is not only an opportunity to let users know if they did something right or wrong. Frequent meaningful can help users stay engaged in the quest, point them in the right direction when they make a mistake and build their confidence.
 
-[Learn more about the characters]: {% link docs/building-your-quest/writing-quest-texts/characters.md %}
+[Learn more about the Anythink backstory and the characters]: {% link docs/building-your-quest/writing-quest-texts/narrative.md %}
 [Learn more]: {% link docs/building-your-quest/writing-quest-texts/text-formatting.md %}

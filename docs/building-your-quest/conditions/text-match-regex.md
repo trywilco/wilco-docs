@@ -2,7 +2,6 @@
 title: text_match_regex
 parent: Conditions
 grand_parent: Building Your Quest
-nav_exclude: true
 ---
 
 # text_match_regex
