@@ -4,20 +4,25 @@ parent: Writing Quest Texts
 grand_parent: Building Your Quest
 nav_order: 1
 ---
-# The Anythink Backstory
+
+## The Anythink Backstory
+
+Anythink is an e-commerce website to sell everything “you really need” - the products appear to be completely useless, but as you dig, you’ll find what each product actually has to offer behind the random product description.
+
+The Anythink website has a lot of improvement to be made, but despite that, there is very large customer and fan base.
+
+Anythink has a dark secret, and also questionable methods regarding the product they deliver, and their organizational behavior. 
+
+Some tips on how to use this backstory to build your own quests:
+- You can play around with the importance of certain products
+- You can create a sense of urgency and invent critical situations such as cyber threats, competitors, or large customers placing massive orders that we’ll need to find out how to fulfill. 
+- You can invent new secrets that reinforce that the company behaves in a questionable way
+- You can hide things in the products of the Anythink marketplace
+- Make sure to use the right character to deliver your quest and information you will offer
 
 
 # Characters 
-{: .no_toc }
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
 ## Lucca
 
 **Lucca Marle, Team Manager A**

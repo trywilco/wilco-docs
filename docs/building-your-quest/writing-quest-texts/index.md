@@ -12,8 +12,8 @@ child_nav_order: desc
 ## Narrative
 
 When building a new quest, you’ll be able to use one of the following characters to communicate with users: 
-- [**Lucca**] 
-- [**Keen**]
+- **Lucca**
+- **Keen**
 
 [Learn more about the Anythink backstory and the characters]
 
@@ -41,5 +41,3 @@ The feedback users receive throughout the quest is not only an opportunity to le
 
 [Learn more about the Anythink backstory and the characters]: {% link docs/building-your-quest/writing-quest-texts/narrative.md %}
 [Learn more]: {% link docs/building-your-quest/writing-quest-texts/text-formatting.md %}
-[**Keen**]: {% link docs/building-your-quest/writing-quest-texts/narrative.md#keen %}
-[**Lucca**]: {% link docs/building-your-quest/writing-quest-texts/narrative.md#lucca %}
