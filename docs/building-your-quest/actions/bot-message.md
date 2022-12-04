@@ -2,7 +2,6 @@
 title: bot_message
 parent: Actions
 grand_parent: Building Your Quest
-nav_exclude: true
 ---
 
 # bot_message

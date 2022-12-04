@@ -2,7 +2,6 @@
 title: is_truthy
 parent: Conditions
 grand_parent: Building Your Quest
-nav_exclude: true
 ---
 
 # is_truthy

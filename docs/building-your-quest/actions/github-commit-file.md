@@ -2,7 +2,6 @@
 title: github_commit_file
 parent: Actions
 grand_parent: Building Your Quest
-nav_exclude: true
 ---
 
 # github_commit_file

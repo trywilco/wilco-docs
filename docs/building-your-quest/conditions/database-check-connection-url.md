@@ -2,7 +2,6 @@
 title: database_check_connection_url
 parent: Conditions
 grand_parent: Building Your Quest
-nav_exclude: true
 ---
 
 # database_check_connection_url

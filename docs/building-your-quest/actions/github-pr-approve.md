@@ -2,7 +2,6 @@
 title: github_pr_approve
 parent: Actions
 grand_parent: Building Your Quest
-nav_exclude: true
 ---
 
 # github_pr_approve

@@ -2,7 +2,6 @@
 title: github_is_file_added
 parent: Conditions
 grand_parent: Building Your Quest
-nav_exclude: true
 ---
 
 # github_is_file_added
