@@ -21,11 +21,9 @@ Some tips on how to use this backstory to build your own quests:
 - Make sure to use the right character to deliver your quest and information you will offer
 
 
-# Characters 
+## Characters 
 
-## Lucca
-
-**Lucca Marle, Team Manager A**
+### Lucca Marle, Team Manager A
 
 Age: 36
 
@@ -87,11 +85,8 @@ Lucca (being offended by something that Ness has said): I have never been so ins
 Navi: You don't listen much, do you?
 </Details>
 
-## Keen 
 
-**Keen Blazkowicz, Team Manager B**
-
-
+### Keen Blazkowicz, Team Manager B
 
 Age: 42
 

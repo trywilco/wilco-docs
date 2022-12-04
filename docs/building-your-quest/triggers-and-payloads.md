@@ -3,7 +3,7 @@ title: Triggers and Payloads
 parent: Building Your Quest
 ---
 
-# Triggers and Payload
+# Triggers and Payloads
 
 System triggers can generate a payload that gets passed to `action` and `condition` blocks along with the global payload. When defining a call to an action/condition block in the flow node, developers specify how to map a parameter from the payload to a parameter passed to the block. 
 
