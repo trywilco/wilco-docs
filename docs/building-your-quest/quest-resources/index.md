@@ -16,6 +16,10 @@ A quest might be dependent on resources being functional before a user can start
 | [heroku_frontend] | Heroku app hosting the frontend   |
 | [user]            | Used to modify user configuration |
 
+
+{: .note }
+Please reach out to us at [Creators@wilcohq.com](creators@wilcohq.com) if you have any questions about our future plans for additional integrations.  
+
 [heroku_backend]: {% link docs/building-your-quest/quest-resources/heroku-backend.md %}
 [heroku_frontend]: {% link docs/building-your-quest/quest-resources/heroku-frontend.md %}
 [user]: {% link docs/building-your-quest/quest-resources/user.md %}
