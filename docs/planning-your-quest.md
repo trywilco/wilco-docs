@@ -61,7 +61,7 @@ Things to think about:
 How do we do state management in React
 
 **Prerequisites:**
-Users should have Anythink system up and running (a full stack system wih backend, frontend and DB)
+Users should have Anythink system up and running (a full stack system with backend, frontend and DB)
 
 **Task:**
 User gets a new feature request to build, this feature needs some state to pass between a couple of components in the page
