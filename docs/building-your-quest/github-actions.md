@@ -71,7 +71,7 @@ Each part of the application can define the following configuration keys:
     ```
     
 
-- `paramsFramework`: In some scenarios, tests should use different files or commands according to the used frameworks. `paramsFrameworks` is a map from framework type to `capabilities` and `cmd` keys.
+- `paramsFramework`: In some scenarios, tests should use different files or commands according to the used frameworks. `paramsFramework` is a map from framework type to `capabilities` and `cmd` keys.
 
 ## Examples
 
