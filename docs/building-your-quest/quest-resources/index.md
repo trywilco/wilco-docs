@@ -18,11 +18,8 @@ A quest might be dependent on resources being functional before a user can start
 
 
 {: .note }
-Please reach out to us at [Creators@wilcohq.com](creators@wilcohq.com) if you have any questions about our future plans for additional integrations.  
+Please reach out to us at [Creators@wilcohq.com](creators@wilcohq.com) with any questions or requests for additional integrations.
 
 [heroku_backend]: {% link docs/building-your-quest/quest-resources/heroku-backend.md %}
 [heroku_frontend]: {% link docs/building-your-quest/quest-resources/heroku-frontend.md %}
 [user]: {% link docs/building-your-quest/quest-resources/user.md %}
-
-{: .note }
-Please reach out to us at [Creators@wilcohq.com](creators@wilcohq.com) with any questions or requests for additional integrations. 
