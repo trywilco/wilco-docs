@@ -2,7 +2,7 @@
 title: Text Formatting
 parent: Writing Quest Texts
 grand_parent: Building Your Quest
-nav_order: 2
+nav_order: 1
 ---
 
 # Text Formatting
@@ -33,7 +33,6 @@ Use single backtick (`) for simple code expressions:
 `This is code`
 
 Use triple backticks for code blocks (```)
-
 ```jsx
 for (const str in string) {
 	...
