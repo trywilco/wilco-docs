@@ -61,6 +61,20 @@ Use `:codeInstruction[you should open a PR right away]{block=true}` to create a 
 
 You can create an inline link by wrapping link text in brackets `[ ]`, and then wrapping the URL in parentheses `( )`: `[link text](url)`. e.g., `[Wilco Homepage](https://app.wilco.gg/home)`.
 
+## GIFs and Images
+You can add GIFs and images in Snack messages using the following format: `![](url)`
+
+```
+ - actionId: bot_message
+    params:
+      person: keen
+      messages:
+      - text: "![](https://media.giphy.com/media/l2QE93CiS1hR6WbK0/giphy.gif)"
+        delay: 0
+      - text: Hey again!
+        delay: 1500
+```
+
 ## Functions
 
 You can also use a basic JS functions manipulations like `slice` `split` `substring` or `toUpperCase`. You can also have all the [Lodash](https://lodash.com/docs/) utility functions, and you can use it by `Lodash.someX...`

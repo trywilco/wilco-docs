@@ -3,6 +3,7 @@ title: Building Your Quest
 has_children: true
 nav_order: 5
 ---
+To start building your quest, you can [**download the quest template here**](https://github.com/trywilco/quest-template).
 
 # Quest Structure
 
@@ -59,6 +60,7 @@ skills: List of skills the user will work on when playing the quest | mandatory
 - skill_n
 questDependency: Quest that must be complete before playing this quest | optional
 ```
+
 
 → [Supported Skills]
 
