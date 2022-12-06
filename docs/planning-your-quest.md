@@ -5,7 +5,13 @@ nav_order: 4
 
 # Planning Your Quest
 
-Before you begin building your quest, it is essential to start by thoroughly planning out the key aspects and outlining its content and structure. By doing so, you'll be able to create better quests and save a lot of time. 
+
+Before you begin building your quest, we strongly recommend completing the Tutorial and Setup quests in the Wilco platform to set up your Anythink environment and get to know the Anythink code repository. 
+
+Once you've done that, you can start planning out the key aspects and outlining its content and structure. 
+
+{: .highlight }
+Investing time in the Planning stage will help you create better quests and save you a lot of time building and testing.  
 
 Things to think about: 
 
