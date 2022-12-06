@@ -3,7 +3,7 @@ title: Building Your Quest
 has_children: true
 nav_order: 5
 ---
-To start building your quest, you can [**download the quest template here**](https://github.com/trywilco/quest-template).
+To start building your quest, you can use the [**quest template**](https://github.com/trywilco/quest-template). Just click `Use this template`. 
 
 # Quest Structure
 
