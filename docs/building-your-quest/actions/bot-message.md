@@ -21,7 +21,11 @@ Send message to the user on behalf of one of the bots.
 - **person:** Name of the bot. e.g., `keen` or `lucca`
 - **messages:** list of messages, each contains `text` and `delay`. The latter is optional, and means the time it would take a real person to write this message. The message `Bot is typing…` will be presented in Snack during this time. If delay not specified, a value will be calculated according to the text length
     
-    [Text Formatting]
+  [Text Formatting]
+
+- **components** list of message components, which allows you to add interactivity to your communication
+
+  [Message Components]
     
 
 ## Outputs
@@ -58,3 +62,4 @@ The action `bot_message` is used to send instructions from the bot `keen` to the
 All triggers
 
 [Text Formatting]: {% link docs/building-your-quest/writing-quest-texts/text-formatting.md %}
+[Message Components]: {% link docs/building-your-quest/writing-quest-texts/message-components.md %}
