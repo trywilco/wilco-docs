@@ -6,6 +6,7 @@ nav_order: 2
 ---
 
 # Message Components
+{: .no_toc }
 
 Sending just plain text can be boring, so you can flavor things up with some interactive components! Message components lets you add interactivity and call to actions to your quests. Message components are supported in the `bot_message` action in Snack, and can be used as follow - 
 
@@ -26,7 +27,13 @@ Sending just plain text can be boring, so you can flavor things up with some int
 - You can send just the message component, text is optional
 - Components will always be rendered at the end of all existing text messages
 
-## Button
+
+## Components
+{: .no_toc }
+- TOC
+{:toc}
+
+### Button
 
 Adds a basic CTA to the message. We currently support 
 
@@ -44,14 +51,19 @@ Adds a basic CTA to the message. We currently support
 >
 > ![button component]
 
-## Single Select Form
+### Single Select Form
 
+// TODO: add an example + trigger usage
+
+```yml
+    example goes here
+```
 {: .note-title }
 > How will it look in Snack?
 >
 > ![single-select form]
 
-## Multi Select Form
+### Multi Select Form
 
 Allows you to receive one or more options from the user, and act upon his response in the form trigger
 
@@ -81,7 +93,7 @@ Allows you to receive one or more options from the user, and act upon his respon
 > ![multi-select form]
 
 
-## Schedule Learning Time
+### Schedule Learning Time
 
 Allow your players to schedule some time to continue their Wilco adventure. Clicking on the calendar button will open the relevant calendar with a pre-defined Wilco learning session. 
 
