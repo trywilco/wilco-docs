@@ -66,6 +66,8 @@ questDependency: Quest that must be complete before playing this quest | optiona
 
 → [Quest Resources]
 
+→ [Quest Builder Utilities](https://app.wilco.gg/quest-builder-utils)
+
 
 [Steps]: {% link docs/building-your-quest/creating-steps.md %}
 [Assets]: {% link docs/building-your-quest/assets.md %}

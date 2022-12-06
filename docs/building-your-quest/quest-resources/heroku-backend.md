@@ -1,6 +1,7 @@
 ---
 title: Heroku Backend
 parent: Quest Resources
+grand_parent: Building Your Quest
 ---
 
 # heroku_backend

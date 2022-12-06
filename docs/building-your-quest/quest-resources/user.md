@@ -1,6 +1,7 @@
 ---
 title: User
 parent: Quest Resources
+grand_parent: Building Your Quest
 ---
 
 # user
