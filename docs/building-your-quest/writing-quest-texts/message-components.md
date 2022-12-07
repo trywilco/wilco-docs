@@ -8,7 +8,7 @@ nav_order: 2
 # Message Components
 {: .no_toc }
 
-Sending just plain text can be boring, so you can flavor things up with some interactive components! Message components lets you add interactivity and call to actions to your quests. Message components are supported in the `bot_message` action in Snack, and can be used as follow - 
+Sending just plain text can be boring, so you can flavor things up with some interactive components! Message components lets you add interactivity and call to actions to your quests. Message components are supported in the `bot_message` action in Snack, and can be used as follows: 
 
 ```yml
 - actionId: bot_message
@@ -73,7 +73,7 @@ Adds a basic CTA to the message. We currently support
 >
 > ![single-select form]
 
-Once the user clicks one of the buttons, a [`chat_form_submitted`] trigger is fired, with the users' response in `formSubmission` variable.  You can receive the user's response and act on it in the trigger section, for example, we can check if the text contains a string -
+Once the user clicks one of the buttons, a [`chat_form_submitted`] trigger is fired, with the user's response in `formSubmission` variable.  You can receive the user's response and act on it in the trigger section, for example, we can check if the text contains a string -
 
 ```yml
 trigger:
