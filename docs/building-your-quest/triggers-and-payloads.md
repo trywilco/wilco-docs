@@ -87,12 +87,36 @@ Triggers when a a user submit a form on Snack.
 
 Payload:
 
-- `formSubmission`: The data submitted by the user. Can be eaither a single string if form is of type `SINGLE_SELECT_FORM`, or an array of strings, if triggered by `MULTI_SELECT_FORM`.
-
+- `formSubmission`: The data submitted by the user. The type is different between form types -
+  - `single_select_form` - a single string
+  - `multi_select_form` - a list of strings
 
 Params: 
 
 - `formId`: Used to subscribe to the desired form.
+
+Usage example (for single select form):
+
+```yml
+trigger:
+  type: chat_form_submitted
+  params:
+    formId: your_single_select_form_id
+  flowNode:
+    if:
+      conditions:
+      - conditionId: text_contains_strings
+        params:
+          text: "${formSubmission}"
+          strings:
+          - accept
+      then:
+        do:
+        - actionId: your action here
+      else:
+        do:
+        - actionId: a different action here
+```
 
 
 ## Global Payload
