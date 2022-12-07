@@ -59,6 +59,12 @@ skills: List of skills the user will work on when playing the quest | mandatory
 - ...
 - skill_n
 questDependency: Quest that must be complete before playing this quest | optional
+frameworks: avaialble frameworks this quest will be abailable in | optional
+  backend:
+  - python
+  - node
+  frontend:
+  - react
 ```
 
 
