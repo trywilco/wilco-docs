@@ -17,7 +17,7 @@ Sending just plain text can be boring, so you can flavor things up with some int
     messages:
     - text: Some text goes here
       delay: 3000
-    - components: // list of components for this specific message
+    - components: # list of components for this specific message
       - type: button
       - type: form
 ```
@@ -53,29 +53,23 @@ Adds a basic CTA to the message. We currently support
 
 ### Single Select Form
 
-// TODO: add an example + trigger usage
-
 ```yml
-  - actionId: bot_message
-    params:
-      person: head-of-rd
-      messages:
-        - text: "Select one of the following"
-          delay: 3000
-        - components:
-            - type: form
-              form:
-                id: your_single_select_form_id
-                type: single_select_form
-                options:
-                  - label: 'Primary Button'
-                    value: accept
-                    variant: primary # optional design
-                  - label: 'Secondary Button'
-                    value: decline
-                    variant: secondary # optional design
+- components:
+  - type: form
+    form:
+      id: your_single_select_form_id
+      type: single_select_form
+      options:
+        - label: 'Primary Button'
+          value: accept
+          variant: primary # optional, default: primary
+        - label: 'Secondary Button'
+          value: decline
+          variant: secondary # optional, default: secondary
 ```
-#### Trigger a CHAT_FORM_SUBMITTED once the user answer the form
+
+Once the user clicks one of the buttons, a [`chat_form_submitted`] trigger is fired, with the users' response in `formSubmission` variable.  You can receive the user's response and act on it in the trigger section, for example, we can check if the text contains a string -
+
 ```yml
 trigger:
   type: chat_form_submitted
@@ -91,22 +85,10 @@ trigger:
           - accept
       then:
         do:
-        - actionId: bot_message
-          params:
-            person: head-of-rd
-            messages:
-            - text: "You chose to accept"
-              delay: 2000
-        - actionId: finish_step
+        - actionId: your action here
       else:
         do:
-        - actionId: bot_message
-          params:
-            person: head-of-rd
-            messages:
-            - text: "You chose to decline"
-              delay: 2500
-        - actionId: finish_step
+        - actionId: a different action here
 ```
 
 {: .note-title }
@@ -169,3 +151,5 @@ Allow your players to schedule some time to continue their Wilco adventure. Clic
 [schedule learning time]: {% link assets/images/message-components/learning-reminder.gif %}
 [single-select form]: {% link assets/images/message-components/single-select.png %}
 [multi-select form]: {% link assets/images/message-components/multi-select.png %}
+
+[`chat_form_submitted`]: {% link docs/building-your-quest/triggers-and-payloads.md %}#chat_form_submitted
