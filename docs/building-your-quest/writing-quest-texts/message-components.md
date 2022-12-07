@@ -68,6 +68,11 @@ Adds a basic CTA to the message. We currently support
           variant: secondary # optional, default: secondary
 ```
 
+{: .note-title }
+> How will it look in Snack?
+>
+> ![single-select form]
+
 Once the user clicks one of the buttons, a [`chat_form_submitted`] trigger is fired, with the users' response in `formSubmission` variable.  You can receive the user's response and act on it in the trigger section, for example, we can check if the text contains a string -
 
 ```yml
@@ -91,14 +96,9 @@ trigger:
         - actionId: a different action here
 ```
 
-{: .note-title }
-> How will it look in Snack?
->
-> ![single-select form]
-
 ### Multi Select Form
 
-Allows you to receive one or more options from the user, and act upon his response in the form trigger
+Allows you to receive one or more options from the user, and act upon his response in the form trigger.
 
 ```yml
 - components:
@@ -118,13 +118,48 @@ Allows you to receive one or more options from the user, and act upon his respon
         - value: option 4
 ```
 
-// TODO: add a trigger section and link it back here
-
 {: .note-title }
 > How will it look in Snack?
 >
 > ![multi-select form]
 
+The result of the form can either be a stringified list, or the actual object, depending how you reference it:
+- `${formSubmission}` - Using single curly brackets will give a string, for example -  
+
+    ```"[\"option_1\", \"option_2\"]"```
+
+    You will be able to evaluate it with string conditions such as [`text_contains_strings`] and [`text_match_regex`]
+
+- {% raw %}`${{formSubmission}}`{% endraw %} - Using double curly brackets will give the underline object, which is a JavaScript array of strings, and you will be able to evalute it with array conditions such as [`array_find`] and [`array_every`]
+
+For example, using the array rendering - 
+
+```
+trigger:
+  type: chat_form_submitted
+  params:
+    formId: your_single_select_form_id
+  flowNode:
+    if:
+      conditions:
+        - conditionId: array_find
+          name: heroku_log
+          params:
+            array: {% raw %}${{formSubmission}}{% endraw %}
+            conditions:
+            - conditionId: text_contains_strings
+              params:
+                text: ${item}
+                strings:
+                - option_1
+                - option_2
+    then:
+      do:
+        - actionId: action to do if option_1 or option_2 were found
+    else: 
+      do:
+        - actionId: action to do if they were not found
+```
 
 ### Schedule Learning Time
 
@@ -153,3 +188,7 @@ Allow your players to schedule some time to continue their Wilco adventure. Clic
 [multi-select form]: {% link assets/images/message-components/multi-select.png %}
 
 [`chat_form_submitted`]: {% link docs/building-your-quest/triggers-and-payloads.md %}#chat_form_submitted
+[`text_contains_strings`]: {% link docs/building-your-quest/conditions/text-contains-strings.md %}
+[`text_match_regex`]: {% link docs/building-your-quest/conditions/text-match-regex.md %}
+[`array_find`]: {% link docs/building-your-quest/conditions/array-find.md %}
+[`array_every`]: {% link docs/building-your-quest/conditions/array-every.md %}
