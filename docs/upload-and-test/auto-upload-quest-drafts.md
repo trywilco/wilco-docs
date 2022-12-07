@@ -3,6 +3,7 @@ title: Auto-Upload Quest Drafts
 parent: Uploading and Testing Your Quest
 ---
 
+
 # Auto-Upload Quest Drafts
 
 To simplify the process of uploading draft versions, quest developers can configure their repo to upload an updated version after pushing new code to the `main` branch.
