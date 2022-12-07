@@ -128,7 +128,7 @@ Allows you to receive one or more options from the user, and act upon his respon
       select_limit: 3 # optional, default: unlimited
       action_label: Submit Selection
       options: 
-        # label is optional, will default to capitalize label field
+        # label is optional, will default to capitalize value field
         - value: opt_1
           label: Option 1
         - value: option 2
