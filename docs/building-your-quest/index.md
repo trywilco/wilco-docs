@@ -72,7 +72,6 @@ frameworks: frameworks this quest will be abailable in | optional
 
 → [Quest Resources]
 
-→ [Quest Builder Utilities](https://app.wilco.gg/quest-builder-utils)
 
 
 [Steps]: {% link docs/building-your-quest/creating-steps.md %}
