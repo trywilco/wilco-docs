@@ -138,7 +138,7 @@ For example, using the array rendering -
 trigger:
   type: chat_form_submitted
   params:
-    formId: your_single_select_form_id
+    formId: your_multi_select_form_id
   flowNode:
     if:
       conditions:
