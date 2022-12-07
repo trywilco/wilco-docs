@@ -35,7 +35,7 @@ Sending just plain text can be boring, so you can flavor things up with some int
 
 ### Button
 
-Adds a basic CTA to the message. We currently support 
+adds a basic call-to-action (CTA) to the message.
 
 ```yml
 - components:
@@ -45,6 +45,8 @@ Adds a basic CTA to the message. We currently support
     params: 
       - url: https://www.trywilco.com
 ```
+
+We currently support a navigation action, with more actions coming soon!
 
 {: .note-title }
 > How will it look in Snack?
