@@ -82,6 +82,19 @@ Triggered when the user accepts the invitation to his Github repo. No specific p
 
 Triggered when an event is received from the user’s New Relic account.
 
+### CHAT_FORM_SUBMITTED
+Triggers when a a user submit a form on Snack.
+
+Payload:
+
+- `formSubmission`: The data submitted by the user. Can be eaither a single string if form is of type `SINGLE_SELECT_FORM`, or an array of strings, if triggered by `MULTI_SELECT_FORM`.
+
+
+Params: 
+
+- `formId`: Used to subscribe to the desired form.
+
+
 ## Global Payload
 
 In addition to specific payload passed by each trigger, a global payload is always available:

@@ -56,8 +56,59 @@ Adds a basic CTA to the message. We currently support
 // TODO: add an example + trigger usage
 
 ```yml
-    example goes here
+  - actionId: bot_message
+    params:
+      person: head-of-rd
+      messages:
+        - text: "Select one of the following"
+          delay: 3000
+        - components:
+            - type: form
+              form:
+                id: your_single_select_form_id
+                type: single_select_form
+                options:
+                  - label: 'Primary Button'
+                    value: accept
+                    variant: primary # optional design
+                  - label: 'Secondary Button'
+                    value: decline
+                    variant: secondary # optional design
 ```
+#### Trigger a CHAT_FORM_SUBMITTED once the user answer the form
+```yml
+trigger:
+  type: chat_form_submitted
+  params:
+    formId: your_single_select_form_id
+  flowNode:
+    if:
+      conditions:
+      - conditionId: text_contains_strings
+        params:
+          text: "${formSubmission}"
+          strings:
+          - accept
+      then:
+        do:
+        - actionId: bot_message
+          params:
+            person: head-of-rd
+            messages:
+            - text: "You chose to accept"
+              delay: 2000
+        - actionId: finish_step
+      else:
+        do:
+        - actionId: bot_message
+          params:
+            person: head-of-rd
+            messages:
+            - text: "You chose to decline"
+              delay: 2500
+        - actionId: finish_step
+```
+
 {: .note-title }
 > How will it look in Snack?
 >
