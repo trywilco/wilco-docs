@@ -153,12 +153,12 @@ trigger:
                 strings:
                 - option_1
                 - option_2
-    then:
-      do:
-        - actionId: action to do if option_1 or option_2 were found
-    else: 
-      do:
-        - actionId: action to do if they were not found
+      then:
+        do:
+          - actionId: action to do if option_1 or option_2 were found
+      else: 
+        do:
+          - actionId: action to do if they were not found
 ```
 
 ### Schedule Learning Time
