@@ -75,7 +75,7 @@ We currently support a navigation action, with more actions coming soon!
 >
 > ![single-select form]
 
-Once the user clicks one of the buttons, a [`chat_form_submitted`] trigger is fired, with the user's response in `formSubmission` variable.  You can receive the user's response and act on it in the trigger section, for example, we can check if the text contains a string -
+Once the user clicks one of the buttons, a [`chat_form_submitted`] trigger is fired, with the user's response in `formSubmission` variable.  You can receive the user's response and act on it in the trigger section, for example, we can check if the text contains a string:
 
 ```yml
 trigger:
@@ -126,7 +126,7 @@ Allows you to receive one or more options from the user, and act upon his respon
 > ![multi-select form]
 
 The result of the form can either be a stringified list, or the actual object, depending how you reference it:
-- `${formSubmission}` - Using single curly brackets will give a string, for example -  
+- `${formSubmission}` - Using single curly brackets will give a string, for example:  
 
     ```"[\"option_1\", \"option_2\"]"```
 
@@ -134,7 +134,7 @@ The result of the form can either be a stringified list, or the actual object, d
 
 - {% raw %}`${{formSubmission}}`{% endraw %} - Using double curly brackets will give the underline object, which is a JavaScript array of strings, and you will be able to evalute it with array conditions such as [`array_find`] and [`array_every`]
 
-For example, using the array rendering - 
+For example, using the array rendering:
 
 ```
 trigger:
