@@ -82,6 +82,43 @@ Triggered when the user accepts the invitation to his Github repo. No specific p
 
 Triggered when an event is received from the user’s New Relic account.
 
+### CHAT_FORM_SUBMITTED
+Triggers when a a user submit a form on Snack.
+
+Payload:
+
+- `formSubmission`: The data submitted by the user. The type is different between form types -
+  - `single_select_form` - a single string
+  - `multi_select_form` - a list of strings
+
+Params: 
+
+- `formId`: Used to subscribe to the desired form.
+
+Usage example (for single select form):
+
+```yml
+trigger:
+  type: chat_form_submitted
+  params:
+    formId: your_single_select_form_id
+  flowNode:
+    if:
+      conditions:
+      - conditionId: text_contains_strings
+        params:
+          text: "${formSubmission}"
+          strings:
+          - accept
+      then:
+        do:
+        - actionId: your action here
+      else:
+        do:
+        - actionId: a different action here
+```
+
+
 ## Global Payload
 
 In addition to specific payload passed by each trigger, a global payload is always available:

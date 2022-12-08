@@ -2,7 +2,7 @@
 title: Narrative
 parent: Writing Quest Texts
 grand_parent: Building Your Quest
-nav_order: 1
+nav_order: 3
 ---
 
 ## The Anythink Backstory
