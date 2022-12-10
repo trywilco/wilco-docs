@@ -1,0 +1,8 @@
+<script>
+    function onKeyDown(event) {
+        if (event.metaKey && event.keyCode === 75) {
+            document.getElementById('search-input')?.focus();
+        }
+    }
+    window.addEventListener('keydown', onKeyDown);
+</script>
