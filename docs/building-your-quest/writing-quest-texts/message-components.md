@@ -38,12 +38,12 @@ Sending just plain text can be boring, so you can flavor things up with some int
 adds a basic call-to-action (CTA) to the message.
 
 ```yml
-- components:
-  - type: button
-    action: navigate_to_page
-    text: Navigate Somewhere
-    params: 
-      - url: https://www.trywilco.com
+components:
+- type: button
+  action: navigate_to_page
+  text: Navigate Somewhere
+  params: 
+    url: https://www.trywilco.com
 ```
 
 We currently support a navigation action, with more actions coming soon!
@@ -56,10 +56,10 @@ We currently support a navigation action, with more actions coming soon!
 ### Single Select Form
 
 ```yml
-- components:
-  - type: form
-    form:
-      id: your_single_select_form_id
+components:
+- type: form
+  form:
+    id: your_single_select_form_id
       type: single_select_form
       options:
         - label: 'Primary Button'
@@ -103,21 +103,21 @@ trigger:
 Allows you to receive one or more options from the user, and act upon his response in the form trigger.
 
 ```yml
-- components:
-  - type: form
-    form:
-      id: your_form_id
-      type: multi_select_form
-      randomized: true # optional, default: false
-      select_limit: 3 # optional, default: unlimited
-      action_label: Submit Selection
-      options: 
-        # label is optional, will default to capitalize value field
-        - value: opt_1
-          label: Option 1
-        - value: option 2
-        - value: option 3
-        - value: option 4
+components:
+- type: form
+  form:
+    id: your_form_id
+    type: multi_select_form
+    randomized: true # optional, default: false
+    select_limit: 3 # optional, default: unlimited
+    action_label: Submit Selection
+    options: 
+      # label is optional, will default to capitalize value field
+      - value: opt_1
+        label: Option 1
+      - value: option 2
+      - value: option 3
+      - value: option 4
 ```
 
 {: .note-title }
@@ -168,13 +168,13 @@ trigger:
 Allow your players to schedule some time to continue their Wilco adventure. Clicking on the calendar button will open the relevant calendar with a pre-defined Wilco learning session. 
 
 ```yml
-- components:
-  - type: schedule_learning_time
+components:
+- type: schedule_learning_time
   params: 
-    navigate:
-      show: true # optional, default: true
-      text: Call to Action # optional, default: Start a Project
-      url: https://www.trywilco.com # optional, default: in-game quest catalog
+  navigate:
+    show: true # optional, default: true
+    text: Call to Action # optional, default: Start a Project
+    url: https://www.trywilco.com # optional, default: in-game quest catalog
 ```
 
 {: .note-title }
