@@ -17,7 +17,7 @@ Sending just plain text can be boring, so you can flavor things up with some int
     messages:
     - text: Some text goes here
       delay: 3000
-    - components: # list of components for this specific message
+      components: # list of components for this specific message
       - type: button
       - type: form
 ```
