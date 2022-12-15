@@ -16,11 +16,13 @@ nav_order: 6
     B. Manually zip the files located on your local machine.
     
     C. [Auto-Upload Quest Drafts] using Github Workflow.
-        
+    
+    D. Zip and upload using a [command line tool]
+     
     {: .important }
     Make sure you have Quests Builder permissions in Wilco.
         
-2. If you don't use auto-upload, please upload the zip file manually. Open the [Quest Builder] page, tap on the `upload new quest` button and select the zip file. If you're uploading a new version for an existing quest, find the quest in the list and click the `upload version` button.
+2. If you don't use auto-upload or the command line tool, please upload the zip file manually. Open the [Quest Builder] page, tap on the `upload new quest` button and select the zip file. If you're uploading a new version for an existing quest, find the quest in the list and click the `upload version` button.
 3. Once the quest has finished uploading, click the `test quest in Snack` button and test the full quest flow.
 
 ## Testing Quests 
@@ -50,6 +52,7 @@ To use Manual mode, simply type `manual` in the chat, and you'll see a list of c
 
 [managing releases in a repository]: https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository
 [Auto-Upload Quest Drafts]: {% link docs/upload-and-test/auto-upload-quest-drafts.md %}
+[command line tool]: {% link docs/upload-and-test/upload-using-cli-tool.md %}
 [Quest Builder]: https://app.wilco.gg/quest-builder
 
 
