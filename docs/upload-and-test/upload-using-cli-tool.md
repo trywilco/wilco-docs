@@ -10,7 +10,7 @@ A command line tool can be used to automate the process of zipping and uploading
 
 Download the executable according to the operating system you use:
 
-[Windows] [Linux] [MacOS]
+[Windows] [MacOS] [Linux]
 
 TODO: REPLACE description
 
