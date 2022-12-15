@@ -10,24 +10,24 @@ A command line tool can be used to automate the process of zipping and uploading
 
 Download the executable according to the operating system you use:
 
-* *[Windows]
-* *[Mac]
-* *[Linux]
+* [Windows]
+* [Mac]
+* [Linux]
 
 The following arguments are supported:
 
 	--questFolder:
-		Path to the quest folder.
+	    Path to the quest folder.
 		
 	--token:
-		The creator token. See below for instructions for how to generate this token.
+	    The creator token. See below for instructions for how to generate this token.
 		
 	--email:
-		The user's email in Wilco.
+	    The user's email in Wilco.
 
 	--mode		
-		once: upload and exit. This is the default mode.
-		watch: waits for changes in the quest files and suggets to upload.  
+	    once: upload and exit. This is the default mode.
+	    watch: waits for changes in the quest files and suggets to upload.  
 
 
 To generate the creator token:
