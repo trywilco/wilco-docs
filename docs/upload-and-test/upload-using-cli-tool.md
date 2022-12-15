@@ -19,6 +19,7 @@ The following arguments must be set:
 	--email			The user's email in Wilco.
   
 In addition the script supports two different modes:
+
 	--mode			once: upload and exit ; watch: waits for changes in the quest files and suggets to upload.
 
 To generate the creator token:
