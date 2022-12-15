@@ -30,6 +30,7 @@ The following arguments are supported:
 	    watch: waits for changes in the quest files and suggets to upload.  
 
 
+
 To generate the creator token:
 1. Go to the [Quest Builder Utilities](https://app.wilco.gg/quest-builder-utils)
 2. Generate a Quest Developer token by selecting the `Generate New Token` option. 
