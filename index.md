@@ -13,9 +13,9 @@ Here, you can learn and contribute to the Wilco Builder SDK Documentation.
 ### **Overview**
 This repository contains the documentation for creating Wilco quests using the Wilco Builder SDK. If you don't have a creator account yet, please do the following:
 
-Existing Wilco users: Click here to become a creator.
+Existing Wilco users: [Click here to become a creator](https://app.wilco.gg/quest-builder).
 
-Not a user yet? Click here to sign up as a creator.
+Not a user yet? [Click here to sign up as a creator](https://www.trywilco.com/quest-builder).
 
 ### **Getting started with the Wilco Builder SDK**
 The following repository outlines how to create a quest from scratch or using provided examples.
