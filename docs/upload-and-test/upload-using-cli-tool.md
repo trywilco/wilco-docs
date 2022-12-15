@@ -14,8 +14,8 @@ Download the executable according to the operating system you use:
 
 The following arguments must be set:
 
-	--questFolder		Path to the quest folder.
-	--token		The creator token. See below for instructions how to generate this token.
+	--questFolder	Path to the quest folder.
+	--token		The creator token. See below for instructions for how to generate this token.
 	--email		The user's email in Wilco.
   
 In addition the script supports two different modes:
@@ -27,6 +27,7 @@ To generate the creator token:
 2. Generate a Quest Developer token by selecting the `Generate New Token` option. 
     - Make sure to save your token because it will only be shown once. 
 
-[Windows]: {% link docs/upload-and-test/upload-quest-cli/upload_quest-win.exe %}
+
+[Windows]: {% link docs/upload-and-test/auto-upload-quest-drafts.md %}
 [Mac]: {% link docs/upload-and-test/upload-quest-cli/upload_quest-macos %}
 [Linux]: {% link docs/upload-and-test/upload-quest-cli/upload_quest-linux %}
