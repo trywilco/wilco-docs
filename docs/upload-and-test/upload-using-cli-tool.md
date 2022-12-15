@@ -28,5 +28,5 @@ To set up auto-upload:
     - If the file is not part of your repo, [download it](https://app.wilco.gg/quest-builder-utils) and copy it to the `.github/workflows/` folder in your quest repo. No additional modifications to the file are required.
 
 [Windows]: {% link docs/upload-and-test/upload-quest-cli/upload_quest-win.exe %}
-[Linux]: {% link docs/upload-and-test/upload-quest-cli/upload_quest-linux %}
 [MacOS]: {% link docs/upload-and-test/upload-quest-cli/upload_quest-macos %}
+[Linux]: {% link docs/upload-and-test/upload-quest-cli/upload_quest-linux %}
