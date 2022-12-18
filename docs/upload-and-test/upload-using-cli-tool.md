@@ -37,6 +37,6 @@ To generate the creator token:
     - Make sure to save your token because it will only be shown once. 
 
 
-[Windows]: {% link docs/upload-and-test/upload-quest-cli/upload_quest-win.exe %}
-[Mac]: {% link docs/upload-and-test/upload-quest-cli/upload_quest-macos %}
-[Linux]: {% link docs/upload-and-test/upload-quest-cli/upload_quest-linux %}
+[Windows]: {% link assets/upload-quest/upload_quest-win.exe %}
+[Mac]: {% link assets/upload-quest/upload_quest-macos %}
+[Linux]: {% link assets/upload-quest/upload_quest-linux %}
