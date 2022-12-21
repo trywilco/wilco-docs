@@ -48,6 +48,7 @@ Generated payload:
     - `github_pr_merged:` User merged the PR
 - `githubPrNumber:` PR number
 - `githubRepository:` The name of the repository in which the PR was opened
+- `githubWorkflowRunUrl`: Defined when `eventType` is one of `github_pr_workflow_complete_success` and `github_pr_workflow_complete_failure`. Holds a URL of the workflow run. 
 
 ### PING
 
