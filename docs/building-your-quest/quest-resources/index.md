@@ -12,7 +12,7 @@ A quest might be dependent on resources being functional before a user can start
 
 | Name              | Description                                                    |
 |-------------------|----------------------------------------------------------------|
-| [kubernetes]      | kubernetes namespace hosting the backend, and the db frontend a|
+| [kubernetes]      | kubernetes namespace hosting the backend, frontend and the db  |
 | [user]            | Used to modify user configuration                              |
 
 
