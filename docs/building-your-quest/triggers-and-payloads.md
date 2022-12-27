@@ -217,12 +217,12 @@ In addition to specific payload passed by each trigger, a global payload is alwa
     };
     ```
     
-    In this example,  `user` and `githubPrNumber` are available in the condition parameters without any further configuration. Calling the `github_is_file_contains` can be configured in the YAML file, for example, in the following way (only `regex` and `fileName` are defined):
+    In this example,  `user` and `githubPrNumber` are available in the condition parameters without any further configuration. Calling the `github_does_file_contain` can be configured in the YAML file, for example, in the following way (only `regex` and `fileName` are defined):
     
     ```yaml
     if:
       conditions:
-        - conditionId: github_is_file_contains
+        - conditionId: github_does_file_contain
           params:
             regex: license_key
           paramsFramework:

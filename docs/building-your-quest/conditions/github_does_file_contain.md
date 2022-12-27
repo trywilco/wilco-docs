@@ -1,10 +1,10 @@
 ---
-title: github_is_file_contains
+title: github_does_file_contain
 parent: Conditions
 grand_parent: Building Your Quest
 ---
 
-# github_is_file_contains
+# github_does_file_contain
 
 Category: Github
 Description: Check if file added in PR contains text that matches a regex
@@ -30,7 +30,7 @@ No additional info is added to the global payload outputs.
 ```yaml
 if:
   conditions:
-  - conditionId: github_is_file_contains
+  - conditionId: github_does_file_contain
     params:
       regex: license_key
     paramsFramework:
@@ -44,7 +44,7 @@ if:
     ...
 ```
 
-The `github_is_file_contains` condition is used to check if the `newrelic` file contains the string `license_key`.
+The `github_does_file_contain` condition is used to check if the `newrelic` file contains the string `license_key`.
 
 ## Relevant Triggers
 
