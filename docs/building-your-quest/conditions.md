@@ -173,8 +173,8 @@ Note the use of `equals: false` and the use of `paramsFramework` in this example
 [github_does_file_contain]: {% link docs/building-your-quest/conditions/github_does_file_contain.md %}
 [github_is_repo_collaborator]: {% link docs/building-your-quest/conditions/github-is-repo-collaborator.md %}
 [github_is_file_added_in_push]: {% link docs/building-your-quest/conditions/github-is-file-added-in-push.md %}
-[k8s_backend_config_var_defined]: {% link docs/building-your-quest/conditions/k8s_backend_config_var_defined.md %}
-[k8s_secret_defined]: {% link docs/building-your-quest/conditions/k8s_secret_defined.md %}
+[k8s_backend_config_var_defined]: {% link docs/building-your-quest/conditions/k8s-backend-config-var-defined.md %}
+[k8s_secret_defined]: {% link docs/building-your-quest/conditions/k8s-secret-defined.md %}
 [newrelic_license_key_valid]: {% link docs/building-your-quest/conditions/newrelic-license-key-valid.md %}
 [action_success]: {% link docs/building-your-quest/conditions/action-success.md %}
 [is_truthy]: {% link docs/building-your-quest/conditions/is-truthy.md %}
