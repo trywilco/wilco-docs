@@ -29,4 +29,4 @@ resources:
         - new-relic-license-key
 ```
 
-This example will auto-deploy after every push to main, and remove `new-relic-license-key` information stored on the user.
+This example will remove `new-relic-license-key` upon quest start, and also configured auto-deploy after every push to main.

@@ -145,7 +145,7 @@ trigger:
     if:
       conditions:
         - conditionId: array_find
-          name: heroku_log
+          name: form_array_result
           params:
             array: {% raw %}${{formSubmission}}{% endraw %}
             conditions:

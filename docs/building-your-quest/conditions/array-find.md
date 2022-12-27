@@ -33,16 +33,14 @@ This can be accessed by other actions and conditions using:
 
 ```yaml
 do:
-- actionId: heroku_backend_api_call
-  name: heroku_log_drains
-  params:
-    path: /log-drains
+- actionId: some_action_that_returns_array
+  name: action_result
 
 conditions:
 - conditionId: array_find
-  name: heroku_log
+  name: array_find_result
   params:
-    array: ${outputs.heroku_log_drains.value}
+    array: ${outputs.action_result.value}
     conditions:
       - conditionId: text_contains_strings
         params: 
@@ -53,7 +51,7 @@ then:
   ...
 ```
 
-In this example we perform api call on Heroku and name the action `heroku_log_drains`. Then, we test if the result array has an elements that contains the string `newrelic.syslog.nr-data.net`.
+In this example we perform an action that returns an array and name the action `action_result`. Then, we test if the result array has an elements that contains the string `newrelic.syslog.nr-data.net`.
 
 ## Relevant Triggers
 
