@@ -7,7 +7,7 @@ To start building your quest, you can use the [**quest template**](https://githu
 
 # Quest Structure
 
-Every uploaded quest must the following components: 
+Every uploaded quest must have the following components: 
 - A file called `quest.yml` that configures the metadata of the quest
 - An `assets` folder with cover and logo images → [Assets]
 - A `steps` folder with a yaml file for each step  → [Steps]
