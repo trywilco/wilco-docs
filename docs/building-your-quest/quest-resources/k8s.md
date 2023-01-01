@@ -1,10 +1,10 @@
 ---
-title: Kubernetes
+title: K8s
 parent: Quest Resources
 grand_parent: Building Your Quest
 ---
 
-# kubernetes
+# k8s
 
 Description: Hosting user's backend and frontend apps
 
