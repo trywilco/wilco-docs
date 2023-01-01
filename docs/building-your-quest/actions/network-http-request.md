@@ -40,14 +40,14 @@ These can be accessed using:
 ```yaml
 do:
 - actionId: network_http_request
-  name: call_k8s_backend
+  name: call_backend
   params:
     url: "${user.K8sBackendUrl}/api/items?limit=10"
 if:
   conditions:
   - conditionId: is_truthy
     params:
-      value: ${outputs.call_k8s_backend.data?.items}
+      value: ${outputs.call_backend.data?.items}
 
   then:
     ...
