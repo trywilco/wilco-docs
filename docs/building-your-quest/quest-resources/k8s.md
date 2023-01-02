@@ -27,4 +27,4 @@ resources:
         - new-relic-license-key
 ```
 
-This example will remove `new-relic-license-key` secret upon quest start, and also configured auto-deploy after every push to main.
+This example will remove the `new-relic-license-key` secret upon quest start and configure auto-deploy after every push to main.
