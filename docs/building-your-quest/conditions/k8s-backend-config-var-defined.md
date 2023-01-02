@@ -7,7 +7,7 @@ grand_parent: Building Your Quest
 # k8s_backend_config_var_defined
 
 Category: K8s
-Description: Check if config variable is set (exists) for the K8s backend app.
+Description: Check if a config variable is set (exists) for the K8s backend app.
 Type: Condition
 
 ## Description
