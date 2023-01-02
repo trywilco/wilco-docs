@@ -22,7 +22,7 @@ Check if config variable is set (exists) for the K8s backend app. If config var 
 
 ## Outputs
 
-In config var exists, its `value` is set on the conditions outputs.
+If a config var exists, its `value` is set on the conditions outputs.
 
 It can be referenced by other blocks using `outputs.<condition_name>.value`
 
