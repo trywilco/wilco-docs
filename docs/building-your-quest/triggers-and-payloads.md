@@ -138,7 +138,7 @@ In addition to specific payload passed by each trigger, a global payload is alwa
     - `repository:` User’s Github repo url
     - `repoName:` Name of the user’s Github repo
     - `company`
-    - `K8sBackendUrl:` url of the K8s backend app
+    - `K8sBackendUrl:` the url of the K8s backend app
     - `K8sFrontendUrl:` url of the K8s frontend app
     - `newrelic:` User’s New Relic account information
         - `accountId` New Relic account id
