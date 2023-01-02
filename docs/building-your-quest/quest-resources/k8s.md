@@ -8,7 +8,7 @@ grand_parent: Building Your Quest
 
 Description: Hosting user's backend and frontend apps
 
-When specified as a resources, a fully functional K8s namespace will be created for the frontend and configured for the user. 
+When specified as a resource, a fully functional K8s namespace will be created for the frontend and configured for the user. 
 
 
 Supported properties:
