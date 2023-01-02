@@ -123,15 +123,26 @@ trigger:
 
 Triggered when there's a custom event called on the user, you can trigger it by calling `https://engine.wilco.gg/users/${WILCO_USER_ID}/event`. You can find the user id in the `.wilco` file in the user's repository.
 This trigger must contain `params` with a `event` key that matches the event prop in the payload of the event that you're sending.
+Params: 
+- `event`: the event type, passed in the event payload
+
+Payload:
+- `eventMetadata`: the metadata in the event payload
+
 For example:
 
 ```yaml
 trigger: 
   type: user_event
   params:
-    event: ping
+    event: test
   flowNode:
-    ...
+    ... // You can now user ${eventMetadata} here
+```
+
+And the equivalent event:
+```
+curl -X POST https://engine.wilco.gg/users/${WILCO_USER_ID}/event -d '{"event":"test", "metadata": {"prop": "value"}}' -H 'Content-Type: application/json'
 ```
 
 
