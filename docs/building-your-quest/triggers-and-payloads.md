@@ -66,15 +66,6 @@ Payload:
 
 - `path:` The URL of the opened page.
 
-### HEROKU_RELEASE_CREATED
-
-Triggered when a new Heroku release is created. 
-
-Payload:
-
-- `eventType:` type of the event that caused new release. For example, when setting config var: `^Set (.*) config var`
-- `eventData:` The full body sent by Heroku. See more example at [Heroku's webhook event documentation].
-
 ### GITHUB_USER_CONNECTED
 
 Triggered when the user accepts the invitation to his Github repo. No specific payload
@@ -158,8 +149,8 @@ In addition to specific payload passed by each trigger, a global payload is alwa
     - `repository:` User’s Github repo url
     - `repoName:` Name of the user’s Github repo
     - `company`
-    - `backendHerokuAppName:` the name of the backend Heroku app
-    - `frontendHerokuAppName:` the name of the frontend New Relic app
+    - `K8sBackendUrl:` the url of the K8s backend app
+    - `K8sFrontendUrl:` url of the K8s frontend app
     - `newrelic:` User’s New Relic account information
         - `accountId` New Relic account id
         - `apiKey` New Relic API key
@@ -295,14 +286,14 @@ In addition to the payload parameters, a `result` parameter is passed to all con
     
     ```yaml
     conditions:
-      - conditionId: heroku_check_backend_config_var
+      - conditionId: k8s_backend_config_var_defined
         name: new_relic_license_key_config
         params:
           key: NEW_RELIC_LICENSE_KEY
     then: ...
     ```
     
-    In this example, we call an action with the id `heroku_check_backend_config_var` and give it a name,  `new_relic_license_key_config.` This condition check that a config var exists, and also sets its value on the result, if exists. 
+    In this example, we call an action with the id `k8s_backend_config_var_defined` and give it a name,  `new_relic_license_key_config.` This condition checks that a config var exists and sets its value on the result if it does. 
     
     ```json
     {
@@ -346,4 +337,3 @@ A default result is initialized for all conditions and actions.
     
     There's no need for `success` as conditions always return true/false and `success` is set according to the result. Meaning, `output.condition_name` will contain `success` as well.
 
-[Heroku's webhook event documentation]: https://devcenter.heroku.com/articles/webhook-events#api-release
