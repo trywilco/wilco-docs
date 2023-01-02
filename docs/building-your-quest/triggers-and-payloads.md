@@ -282,7 +282,7 @@ In addition to the payload parameters, a `result` parameter is passed to all con
     then: ...
     ```
     
-    In this example, we call an action with the id `k8s_backend_config_var_defined` and give it a name,  `new_relic_license_key_config.` This condition check that a config var exists, and also sets its value on the result, if exists. 
+    In this example, we call an action with the id `k8s_backend_config_var_defined` and give it a name,  `new_relic_license_key_config.` This condition checks that a config var exists and sets its value on the result if it does. 
     
     ```json
     {
