@@ -39,4 +39,4 @@ if:
     ...
 ```
 
-The `k8s_backend_config_var_defined` condition is used to check that user set the `NEW_RELIC_LICENSE_KEY` config var.
+The `k8s_backend_config_var_defined` condition is used to check that the user had set the `NEW_RELIC_LICENSE_KEY` config var.
