@@ -53,7 +53,7 @@ if:
     ...
 ```
 
-In this example we make a request to a user's K8s server to get items. Then we verify that response data includes `items`, which means the request was successful.
+In this example we make a request to a user's backend to get items. Then we verify that response data includes `items`, which means the request was successful.
 
 ## Relevant Triggers
 
