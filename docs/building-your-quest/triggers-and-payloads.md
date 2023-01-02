@@ -268,9 +268,9 @@ In addition to specific payload passed by each trigger, a global payload is alwa
                   ${path.slice(2)}, brings back memories. Strangely enough, they’re
                   your memories, which I don’t know why I have.
                 delay: 2000
-        ```
+    ```
         
-        We embed `path` param from the payload to the text sent to `keen` bot. The param here is embedded after applying `slice(2)` on its value.
+    We embed `path` param from the payload to the text sent to `keen` bot. The param here is embedded after applying `slice(2)` on its value.
         
 
 ## Result parameter
