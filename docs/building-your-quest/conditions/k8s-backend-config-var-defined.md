@@ -14,7 +14,7 @@ Type: Condition
 
 **Type**: Condition
 
-Check if config variable is set (exists) for the K8s backend app. If config var exists, it is set on the condition outputs.
+Check if a config variable is set (exists) for the K8s backend app. If a config var exists, it is set on the condition outputs.
 
 ## Params
 
