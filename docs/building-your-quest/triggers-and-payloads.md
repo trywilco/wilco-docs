@@ -35,6 +35,14 @@ Generated payload:
 
 - `userMessageText`: the text the user wrote to the bot.
 
+### GITHUB_PUSH
+
+Triggered when the user push something to their repository
+
+Generated payload:
+
+- `githubPushHeadCommit`: the body of the relevant commit that was pushed.
+
 ### GITHUB_PR_LIFECYCLE_STATUS
 
 Triggered when the status of a PR opened by the user is changed.
