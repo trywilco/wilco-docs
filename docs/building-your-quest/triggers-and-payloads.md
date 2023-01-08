@@ -50,6 +50,29 @@ Generated payload:
 - `githubRepository:` The name of the repository in which the PR was opened
 - `githubWorkflowRunUrl`: Defined when `eventType` is one of `github_pr_workflow_complete_success` and `github_pr_workflow_complete_failure`. Holds a URL of the workflow run. 
 
+Here's an example of how to run the [Github Actions] and approve it once it all run successfully. Pay attention that we move the user only when they merge the PR (that's possible because the user can merge the PR only when you approve the PR)
+```yml
+trigger:
+  type: github_pr_lifecycle_status
+  flowNode:
+    switch:
+      key: "${eventType}"
+      cases:
+        github_pr_opened:
+          do:
+            ...
+        github_pr_workflow_complete_success:
+          do:
+          - actionId: github_pr_approve
+            ...
+        github_pr_workflow_complete_failure:
+          - actionId: github_pr_reject
+            ...
+        github_pr_merged:
+          do:
+          - actionId: finish_step
+```
+
 ### PING
 
 Triggered when a ping event happens in the user’s Anythink repo. No specific payload.
