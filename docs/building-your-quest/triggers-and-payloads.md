@@ -50,7 +50,7 @@ Generated payload:
 - `githubRepository:` The name of the repository in which the PR was opened
 - `githubWorkflowRunUrl`: Defined when `eventType` is one of `github_pr_workflow_complete_success` and `github_pr_workflow_complete_failure`. Holds a URL of the workflow run. 
 
-Here's an example of how to run the [Github Actions] and approve it once it all run successfully. Pay attention that we move the user only when they merge the PR (that's possible because the user can merge the PR only when you approve the PR)
+Here's an example of how to run the [Github Actions] and approve it once it all run successfully. Pay attention there's an action to finish the step only when they merge the PR (that's possible because the user can merge the PR only when you approve the PR)
 ```yml
 trigger:
   type: github_pr_lifecycle_status
