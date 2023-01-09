@@ -68,7 +68,7 @@ Anythink-Market-Public
 │   │   ├── frontend
 ``` 
 
-The user's repository will result with the following structure after starting the quest:
+The user's repository will result in the following structure after starting the quest:
 ```
 User's Repository
 ├── readme.dm
