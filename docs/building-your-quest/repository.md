@@ -43,7 +43,7 @@ Frameworks specific files are placed in `.framework` directory in the following 
 │   ├── <framework_specific_file>
 ``` 
 
-When the user starts a quest, the `.framework` directory will be removed from the repository and the framework specific files will be copied to the root of the repository.
+When the user starts a quest, the `.framework` directory will be removed from the repository, and the framework-specific files will be copied to the root of the repository.
 
 The Anythink Market repository is a good example of a start repository that uses framework-specific files. The repository supports Node, Rails, and Python as backend frameworks and React as a frontend framework. Each backend framework requires a specific `docker-compose.yml` file and `charts` directory for K8s deployment. The following is the structure of this repository:
 
