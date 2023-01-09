@@ -26,6 +26,14 @@ Assuming [Ruby], [Jekyll] and [Bundler] are installed on your computer:
 
     The built site is stored in the directory `_site`.
 
+### Using Docker
+
+If you have Docker installed on your machine:
+
+1. Clone this repository.
+
+2. Run `docker compose up`. Preview the site at `localhost:4000`. Livereload will automatically refresh your browser as changes are made.
+
 ## Deployment
 
 Any commits to main trigger an automatic rebuild and deployment to [dev.trywilco.com]. You can see the [deployment status here](https://github.com/trywilco/wilco-docs/deployments).
