@@ -9,7 +9,7 @@ Each Wilco quest is associated with a start repository. When the user starts a n
 
 If a start repository was not defined in the `quest.yml` file, The [Anythink Market] repository will be used.
 
-A few examples of reasons to use a start repository could be:
+Reasons to use a start repository could be, for example:
 1. Adding a bug to the code that the user will be asked to fix.
 2. Adding a new feature that the user will be asked to extend.
 3. Changing UI design to add your own branding.
