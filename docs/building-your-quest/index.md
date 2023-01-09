@@ -43,7 +43,7 @@ description: Quest description. All characters are accepted. "What's worse.." in
 slogan: Quest slogan. 2-1000 characters. "It's time for.." in the sample below | mandatory
 level: Quest level. beginner/intermediate/advance | mandatory
 duration: Estimated number of hours required to finish the quest | mandatory
-repository: User's repo will be initialized to this repository when quest starts. e.g. https://github.com/trywilco/Anythink-Market-Public | optional
+repository: The user's repo will be initialized to this repository when a quest starts. e.g. https://github.com/trywilco/Anythink-Market-Public | optional
 resources: A list of resources that should be avaiable to the user when quest begins | optional 
 - resource_1
 - resource_2
