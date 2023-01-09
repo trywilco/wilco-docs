@@ -16,7 +16,7 @@ Reasons to use a start repository could be, for example:
 4. Using a codebase that is not related to Anythink.
 
 ## Using frameworks specific files
-Users in Wilco select their frontend and backend frameworks/languages. It is common to create a start repository that allows playing a quest with several frameworks. This is also the case in the Anythink Market repository.
+Wilco users select their frontend and backend frameworks/languages. It is common to create a start repository that allows playing a quest using several frameworks. This is also the case in the Anythink Market repository.
 
 Frameworks specific files are placed in `.framework` directory in the following structure:
 ```
