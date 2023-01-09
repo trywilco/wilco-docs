@@ -1,7 +1,7 @@
 ---
 title: Supported Skills
 parent: Building Your Quest
-permalink: 
+nav_order: 9
 ---
 
 # Supported Skills

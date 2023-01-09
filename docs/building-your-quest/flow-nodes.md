@@ -1,6 +1,7 @@
 ---
 title: Flow Nodes
 parent: Building Your Quest
+nav_order: 6
 ---
 
 # Flow Nodes

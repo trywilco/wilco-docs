@@ -44,4 +44,4 @@ The `github_pr_approve` action is used to approve the PR and let user know he sh
 
 - `github_pr_lifecycle_status`
 
-[Text Formatting]: {% link docs/building-your-quest/text-formatting.md %}
+[Text Formatting]: {% link docs/building-your-quest/writing-quest-texts/text-formatting.md %}

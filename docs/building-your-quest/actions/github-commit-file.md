@@ -30,7 +30,7 @@ No additional info is added to the global payload outputs.
 ```yaml
   - actionId: github_commit_file
     params:
-      file: "info.txt"
+      file: ${info.txt}
       path: "."
       message: "New file to commit"
 ```

@@ -21,7 +21,11 @@ Send message to the user on behalf of one of the bots.
 - **person:** Name of the bot. e.g., `keen` or `lucca`
 - **messages:** list of messages, each contains `text` and `delay`. The latter is optional, and means the time it would take a real person to write this message. The message `Bot is typing…` will be presented in Snack during this time. If delay not specified, a value will be calculated according to the text length
     
-    [Text Formatting]
+  [Text Formatting]
+
+- **components** list of message components, which allows you to add interactivity to your communication
+
+  [Message Components]
     
 
 ## Outputs
@@ -45,7 +49,7 @@ startFlow:
           job.
         delay: 2500
       - text: "So, to help familiarize you with your new work environment, I was thinking
-          that maybe you first should set it up. \U0001F60A"
+          that maybe you first should set it up."
         delay: 3000
       - text: Just **let me know once you’re ready** to start your first task!
         delay: 5000
@@ -57,4 +61,5 @@ The action `bot_message` is used to send instructions from the bot `keen` to the
 
 All triggers
 
-[Text Formatting]: {% link docs/building-your-quest/text-formatting.md %}
+[Text Formatting]: {% link docs/building-your-quest/writing-quest-texts/text-formatting.md %}
+[Message Components]: {% link docs/building-your-quest/writing-quest-texts/message-components.md %}

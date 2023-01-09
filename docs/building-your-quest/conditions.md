@@ -2,6 +2,8 @@
 title: Conditions
 parent: Building Your Quest
 has_children: true
+nav_order: 5
+has_toc: false
 ---
 
 # Conditions 
@@ -76,7 +78,7 @@ if:
       pr_reject_message: "I don’t see a New Relic config file. Won’t work without it."
       pr_reject_message_name: "missing_config"
 
-  - conditionId: github_is_file_contains
+  - conditionId: github_does_file_contain
     equals: false
     params:
       regex: license_key
@@ -130,35 +132,36 @@ if:
         message: "${pr_reject_message}"
         messageName: "${pr_reject_message_name}"
 ```
-</details>
-
+  
 In this example, we see an `if` statement with several conditions. If all conditions are successful, a message is sent by the bot and the PR is approved. If a condition fails, the PR is rejected with a rejection message. The message text is set by each condition using `onFalseParams` .
 
 Note the use of `equals: false` and the use of `paramsFramework` in this example.
 
+</details>
+
 ## Supported Conditions
 
-| Name                                     | Category  | Description                                                                       |
-| ---------------------------------------- | --------- | --------------------------------------------------------------------------------- |
-| [text_contains_strings]                  | String    | Check if text contains subset of strings                                          |
-| [text_match_regex]                       | String    | Check if text matches regex                                                       |
-| [is_user_message_text_ready_to_continue] | Chat      | Check if user replied with a message that means they are ready to continue        |
-| [github_is_user_valid]                   | GitHub    | Check if username exists in Github                                                |
-| [github_is_file_modified]                | GitHub    | Check if a specified file was modified as part of PR changes                      |
-| [github_is_one_of_files_modified]        | GitHub    | Check if one of the specified files was modified as part of PR changes            |
-| [github_is_file_added]                   | GitHub    | Check if specified files were added as part of PR changes.                        |
-| [github_is_file_contains]                | GitHub    | Check if a file added in the PR contains text that matches a regex                |
-| [github_is_repo_collaborator]            | GitHub    | "Check if the user accepted the invitation for their repo. "                      |
-| [github_is_file_added_in_push]           | GitHub    | Check if a file was added in the head commit of a git push (not specific to a PR) |
-| [heroku_check_backend_config_var]        | Heroku    | Check if a config variable is set (exists) for the backend Heroku app.            |
-| [heroku_check_frontend_config_var]       | Heroku    | Check if a config variable is set (exists) for the frontend Heroku app.           |
-| [newrelic_license_key_valid]             | New Relic | Check if the given key is a valid new relic license key.                          |
-| [action_success]                         | General   | Check if the previously executed action block finished successfully               |
-| [is_truthy]                              | General   | Test if the expression is truthy                                                  |
-| [is_falsy]                               | General   | Test if the expression is falsy                                                   |
-| [database_check_connection_url]          | Database  | Verify if the database connection url is valid                                    |
-| [array_find]                             | Array     | Find an element in the array that matches specified conditions                    |
-| [array_every]                            | Array     | Tests whether all elements in an array pass specified conditions                  |
+| Name                                     | Category   | Description                                                                       |
+| ---------------------------------------- | ---------  | --------------------------------------------------------------------------------- |
+| [text_contains_strings]                  | String     | Check if text contains subset of strings                                          |
+| [text_match_regex]                       | String     | Check if text matches regex                                                       |
+| [is_user_message_text_ready_to_continue] | Chat       | Check if user replied with a message that means they are ready to continue        |
+| [github_is_user_valid]                   | GitHub     | Check if username exists in Github                                                |
+| [github_is_file_modified]                | GitHub     | Check if a specified file was modified as part of PR changes                      |
+| [github_is_one_of_files_modified]        | GitHub     | Check if one of the specified files was modified as part of PR changes            |
+| [github_is_file_added]                   | GitHub     | Check if specified files were added as part of PR changes.                        |
+| [github_does_file_contain]                | GitHub    | Check if a file added in the PR contains text that matches a regex                |
+| [github_is_repo_collaborator]            | GitHub     | "Check if the user accepted the invitation for their repo. "                      |
+| [github_is_file_added_in_push]           | GitHub     | Check if a file was added in the head commit of a git push (not specific to a PR) |
+| [k8s_backend_config_var_defined]         | K8s        | Check if a config variable is set (exists) for the backend K8s app.               |
+| [k8s_secret_defined]                     | K8s        | Check if a secret is set (exists) for the k8s namespace.                          |
+| [newrelic_license_key_valid]             | New Relic  | Check if the given key is a valid new relic license key.                          |
+| [action_success]                         | General    | Check if the previously executed action block finished successfully               |
+| [is_truthy]                              | General    | Test if the expression is truthy                                                  |
+| [is_falsy]                               | General    | Test if the expression is falsy                                                   |
+| [database_check_connection_url]          | Database   | Verify if the database connection url is valid                                    |
+| [array_find]                             | Array      | Find an element in the array that matches specified conditions                    |
+| [array_every]                            | Array      | Tests whether all elements in an array pass specified conditions                  |
 
 [text_contains_strings]: {% link docs/building-your-quest/conditions/text-contains-strings.md %}
 [text_match_regex]: {% link docs/building-your-quest/conditions/text-match-regex.md %}
@@ -167,11 +170,11 @@ Note the use of `equals: false` and the use of `paramsFramework` in this example
 [github_is_file_modified]: {% link docs/building-your-quest/conditions/github-is-file-modified.md %}
 [github_is_one_of_files_modified]: {% link docs/building-your-quest/conditions/github-is-one-of-files-modified.md %}
 [github_is_file_added]: {% link docs/building-your-quest/conditions/github-is-file-added.md %}
-[github_is_file_contains]: {% link docs/building-your-quest/conditions/github-is-file-contains.md %}
+[github_does_file_contain]: {% link docs/building-your-quest/conditions/github_does_file_contain.md %}
 [github_is_repo_collaborator]: {% link docs/building-your-quest/conditions/github-is-repo-collaborator.md %}
 [github_is_file_added_in_push]: {% link docs/building-your-quest/conditions/github-is-file-added-in-push.md %}
-[heroku_check_backend_config_var]: {% link docs/building-your-quest/conditions/heroku-check-backend-config-var.md %}
-[heroku_check_frontend_config_var]: {% link docs/building-your-quest/conditions/heroku-check-frontend-config-var.md %}
+[k8s_backend_config_var_defined]: {% link docs/building-your-quest/conditions/k8s-backend-config-var-defined.md %}
+[k8s_secret_defined]: {% link docs/building-your-quest/conditions/k8s-secret-defined.md %}
 [newrelic_license_key_valid]: {% link docs/building-your-quest/conditions/newrelic-license-key-valid.md %}
 [action_success]: {% link docs/building-your-quest/conditions/action-success.md %}
 [is_truthy]: {% link docs/building-your-quest/conditions/is-truthy.md %}

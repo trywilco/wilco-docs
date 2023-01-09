@@ -3,10 +3,11 @@ title: Building Your Quest
 has_children: true
 nav_order: 5
 ---
+To start building your quest, you can use the [**quest template**](https://github.com/trywilco/quest-template). Just click `Use this template`. 
 
 # Quest Structure
 
-Every uploaded quest must the following components: 
+Every uploaded quest must have the following components: 
 - A file called `quest.yml` that configures the metadata of the quest
 - An `assets` folder with cover and logo images → [Assets]
 - A `steps` folder with a yaml file for each step  → [Steps]
@@ -58,11 +59,19 @@ skills: List of skills the user will work on when playing the quest | mandatory
 - ...
 - skill_n
 questDependency: Quest that must be complete before playing this quest | optional
+frameworks: frameworks this quest will be abailable in | optional
+  backend:
+  - python
+  - node
+  frontend:
+  - react
 ```
+
 
 → [Supported Skills]
 
 → [Quest Resources]
+
 
 
 [Steps]: {% link docs/building-your-quest/creating-steps.md %}

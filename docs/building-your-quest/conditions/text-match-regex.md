@@ -19,7 +19,8 @@ Check if text matches a regex
 ## Params
 
 - **text:** Input string
-- **regex:** Regex string. Value is used as input to `RegExp` ******constructor
+- **regex:** Regex string. Value is used as input to `RegExp` constructor
+- **flags:** Input string. Flags to provide to the `RegExp` constructor
 
 ## Outputs
 
@@ -42,6 +43,25 @@ trigger:
 ```
 
 The `text_match_regex` condition is used to verify that `path` param found in the payload of the trigger `local_page_load` matches the regex `^/@`
+
+Flags can be provided by using the `flags` param. The following condition looks for either `done` or `complete` in a user's message, ignoring case.
+
+```yaml
+trigger:
+  type: user_message
+  params:
+    person: keen
+  flowNode:
+    if:
+      conditions:
+      - conditionId: text_match_regex
+        params:
+          text: "${userMessageText}"
+          regex: done|complete
+          flags: i
+      then:
+        ...
+```
 
 ## Relevant Triggers
 

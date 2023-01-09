@@ -28,15 +28,14 @@ trigger: Trigger type and flow node logic. Each step has one trigger | mandatory
 githubAction: Github Actions configuration to run in opened PRs | optional
 ```
 
-→ [Triggers and Payload](triggers-and-payload.html)
-
-→ [Flow Nodes](flow-nodes.html)
-
-→ [Actions]
-
-→ [Conditions]
+## Additional Resources
+- [Triggers and Payload]
+- [Flow Nodes]
+- [Actions]
+- [Conditions]
     
 
-    
-[Actions]: {% link docs/building-your-quest/actions.md %}
+[Triggers and Payload]: {% link docs/building-your-quest/triggers-and-payloads.md %}
+[Flow Nodes]: {% link docs/building-your-quest/flow-nodes.md %}
+[Actions]: {% link docs/building-your-quest/actions/index.md %}
 [Conditions]: {% link docs/building-your-quest/conditions.md %}

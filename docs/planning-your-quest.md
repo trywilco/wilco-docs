@@ -5,7 +5,13 @@ nav_order: 4
 
 # Planning Your Quest
 
-Before you begin building your quest, it is essential to start by thoroughly planning out the key aspects and outlining its content and structure. By doing so, you'll be able to create better quests and save a lot of time. 
+
+Before you begin building your quest, we strongly recommend completing the Tutorial and Setup quests in the Wilco platform to set up your Anythink environment and get to know the Anythink code repository. 
+
+Once you've done that, you can start planning out the key aspects and outlining its content and structure. (See [quest template](https://github.com/trywilco/quest-template))
+
+{: .note }
+Investing time in the Planning stage will help you create better quests and save you a lot of time building and testing.  
 
 Things to think about: 
 
@@ -38,6 +44,7 @@ Things to think about:
 - What will the user DO in each step? Do these steps align with the learning objectives you defined? 
 - Does the order of steps make sense?
 - How will you verify that the step has been completed successfully?
+- How will users progress to the next step? 
 - Are there any tests you need to write to check users’ work?
 - What hints can you provide to help users if they get stuck? (Each step should have at least one hint)
 - What would a textbook solution look like?
@@ -48,38 +55,70 @@ Things to think about:
 - How long would it take you to perform this task, if you were doing it for the first time?
 
 
-### **Writing the Quest Texts**
+<details markdown="block">
+  <summary>
+    <b>
+    Example 1
+    </b>
+  </summary>
+  {: .text-gamma .text-purple-100	}
 
-**Narrative**
+**What we want users to learn:**
+How do we do state management in React
 
-When building a new quest, you’ll be able to use one of the following characters to communicate with users: 
+**Prerequisites:**
+Users should have Anythink system up and running (a full stack system with backend, frontend and DB)
 
-- [Lucca]
-- [Keen]
+**Task:**
+User gets a new feature request to build, this feature needs some state to pass between a couple of components in the page
 
-To make your quest feel more like a conversation with a real human, make sure that conversation texts align with the voice and tone of each character. 
+- **Step1:**
+  - User gets a spec of the new UI component they need to build, first they just need to build the UI with simple internal state
+  - How do users pass to the next step: user opens a PR, in the PR we run some tests that the component exists and function properly (with unit test)
 
-Adjust delay time between messages to make the speed of the conversation feel realistic and give users enough time to read each message. 
+- **Step 2:**
+  - We saw that there’s a bug and when users change a state in this component, they also need to change another component’s state in the page. First install the library that we use so we’ll later be able to use it.
+  - How do users pass to the next step: user opens a PR with the new lib in the package.json
 
-**Conversation Texts**
+- **Step 3:**	
 
-When writing the conversation texts, it is best to read the texts aloud to yourself and ask yourself: 
+  - Now they need to fix the page state accordingly and make the two components communicate using the library we just installed.
+  - How do users pass to the next step: User opens a new PR and we run a UI test to see that when clicking in 1 place it affects the other.
 
-- Are instructions worded clearly?
-- Is all necessary information provided? (ex: definition of acronyms, links to information about terminology/concepts that may be unfamiliar to some users)
-- Is there any extraneous text that can be cut out?
-- Does the conversation read out as a dialogue or a long monologue?
-- Is text formatted properly to highlight instructions, code, etc.? [Learn more]
+</details>
 
-**Hints**
-- Have you provided enough hints for each step? 
-- Are the hints helpful? 
+<details markdown="block">
+  <summary>
+    <b>
+    Example 2
+    </b>
+  </summary>
+  {: .text-gamma .text-purple-100	}
 
-**Feedback** 
+**What we want users to learn:**
+A better understanding of data modeling and dependencies
 
-The feedback users receive throughout the quest is not only an opportunity to let users know if they did something right or wrong. Frequent meaningful can help users stay engaged in the quest, point them in the right direction when they make a mistake and build their confidence.
+**Prerequisites:**
+Users should have Anythink system up and running (a full stack system wih backend, frontend and DB)
 
-[Lucca]: {% link docs/quest-development-guidelines/characters/lucca.md %}
-[Keen]: {% link docs/quest-development-guidelines/characters/keen.md %}
+**Task:**
+User needs to add a new feature where each item should have a score based on the reviews
+
+- **Step1:**
+  - Each item’s review should have a score
+  - How do users pass to the next step: user opens a PR, in the PR we run some tests that the model has the new field
+
+
+- **Step 2:**
+    - Calculate the item’s score based on it’s reviews’ score, this have many edge cases (why if a review was deleted or changed) and a question of performance (when do we calculate the overall score)
+    - How do users pass to the next step: user opens a PR, in the PR we run some tests that the model has the new field and it calculated properly
+
+
+- **Step 3:**	
+  - Open the score to the API and show it in the UI
+
+  - How do users pass to the next step: User opens a new PR and we run a UI test
+
+
+</details>
 [supported skills]: {% link docs/building-your-quest/supported-skills.md %}
-[Learn more]: {% link docs/building-your-quest/text-formatting.md %}
