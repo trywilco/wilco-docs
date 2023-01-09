@@ -12,7 +12,7 @@ If a start repository was not defined in the `quest.yml` file, The [Anythink Mar
 Reasons to use a start repository could be, for example:
 1. Adding a bug to the code that users will be asked to fix.
 2. Adding a new feature that users will be asked to extend.
-3. Changing UI design to add your own branding.
+3. Changing the UI design to add your own branding.
 4. Using a codebase that is not related to Anythink.
 
 ## Using frameworks specific files
