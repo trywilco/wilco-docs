@@ -82,4 +82,26 @@ User's Repository
 │   ├── charts files
 ```
 
+## GitHub Workflows files
+Some quests repositories require GitHub workflow files. For example, the Anythink Market repository uses GitHub workflow to deploy the application to K8s. These workflows should run on the user's repository, but not on the quest's start repository.
+
+Any such workflow files should be placed in the directory `.github/.workflows`.
+
+For example:
+```
+Anythink-Market-Public
+├── .github
+│   ├── .workflows
+│   │   ├── k8s.yml
+```
+
+When user starts a quest, the k8s workflow will be copied to the correct GitHub workflows directory:
+```
+Anythink-Market-Public
+├── .github
+│   ├── workflows
+│   │   ├── k8s.yml
+```
+
+
 [Anythink Market]: https://github.com/trywilco/Anythink-Market-Public
