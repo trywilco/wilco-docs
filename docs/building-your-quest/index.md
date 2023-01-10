@@ -39,10 +39,11 @@ This is a mandatory file that must be placed at the root of the zip archive's st
 ```yaml
 id: a unique quest identifier. Should not change. 3-50 characters, must begin with a letter. Accepted characters are A-Z, a-z, 0-9, and "_" | mandatory
 title: Quest title. 2-80 characters. All characters are accepted. "Funnel Drop" in the sample below | mandatory
-description: Quest description. All characters are accepted. "What's worse.." in the sample below | mandatory
+description: Quest description. All characters are accepted. "What's worse.." in the sample below | mandatory 
 slogan: Quest slogan. 2-1000 characters. "It's time for.." in the sample below | mandatory
 level: Quest level. beginner/intermediate/advance | mandatory
 duration: Estimated number of hours required to finish the quest | mandatory
+repository: The user's repo will be initialized to this repository when a quest starts. e.g. https://github.com/trywilco/Anythink-Market-Public | optional
 resources: A list of resources that should be avaiable to the user when quest begins | optional 
 - resource_1
 - resource_2
@@ -67,15 +68,16 @@ frameworks: frameworks this quest will be abailable in | optional
   - react
 ```
 
+→ [Start Repository]
 
 → [Supported Skills]
 
 → [Quest Resources]
 
 
-
 [Steps]: {% link docs/building-your-quest/creating-steps.md %}
 [Assets]: {% link docs/building-your-quest/assets.md %}
 [Tests]: {% link docs/building-your-quest/tests.md %}
+[Start Repository]: {% link docs/building-your-quest/repository.md %}
 [Supported Skills]: {% link docs/building-your-quest/supported-skills.md %}
 [Quest Resources]: {% link docs/building-your-quest/quest-resources/index.md %}
