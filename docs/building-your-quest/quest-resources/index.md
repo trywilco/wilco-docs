@@ -20,4 +20,4 @@ A quest might be dependent on resources being functional before a user can start
 Please reach out to us at [Creators@wilcohq.com](creators@wilcohq.com) with any questions or requests for additional integrations.
 
 [k8s]: {% link docs/building-your-quest/quest-resources/k8s.md %}
-[user]: {% link docs/building-your-quest/quest-resources/user.md %}
+[user]: {% link docs/building-your-quest/quest-resources/user.md %}f
