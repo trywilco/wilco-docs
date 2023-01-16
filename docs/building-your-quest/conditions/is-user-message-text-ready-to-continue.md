@@ -32,9 +32,8 @@ No additional info is added to the global payload outputs.
 ## Usage Example
 
 ```yaml
-  type: user_message
-  params:
-    person: keen
+trigger:
+  type: user_message_to_keen
   flowNode:
     if:
       conditions:
@@ -47,7 +46,7 @@ The `is_user_message_text_ready_to_continue` condition is used to verify that th
 
 ## Relevant Triggers
 
-- `user_message`
+- `user_message_to_<bot_name>`
 
 ## Outputs
 

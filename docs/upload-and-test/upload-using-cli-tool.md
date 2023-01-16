@@ -11,9 +11,8 @@ A command line tool can be used to automate the process of zipping and uploading
 Download the executable according to the operating system you use:
 
 * [Windows]
-* [Linux]
 * [Mac]
-   - You might need to tell Mac that the executable is from a trustworthy source. Click [here](https://support.apple.com/en-my/guide/mac-help/mchleab3a043/mac) for instructions
+* [Linux]
 
 The following arguments are supported:
 
