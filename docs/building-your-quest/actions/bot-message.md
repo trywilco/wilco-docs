@@ -6,10 +6,6 @@ grand_parent: Building Your Quest
 
 # bot_message
 
-Category: Chat
-Description: Send message from user to a bot
-Type: Action
-
 ## Description
 
 **Type**: Action
