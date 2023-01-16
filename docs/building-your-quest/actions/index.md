@@ -23,7 +23,7 @@ Actions support the following params:
 | actionId        | String | YES       | -       | String representing the actions. See section below for supported actions ids.                                                                                                  |
 | name            | String | NO        | null    | Name is mandatory in order to use action outputs. If name is specified and action enriches payload outputs, it can be accessed using `${outputs.<action_name>.<param_name>}` . |
 | params          | Map    | NO        | null    | Each action specifies which parameters it requires. Some parameters are passed transparently from the trigger payload and some must be configured.                             |
-| paramsFramework | Map    | NO        | null    | Used in cases framework selected by the user affects the parameterss passed to the action. It is a map from the framework name to the parameters.                              |
+| paramsFramework | Map    | NO        | null    | Used in cases when the framework is selected by the user and affects the parameterss passed to the action. It is a map from the framework name to the parameters.                              |
 
 Example:
 
@@ -78,11 +78,11 @@ switch:
 | [github_pr_approve]                      | GitHub    | Approve the PR and add a comment on behalf of a bot.                              |
 | [github_pr_reject]                       | GitHub    | Reject the PR and add a comment on behalf of a bot.                               |
 | [github_open_issue]                      | GitHub    | Opens an issue in the user’s Github repository                                    |
-| [github_commit_file]                     | GitHub    | Fommit a file to the user's repository                                            |
-| [newrelic_configure_with_key]            | New Relic | Configure user New Relic properties using given license key                       |
-| [network_http_request]                   | Network   | Perform an http request                                                           |
-| [finish_step]                            | Quest     | Advance the user to next step or finish quest in case this is the last step       |
-| [quest_notification]                     | Quest     | Notify a user about an event that happened while in a quest.                      |
+| [github_commit_file]                     | GitHub    | Commit a file to the user's repository                                            |
+| [newrelic_configure_with_key]            | New Relic | Configure user New Relic properties using the given license key                   |
+| [network_http_request]                   | Network   | Perform an HTTP request                                                           |
+| [finish_step]                            | Quest     | Advance the user to the next step or if this is the last step finish the quest    |
+| [quest_notification]                     | Quest     | Notify the user about an event that happened during a quest.                      |
 
 
 {: .note }
