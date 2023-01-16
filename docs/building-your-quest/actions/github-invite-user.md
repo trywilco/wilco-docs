@@ -6,10 +6,6 @@ grand_parent: Building Your Quest
 
 # github_invite_user
 
-Category: Github
-Description: Invite user to collaborate on Github repo.
-Type: Action
-
 ## Description
 
 **Type**: Action
