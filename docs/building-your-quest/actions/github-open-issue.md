@@ -6,9 +6,6 @@ grand_parent: Building Your Quest
 
 # github_open_issue
 
-Category: Github
-Type: Action
-
 ### Description
 
 **Type**: action
