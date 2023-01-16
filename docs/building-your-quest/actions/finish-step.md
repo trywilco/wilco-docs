@@ -6,10 +6,6 @@ grand_parent: Building Your Quest
 
 # finish_step
 
-Category: Quest
-Description: Advance user to next step or finish quest in case this is the last step
-Type: Action
-
 ## Description
 
 **Type**: Action
@@ -37,4 +33,4 @@ An example from the `onboarding` quest can be found [here]
 
 All triggers
 
-[here]: https://github.com/trywilco/quest-onboarding/blob/main/steps/onboarding_accept_invite_generic.yml
+[here]: https://github.com/trywilco/quest-template/blob/main/steps/funneldrop_analyze_data.yml
