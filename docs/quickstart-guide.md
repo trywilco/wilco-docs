@@ -21,3 +21,4 @@ nav_order: 3
 [Review Process and Submission Guidelines]: {% link docs/submitting-your-quest-for-review/index.md %}
 [Building Your Quest]: {% link docs/building-your-quest/index.md %}
 [here]: https://www.trywilco.com/teams/join
+[Uploading and Testing Your Quest]: https://dev.trywilco.com/docs/upload-and-test/
