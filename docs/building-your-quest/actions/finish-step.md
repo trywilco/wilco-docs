@@ -6,10 +6,6 @@ grand_parent: Building Your Quest
 
 # finish_step
 
-Category: Quest
-Description: Advance user to next step or finish quest in case this is the last step
-Type: Action
-
 ## Description
 
 **Type**: Action
