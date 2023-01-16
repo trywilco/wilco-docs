@@ -163,29 +163,9 @@ trigger:
           - actionId: action to do if they were not found
 ```
 
-### Schedule Learning Time
-
-Allow your players to schedule some time to continue their Wilco adventure. Clicking on the calendar button will open the relevant calendar with a pre-defined Wilco learning session. 
-
-```yml
-components:
-- type: schedule_learning_time
-  params: 
-  navigate:
-    show: true # optional, default: true
-    text: Call to Action # optional, default: Start a Project
-    url: https://www.trywilco.com # optional, default: in-game quest catalog
-```
-
-{: .note-title }
-> How will it look in Snack?
->
-> ![schedule learning time]
 
 [button component]: {% link assets/images/message-components/navigate.png %}
 {:width="50%"}
-
-[schedule learning time]: {% link assets/images/message-components/learning-reminder.gif %}
 [single-select form]: {% link assets/images/message-components/single-select.png %}
 [multi-select form]: {% link assets/images/message-components/multi-select.png %}
 
