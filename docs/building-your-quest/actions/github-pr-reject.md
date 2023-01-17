@@ -6,10 +6,6 @@ grand_parent: Building Your Quest
 
 # github_pr_reject
 
-Category: Github
-Description: Reject the PR and add comment on behalf of a bot.
-Type: Action
-
 ## Description
 
 **Type**: Action
