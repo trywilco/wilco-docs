@@ -6,9 +6,6 @@ grand_parent: Building Your Quest
 
 # github_commit_file
 
-Category: Github
-Type: Action
-
 ### Description
 
 **Type**: action
