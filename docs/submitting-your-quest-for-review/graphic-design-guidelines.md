@@ -7,7 +7,7 @@ parent: Submitting Your Quest for Review
 
 Welcome to the Wilco Quest Builder! So, you’ve created an amazing and informative quest, and you probably want to publish it ASAP, right? As you probably already know, though it goes against the old saying, people DO judge a book by its cover - and quests, as well.
 
-First and foremost, Please download the design template file **[here](https://drive.google.com/open?id=1ycfW7W0_oIvrVPbN3l_rb26AWL9i1VqR&authuser=noa.plashkes%40wilcohq.com&usp=drive_fs)**.
+First and foremost, Please download the design template file **[here](https://drive.google.com/file/d/1BwGL7DgUpXSwxdjjBPjWIMdnSJHHmERY/view?usp=sharing)**.
 
 In order to publish your quest, you need two assets: The Quest Cover and the Quest Logo.
 
