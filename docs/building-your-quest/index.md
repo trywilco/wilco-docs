@@ -40,6 +40,7 @@ This is a mandatory file that must be placed at the root of the zip archive's st
 id: a unique quest identifier. Should not change. 3-50 characters, must begin with a letter. Accepted characters are A-Z, a-z, 0-9, and "_" | mandatory
 title: Quest title. 2-80 characters. All characters are accepted. "Funnel Drop" in the sample below | mandatory
 description: Quest description. All characters are accepted. "What's worse.." in the sample below | mandatory 
+summary: Quest summary, shown when users finish the quest | mandatory 
 slogan: Quest slogan. 2-1000 characters. "It's time for.." in the sample below | mandatory
 level: Quest level. beginner/intermediate/advance | mandatory
 duration: Estimated number of hours required to finish the quest | mandatory
