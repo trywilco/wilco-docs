@@ -45,6 +45,7 @@ slogan: Quest slogan. 2-1000 characters. "It's time for.." in the sample below |
 level: Quest level. beginner/intermediate/advance | mandatory
 duration: Estimated number of hours required to finish the quest | mandatory
 repository: The user's repo will be initialized to this repository when a quest starts. e.g. https://github.com/trywilco/Anythink-Market-Public | optional
+shouldResetRepo: Whether the user's repo will be reset to specific code, set it to false when the quest is not involving any code | optional
 resources: A list of resources that should be avaiable to the user when quest begins | optional 
 - resource_1
 - resource_2
