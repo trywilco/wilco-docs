@@ -86,7 +86,7 @@ switch:
 
 
 {: .note }
-We look forward to adding new actions in the future. Please reach out to us at [Creators@wilcohq.com](creators@wilcohq.com) with any questions.
+We look forward to adding new actions in the future. Please reach out to us at <Creators@wilcohq.com> with any questions.
 
 [bot_message]: {% link docs/building-your-quest/actions/bot-message.md %}
 [github_create_repo]: {% link docs/building-your-quest/actions/github-create-repo.md %}
