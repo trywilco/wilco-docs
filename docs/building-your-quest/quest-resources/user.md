@@ -2,18 +2,23 @@
 title: User
 parent: Quest Resources
 grand_parent: Building Your Quest
+nav_order: 3
 ---
 
 # user
 
-Description: Used to modify user configuration
+## Description
 
-This resource allows to modify information stored on the user. This is required when a quest needs info to exist or be removed when a user starts playing it.
+**Type**: Quest Resources
+
+Used to modify user configuration.
+
+This resource allows the information stored in user to be modified. This is required when a quest needs info to exist or be removed when a user starts playing.
 
 Supported properties:
 
-- **clear:** allows clearing specific information from the user.
-    - attribute: list of attributes to remove.
+- **clear:** Allows clearing specific information from the user.
+    - attribute: The list of attributes to remove.
 
 ```yaml
 resources:
