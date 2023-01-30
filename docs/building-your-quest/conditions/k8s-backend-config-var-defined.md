@@ -6,23 +6,19 @@ grand_parent: Building Your Quest
 
 # k8s_backend_config_var_defined
 
-Category: K8s
-Description: Check if a config variable is set (exists) for the K8s backend app.
-Type: Condition
-
 ## Description
 
 **Type**: Condition
 
-Check if a config variable is set (exists) for the K8s backend app. If a config var exists, it is set on the condition outputs.
+Check if a config variable is set (exists) for the K8s backend app. If a config var exists, it is set on the condition's output.
 
 ## Params
 
-- **key:** The config var key
+- **key:** The config var key.
 
 ## Outputs
 
-If a config var exists, its `value` is set on the conditions outputs.
+If a config var exists, its `value` is set by the condition's output.
 
 It can be referenced by other blocks using `outputs.<condition_name>.value`
 

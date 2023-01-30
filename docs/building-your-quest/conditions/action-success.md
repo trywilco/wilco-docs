@@ -6,15 +6,11 @@ grand_parent: Building Your Quest
 
 # action_success
 
-Category: General
-Description: Check if the previously executed action block finished with success
-Type: Condition
-
 ### Description
 
-**Type**: condition
+**Type**: Condition
 
-Check if a previously executed action block was finished successfully. It uses the `success` param set on the output of every named block.
+Checks if a previously executed action block was finished successfully. It uses the `success` param set on the output of every named block.
 
 ## Params
 

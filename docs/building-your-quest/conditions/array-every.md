@@ -6,20 +6,16 @@ grand_parent: Building Your Quest
 
 # array_every
 
-Category: Array
-Description: Tests whether all elements in an array pass specified conditions
-Type: Condition
-
 ### Description
 
-**Type**: action
+**Type**: Condition
 
-Test whether all elements in an array pass specified conditions. An `item` property is available in the internal conditions to access the current item in the array.
+Tests whether all elements in an array pass the specified conditions. An `item` property is available as an internal condition to access the current item in the array.
 
 ## Params
 
-- **array:** array of elements
-- **conditions:** list of conditions to apply to the array elements
+- **array:** An array of elements.
+- **conditions:** The list of conditions to apply to the array elements.
 
 ## Outputs
 
@@ -41,7 +37,7 @@ then:
   ...
 ```
 
-In this example, we use the result of an action called `get_users` and verify that all user’s emails use the `gmail.com` domain.
+In this example, we use the result of an action called `get_users` and verify that all the users' emails use the `gmail.com` domain.
 
 ## Relevant Triggers
 

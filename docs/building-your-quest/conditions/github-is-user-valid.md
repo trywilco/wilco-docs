@@ -6,19 +6,15 @@ grand_parent: Building Your Quest
 
 # github_is_user_valid
 
-Category: Github
-Description: Check if username exists in Github
-Type: Condition
-
 ## Description
 
 **Type**: Condition
 
-Check if username exists in Github
+Checks if the username exists in Github.
 
 ## Params
 
-- **githubUserName:** Github username to verify
+- **githubUserName:** The Github username to be verified.
 
 ## Outputs
 
@@ -38,7 +34,7 @@ if:
         githubUserName: "${outputs.user_authentication.value.nickname}"
 ```
 
-The `github_is_user_valid` condition uses the result of `user_check_authentication_exists` and checks if it is a valid Github user name.
+The `github_is_user_valid` condition uses the result of `user_check_authentication_exists` and checks if it is a valid Github username.
 
 ## Relevant Triggers
 

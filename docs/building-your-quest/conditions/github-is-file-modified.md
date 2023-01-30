@@ -6,19 +6,15 @@ grand_parent: Building Your Quest
 
 # github_is_file_modified
 
-Category: String
-Description: Check if specified file was modified as part of PR changes
-Type: Condition
-
 ## Description
 
 **Type**: Condition
 
-Check if specified file was modified as part of PR changes
+Checks if a specified file was modified as part of a PR change
 
 ## Params
 
-- **fileName:** file path in the repository
+- **fileName:** The file path in the repository.
 
 ## Outputs
 

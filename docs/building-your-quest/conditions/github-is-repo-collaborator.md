@@ -6,19 +6,15 @@ grand_parent: Building Your Quest
 
 # github_is_repo_collaborator
 
-Category: Github
-Description: Check if user accepted the invitation for his repo. 
-Type: Condition
-
 ## Description
 
 **Type**: Condition
 
-Check if user accepted the invitation for his repo. 
+Checks if the user accepted the invitation for their repo. 
 
 ## Params
 
-No params required as condition user Github username and Github repo name stored in  `user`
+No params required as conditions. The user's Github username and Github repo name are stored in  `user`.
 
 ## Outputs
 

@@ -6,14 +6,11 @@ grand_parent: Building Your Quest
 
 # user_check_authentication_exists
 
-Category: General
-Type: Condition
-
 ## Description
 
 **Type**: Condition
 
-Check if authentication info of specific type exists for the user. For example, check if Github auth info is set on the user.
+Checks if authentication info of a specific type exists for the user. For example, check if Github auth info is set on for the user.
 
 ## Params
 
@@ -21,7 +18,7 @@ Check if authentication info of specific type exists for the user. For example, 
 
 ## Outputs
 
-`value` is set on the condition outputs. It holds the user’s authentication info. 
+`value` is set by the condition output. It holds the user’s authentication info. 
 
 Can be referenced in other blocks using `outputs.<condition_name>.value`
 
@@ -55,7 +52,7 @@ startFlow:
       ...
 ```
 
-The `user_check_authentication_exists` condition is used to verify that user authenticated itself using Github.
+The `user_check_authentication_exists` condition is used to verify that user authenticated themsleves using Github.
 
 ## Relevant Triggers
 

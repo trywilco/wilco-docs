@@ -6,20 +6,16 @@ grand_parent: Building Your Quest
 
 # github_does_file_contain
 
-Category: Github
-Description: Check if file added in PR contains text that matches a regex
-Type: Condition
-
 ## Description
 
 **Type**: Condition
 
-Check if file added in PR contains text that matches a regex
+Checks if the file added in a PR contains text that matches a given regex.
 
 ## Params
 
-- **fileName:** file path in the repository
-- **regex:** Regex string. Value is used as input to `RegExp` ******constructor
+- **fileName:** The file path in the repository.
+- **regex:** The regex string. The value is used as input to for the `RegExp` constructor.
 
 ## Outputs
 

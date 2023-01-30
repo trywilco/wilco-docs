@@ -6,20 +6,16 @@ grand_parent: Building Your Quest
 
 # array_find
 
-Category: Array
-Description: Find an element in the array that matches specified conditions
-Type: Condition
-
 ### Description
 
-**Type**: action
+**Type**: Condition
 
-Find an element in the array that matches specified conditions. An `item` property is available in the internal conditions to access the current item in the array. The condition returns `true` if such element exists and sets the first found element in its outputs
+Finds an element in the array that matches specified conditions. An `item` property is available as an internal condition to access the current item in the array. The condition returns `true` if such an element exists and sets the first found element as its output.
 
 ## Params
 
-- **array:** array of elements
-- **conditions:** list of conditions to apply to the array elements
+- **array:** An array of elements.
+- **conditions:** A list of conditions to apply to the array of elements.
 
 ## Outputs
 
@@ -51,7 +47,7 @@ then:
   ...
 ```
 
-In this example we perform an action that returns an array and name the action `action_result`. Then, we test if the result array has an elements that contains the string `newrelic.syslog.nr-data.net`.
+In this example we perform an action that returns an array and name the action `action_result`. Then we test if the resulting array has an element that contains the string `newrelic.syslog.nr-data.net`.
 
 ## Relevant Triggers
 
