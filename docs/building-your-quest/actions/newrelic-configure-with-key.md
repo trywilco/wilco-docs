@@ -6,10 +6,6 @@ grand_parent: Building Your Quest
 
 # newrelic_configure_with_key
 
-Category: NewRelic
-Description: Configure user New Relic properties using given license key
-Type: Action
-
 ## Description
 
 **Type**: Action

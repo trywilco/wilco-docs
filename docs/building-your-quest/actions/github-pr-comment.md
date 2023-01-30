@@ -6,10 +6,6 @@ grand_parent: Building Your Quest
 
 # github_pr_comment
 
-Category: Github
-Description: Add comment on a PR on behalf of one the bots.
-Type: Action
-
 ## Description
 
 **Type**: Action

@@ -6,10 +6,6 @@ grand_parent: Building Your Quest
 
 # github_create_repo
 
-Category: Github
-Description: Create new repo for the user.
-Type: Action
-
 ## Description
 
 **Type**: Action

@@ -6,10 +6,6 @@ grand_parent: Building Your Quest
 
 # quest_notification
 
-Category: Event
-Description: Notify a user about an event
-Type: Action
-
 ### Description
 
 **Type**: action

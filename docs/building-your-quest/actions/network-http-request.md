@@ -6,10 +6,6 @@ grand_parent: Building Your Quest
 
 # network_http_request
 
-Category: Network
-Description: Perform http request
-Type: Action
-
 ### Description
 
 **Type**: action
