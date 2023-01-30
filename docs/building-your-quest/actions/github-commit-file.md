@@ -8,15 +8,15 @@ grand_parent: Building Your Quest
 
 ### Description
 
-**Type**: action
+**Type**: Action
 
-Commit a single file to the main branch of the user's repository
+Commits a single file to the main branch of the user's repository.
 
 ## Params
 
-- **file:** the file to commit (from the tests folder)
-- **path:** where to copy this file too in the user's repository
-- **message** commit message to show
+- **file:** The file to commit (from the tests folder).
+- **path:** Where to copy this file too in the user's repository.
+- **message** The commit message to show.
 
 ## Result
 

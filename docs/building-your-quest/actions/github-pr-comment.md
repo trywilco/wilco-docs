@@ -10,16 +10,15 @@ grand_parent: Building Your Quest
 
 **Type**: Action
 
-Add comment on a PR on behalf of one the bots
+Add comment on a PR on behalf of one the bots.
 
 ## Params
 
-- **person:** Name of the bot. e.g., `keen` or `lucca`
+- **person:** Name of the bot. e.g., `Keen` or `Lucca`
 - **message:** The comment text
     
     [Text Formatting]
     
-
 ## Result
 
 No additional info is added to the global payload outputs.
@@ -30,11 +29,11 @@ No additional info is added to the global payload outputs.
 do:          
 - actionId: github_pr_comment
   params:
-    person: keen
+    person: Keen
     message: "On it, I'll review the changes right away."
 ```
 
-The `github_pr_comment` action is used to add comment from `keen` letting user know that she will review the PR.
+The `github_pr_comment` action is used to add comment from `Keen` letting the user know that she will review the PR.
 
 ## Relevant Triggers
 

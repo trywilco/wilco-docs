@@ -10,16 +10,15 @@ grand_parent: Building Your Quest
 
 **Type**: Action
 
-Reject the PR (request changes) and add comment on behalf of a bot.
+Rejects the PR (request changes) and adds a comment on behalf of a bot.
 
 ## Params
 
-- **person:** Name of the bot. e.g., `keen` or `lucca`
+- **person:** Name of the bot. e.g., `Keen` or `Lucca`
 - **message:** The comment text
     
     [Text Formatting]
     
-
 ## Result
 
 No additional info is added to the global payload outputs.
@@ -30,11 +29,11 @@ No additional info is added to the global payload outputs.
 do:
 - actionId: github_pr_reject
   params:
-    person: keen
+    person: Keen
     message: "Looks like this code change didn’t fix the problem. Can you take a second look?"
 ```
 
-The `github_pr_reject` action is used to reject the PR and let user know why. The message is sent on behalf of the bot `keen`
+The `github_pr_reject` action is used to reject the PR and let user know why. The message is sent on behalf of the bot `Keen`
 
 ## Relevant Triggers
 

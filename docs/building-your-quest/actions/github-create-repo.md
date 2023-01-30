@@ -10,7 +10,7 @@ grand_parent: Building Your Quest
 
 **Type**: Action
 
-Create new repo for the user
+Creates new repo for the user.
 
 ## Params
 

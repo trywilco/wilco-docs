@@ -8,14 +8,14 @@ grand_parent: Building Your Quest
 
 ### Description
 
-**Type**: action
+**Type**: Action
 
-Opens an issue in the user’s Github repository
+Opens an issue in the user’s Github repository.
 
 ## Params
 
-- **title:** title of issue
-- **body:** body of the issue
+- **title:** The title of the issue.
+- **body:** The body of the issue.
 
 ## Result
 

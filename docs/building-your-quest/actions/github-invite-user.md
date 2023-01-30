@@ -10,11 +10,11 @@ grand_parent: Building Your Quest
 
 **Type**: Action
 
-Invite user to collaborate on Github repo
+Invites user to collaborate on Github repo.
 
 ## Params
 
-- **githubUserName:** user’s Github username
+- **githubUserName:** The user’s Github username.
 
 ## Result
 

@@ -10,15 +10,14 @@ grand_parent: Building Your Quest
 
 **Type**: Action
 
-Approve the PR and add comment on behalf of a bot
+Approves the PR and add comment on behalf of a bot.
 
 ## Params
 
-- **person:** Name of the bot. e.g., `keen` or `lucca`
-- **message:** The comment text
+- **person:** The name of the bot. e.g., `Keen` or `Lucca`.
+- **message:** The comment text.
     
     [Text Formatting]
-    
 
 ## Result
 
@@ -30,11 +29,11 @@ No additional info is added to the global payload outputs.
 do:
 - actionId: github_pr_approve
   params:
-    person: keen
+    person: Keen
     message: "Nailed it! Excellent job @${user.githubuser}! You can now merge the PR."
 ```
 
-The `github_pr_approve` action is used to approve the PR and let user know he should merge it. The message is sent on behalf of the bot `keen`
+The `github_pr_approve` action is used to approve the PR and let user know they should merge it. The message is sent on behalf of the bot `Keen`
 
 ## Relevant Triggers
 

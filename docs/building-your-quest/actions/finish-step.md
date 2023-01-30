@@ -10,11 +10,11 @@ grand_parent: Building Your Quest
 
 **Type**: Action
 
-Advance user to the next step in current quest, or finish quest in case this is the last step.
+Advances the user to the next step in the current quest, or finishes the quest if this is the last step.
 
 ## Params
 
-No params required
+No params required.
 
 ## Outputs
 
