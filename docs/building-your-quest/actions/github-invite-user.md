@@ -2,6 +2,7 @@
 title: github_invite_user
 parent: Actions
 grand_parent: Building Your Quest
+nav_order: 4
 ---
 
 # github_invite_user

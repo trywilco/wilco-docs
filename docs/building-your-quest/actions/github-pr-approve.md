@@ -2,6 +2,7 @@
 title: github_pr_approve
 parent: Actions
 grand_parent: Building Your Quest
+nav_order: 6
 ---
 
 # github_pr_approve

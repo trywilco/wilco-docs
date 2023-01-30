@@ -2,6 +2,7 @@
 title: github_pr_comment
 parent: Actions
 grand_parent: Building Your Quest
+nav_order: 5
 ---
 
 # github_pr_comment

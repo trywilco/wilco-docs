@@ -2,6 +2,7 @@
 title: github_pr_reject
 parent: Actions
 grand_parent: Building Your Quest
+nav_order: 7
 ---
 
 # github_pr_reject
