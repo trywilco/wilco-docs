@@ -1,5 +1,6 @@
 ---
 title: Conditions
+has_children: true
 parent: Building Your Quest
 has_children: true
 nav_order: 5
