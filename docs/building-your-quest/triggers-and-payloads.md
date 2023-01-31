@@ -195,7 +195,6 @@ In addition to specific payload passed by each trigger, a global payload is alwa
     ```yaml
     actionId: github_pr_approve
     params:
-      person: keen
       message: Nailed it! Excellent job @**${user.githubuser}**! You can now merge the PR.
     ```
     
