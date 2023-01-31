@@ -21,7 +21,7 @@ Things to think about:
 - What is the prerequisite knowledge required to successfully complete the quest?
 
 **Skills** 
-- What skill topics is your quest related to? (See [supported skills])
+- What skills is your quest related to? (See [supported skills])
 
 **Learning Objectives**
 - What can developers expect that they will be able to DO after they complete this quest?
@@ -42,7 +42,7 @@ Things to think about:
 
 - What are the steps required to complete the task?
 - What will the user DO in each step? Do these steps align with the learning objectives you defined? 
-- Does the order of steps make sense?
+- Does the order of the steps make sense?
 - How will you verify that the step has been completed successfully?
 - How will users progress to the next step? 
 - Are there any tests you need to write to check users’ work?
@@ -67,7 +67,7 @@ Things to think about:
 How do we do state management in React
 
 **Prerequisites:**
-Users should have Anythink system up and running (a full stack system with backend, frontend and DB)
+Users should have the Anythink system up and running (a full stack system with backend, frontend and DB)
 
 **Task:**
 User gets a new feature request to build, this feature needs some state to pass between a couple of components in the page
@@ -99,7 +99,7 @@ User gets a new feature request to build, this feature needs some state to pass 
 A better understanding of data modeling and dependencies
 
 **Prerequisites:**
-Users should have Anythink system up and running (a full stack system wih backend, frontend and DB)
+Users should have the Anythink system up and running (a full stack system wih backend, frontend and DB)
 
 **Task:**
 User needs to add a new feature where each item should have a score based on the reviews
@@ -116,7 +116,6 @@ User needs to add a new feature where each item should have a score based on the
 
 - **Step 3:**	
   - Open the score to the API and show it in the UI
-
   - How do users pass to the next step: User opens a new PR and we run a UI test
 
 

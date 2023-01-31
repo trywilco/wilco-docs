@@ -14,7 +14,6 @@ Rejects the PR (request changes) and adds a comment on behalf of a bot.
 
 ## Params
 
-- **person:** Name of the bot. e.g., `Keen` or `Lucca`
 - **message:** The comment text
     
     [Text Formatting]
@@ -29,7 +28,6 @@ No additional info is added to the global payload outputs.
 do:
 - actionId: github_pr_reject
   params:
-    person: Keen
     message: "Looks like this code change didn’t fix the problem. Can you take a second look?"
 ```
 

@@ -14,8 +14,7 @@ Approves the PR and add comment on behalf of a bot.
 
 ## Params
 
-- **person:** The name of the bot. e.g., `Keen` or `Lucca`.
-- **message:** The comment text.
+- **message:** The comment text
     
     [Text Formatting]
 
@@ -29,7 +28,6 @@ No additional info is added to the global payload outputs.
 do:
 - actionId: github_pr_approve
   params:
-    person: Keen
     message: "Nailed it! Excellent job @${user.githubuser}! You can now merge the PR."
 ```
 
