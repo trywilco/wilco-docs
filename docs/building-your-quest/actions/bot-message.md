@@ -14,7 +14,7 @@ Sends a message to the user on behalf of one of the bots.
 
 ## Params
 
-- **person:** The name of the bot. e.g., `Keen` or `Lucca`.
+- **person:** The name of the bot. e.g., `keen` or `lucca`.
 - **messages:** A list of messages, each contains `text` and `delay`. The latter is optional, and means the time it would take a real person to write this message. The message `Bot is typing…` will be presented in Snack during this time. If delay not specified, a value will be calculated according to the text length.
     
   [Text Formatting]
@@ -35,7 +35,7 @@ startFlow:
   do:
   - actionId: bot_message
     params:
-      person: Keen
+      person: keen
       messages:
       - text: "![](https://media.giphy.com/media/l2QE93CiS1hR6WbK0/giphy.gif)"
         delay: 0
@@ -51,7 +51,7 @@ startFlow:
         delay: 5000
 ```
 
-The action `bot_message` is used to send instructions from the bot `Keen` to the user.
+The action `bot_message` is used to send instructions from the bot `keen` to the user.
 
 ## Relevant Triggers
 

@@ -31,7 +31,7 @@ do:
     message: "Looks like this code change didn’t fix the problem. Can you take a second look?"
 ```
 
-The `github_pr_reject` action is used to reject the PR and let user know why. The message is sent on behalf of the bot `Keen`
+The `github_pr_reject` action is used to reject the PR and let user know why. The message is sent on behalf of the bot `keen`
 
 ## Relevant Triggers
 

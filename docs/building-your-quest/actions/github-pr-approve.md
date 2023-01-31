@@ -31,7 +31,7 @@ do:
     message: "Nailed it! Excellent job @${user.githubuser}! You can now merge the PR."
 ```
 
-The `github_pr_approve` action is used to approve the PR and let user know they should merge it. The message is sent on behalf of the bot `Keen`
+The `github_pr_approve` action is used to approve the PR and let user know they should merge it. The message is sent on behalf of the bot `keen`
 
 ## Relevant Triggers
 

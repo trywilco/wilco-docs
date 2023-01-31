@@ -31,7 +31,7 @@ do:
     message: "On it, I'll review the changes right away."
 ```
 
-The `github_pr_comment` action is used to add comment from `Keen` letting the user know that she will review the PR.
+The `github_pr_comment` action is used to add comment from `keen` letting the user know that she will review the PR.
 
 ## Relevant Triggers
 
