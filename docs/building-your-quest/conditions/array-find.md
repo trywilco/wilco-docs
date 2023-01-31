@@ -2,6 +2,7 @@
 title: array_find
 parent: Conditions
 grand_parent: Building Your Quest
+nav_order: 19
 ---
 
 # array_find

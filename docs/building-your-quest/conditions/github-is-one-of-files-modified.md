@@ -2,6 +2,7 @@
 title: github_is_one_of_files_modified
 parent: Conditions
 grand_parent: Building Your Quest
+nav_order: 7
 ---
 
 # github_is_one_of_files_modified

@@ -2,6 +2,7 @@
 title: github_is_file_added_in_push
 parent: Conditions
 grand_parent: Building Your Quest
+nav_order: 11
 ---
 
 # github_is_file_added_in_push

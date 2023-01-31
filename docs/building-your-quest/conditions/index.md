@@ -140,27 +140,28 @@ Note the use of `equals: false` and the use of `paramsFramework` in this example
 
 ## Supported Conditions
 
-| Name                                     | Category   | Description                                                                       |
-| ---------------------------------------- | ---------  | --------------------------------------------------------------------------------- |
-| [text_contains_strings]                  | String     | Check if text contains subset of strings                                          |
-| [text_match_regex]                       | String     | Check if text matches regex                                                       |
-| [is_user_message_text_ready_to_continue] | Chat       | Check if user replied with a message that means they are ready to continue        |
-| [github_is_user_valid]                   | GitHub     | Check if username exists in Github                                                |
-| [github_is_file_modified]                | GitHub     | Check if a specified file was modified as part of PR changes                      |
-| [github_is_one_of_files_modified]        | GitHub     | Check if one of the specified files was modified as part of PR changes            |
-| [github_is_file_added]                   | GitHub     | Check if specified files were added as part of PR changes.                        |
-| [github_does_file_contain]                | GitHub    | Check if a file added in the PR contains text that matches a regex                |
-| [github_is_repo_collaborator]            | GitHub     | "Check if the user accepted the invitation for their repo. "                      |
-| [github_is_file_added_in_push]           | GitHub     | Check if a file was added in the head commit of a git push (not specific to a PR) |
-| [k8s_backend_config_var_defined]         | K8s        | Check if a config variable is set (exists) for the backend K8s app.               |
-| [k8s_secret_defined]                     | K8s        | Check if a secret is set (exists) for the k8s namespace.                          |
-| [newrelic_license_key_valid]             | New Relic  | Check if the given key is a valid new relic license key.                          |
-| [action_success]                         | General    | Check if the previously executed action block finished successfully               |
-| [is_truthy]                              | General    | Test if the expression is truthy                                                  |
-| [is_falsy]                               | General    | Test if the expression is falsy                                                   |
-| [database_check_connection_url]          | Database   | Verify if the database connection url is valid                                    |
-| [array_find]                             | Array      | Find an element in the array that matches specified conditions                    |
-| [array_every]                            | Array      | Tests whether all elements in an array pass specified conditions                  |
+| Name                                     | Category   | Description                                                                          |
+| ---------------------------------------- | ---------  | ------------------------------------------------------------------------------------ |
+| [text_contains_strings]                  | String     | Checks if a text contains subset of strings.                                         |
+| [text_match_regex]                       | String     | Checks if a text matches a regex.                                                    |
+| [is_user_message_text_ready_to_continue] | Chat       | Checks if the user replied with a message that means they are ready to continue.     |
+| [github_is_user_valid]                   | GitHub     | Checks if the username exists in Github.                                             |
+| [github_is_file_modified]                | GitHub     | Checks if a specified file was modified as part of PR changes.                       |
+| [github_is_one_of_files_modified]        | GitHub     | Checks if one of the specified files was modified as part of PR changes.             |
+| [github_is_file_added]                   | GitHub     | Checks if the specified files were added as part of PR changes.                      |
+| [github_does_file_contain]               | GitHub     | Checks if a file added in the PR contains text that matches a regex.                 |
+| [github_is_repo_collaborator]            | GitHub     | Checks if the user accepted the invitation for their repo.                           |
+| [github_is_file_added_in_push]           | GitHub     | Checks if a file was added in the head commit of a git push (not specific to a PR).  |
+| [k8s_backend_config_var_defined]         | K8s        | Checks if a config variable is set (exists) for the backend K8s app.                 |
+| [k8s_secret_defined]                     | K8s        | Checks if a secret is set (exists) for the k8s namespace.                            |
+| [newrelic_license_key_valid]             | New Relic  | Checks if the given key is a valid new relic license key.                            |
+| [action_success]                         | General    | Checks if the previously executed action block finished successfully.                |
+| [is_truthy]                              | General    | Tests if the expression is truthy.                                                   |
+| [is_falsy]                               | General    | Tests if the expression is falsy.                                                    |
+| [database_check_connection_url]          | Database   | Verifies if the database connection url is valid.                                    |
+| [array_find]                             | Array      | Finds an element in the array that matches the specified conditions.                 |
+| [array_every]                            | Array      | Tests whether all elements in an array pass specified conditions.                    |
+| [user_check_authentication_exists]       | General    | Checks if authentication info of a specific type exists for the user.                |
 
 [text_contains_strings]: {% link docs/building-your-quest/conditions/text-contains-strings.md %}
 [text_match_regex]: {% link docs/building-your-quest/conditions/text-match-regex.md %}
@@ -181,4 +182,4 @@ Note the use of `equals: false` and the use of `paramsFramework` in this example
 [database_check_connection_url]: {% link docs/building-your-quest/conditions/database-check-connection-url.md %}
 [array_find]: {% link docs/building-your-quest/conditions/array-find.md %}
 [array_every]: {% link docs/building-your-quest/conditions/array-every.md %}
-
+[user_check_authentication_exists]: {% link docs/building-your-quest/conditions/user-check-authentication-exists.md %}

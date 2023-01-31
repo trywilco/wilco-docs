@@ -2,6 +2,7 @@
 title: array_every
 parent: Conditions
 grand_parent: Building Your Quest
+nav_order: 20
 ---
 
 # array_every

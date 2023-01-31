@@ -71,19 +71,18 @@ switch:
 
 | Name                                     | Category  | Description                                                                       |
 | ---------------------------------------- | --------- | --------------------------------------------------------------------------------- |
-| [bot_message]                            | Chat      | Send message from user to a bot                                                   |
-| [github_create_repo]                     | GitHub    | Create new repo for the user.                                                     |
-| [github_invite_user]                     | GitHub    | Invite user to collaborate on a Github repo.                                      |
-| [github_pr_comment]                      | GitHub    | Add comment on a PR on behalf of one the bots.                                    |
-| [github_pr_approve]                      | GitHub    | Approve the PR and add a comment on behalf of a bot.                              |
-| [github_pr_reject]                       | GitHub    | Reject the PR and add a comment on behalf of a bot.                               |
-| [github_open_issue]                      | GitHub    | Opens an issue in the user’s Github repository                                    |
-| [github_commit_file]                     | GitHub    | Fommit a file to the user's repository                                            |
-| [newrelic_configure_with_key]            | New Relic | Configure user New Relic properties using given license key                       |
-| [network_http_request]                   | Network   | Perform an http request                                                           |
-| [finish_step]                            | Quest     | Advance the user to next step or finish quest in case this is the last step       |
-| [quest_notification]                     | Quest     | Notify a user about an event that happened while in a quest.                      |
-
+| [bot_message]                            | Chat      | Sends a  message from the user to the bot.                                        |
+| [github_create_repo]                     | GitHub    | Creates a new repo for the user.                                                  |
+| [github_invite_user]                     | GitHub    | Invites a user to collaborate on a Github repo.                                   |
+| [github_pr_comment]                      | GitHub    | Adds a comment to a PR on behalf of one the bots.                                 |
+| [github_pr_approve]                      | GitHub    | Approves the PR and adds a comment on behalf of a bot.                            |
+| [github_pr_reject]                       | GitHub    | Rejects the PR and adds a comment on behalf of a bot.                             |
+| [github_open_issue]                      | GitHub    | Opens an issue in the user’s GitHub repository.                                   |
+| [github_commit_file]                     | GitHub    | Commits a file to the user's repository.                                          |
+| [newrelic_configure_with_key]            | New Relic | Configures the user New Relic properties using the given license key.             |
+| [network_http_request]                   | Network   | Performs an http request.                                                         |
+| [finish_step]                            | Quest     | Advances the user to next step or finishes the quest if this is the last step.    |
+| [quest_notification]                     | Quest     | Notifies a user about an event that happened while in a quest.                    |
 
 {: .note }
 We look forward to adding new actions in the future. Please reach out to us at [Creators@wilcohq.com](creators@wilcohq.com) with any questions.
@@ -101,4 +100,3 @@ We look forward to adding new actions in the future. Please reach out to us at [
 [finish_step]: {% link docs/building-your-quest/actions/finish-step.md %}
 [quest_notification]: {% link docs/building-your-quest/actions/quest-notification.md %}
 [Triggers and Payloads]: {% link docs/building-your-quest/triggers-and-payloads.md %}
-

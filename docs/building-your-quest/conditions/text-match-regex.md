@@ -2,6 +2,7 @@
 title: text_match_regex
 parent: Conditions
 grand_parent: Building Your Quest
+nav_order: 3
 ---
 
 # text_match_regex

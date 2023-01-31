@@ -2,6 +2,7 @@
 title: github_is_repo_collaborator
 parent: Conditions
 grand_parent: Building Your Quest
+nav_order: 10
 ---
 
 # github_is_repo_collaborator

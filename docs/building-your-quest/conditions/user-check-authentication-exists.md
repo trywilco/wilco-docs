@@ -2,6 +2,7 @@
 title: user_check_authentication_exists
 parent: Conditions
 grand_parent: Building Your Quest
+nav_order: 21
 ---
 
 # user_check_authentication_exists

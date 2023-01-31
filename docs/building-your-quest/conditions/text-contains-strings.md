@@ -2,6 +2,7 @@
 title: text_contains_strings
 parent: Conditions
 grand_parent: Building Your Quest
+nav_order: 2
 ---
 
 # text_contains_strings

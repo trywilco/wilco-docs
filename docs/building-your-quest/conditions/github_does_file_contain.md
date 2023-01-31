@@ -2,6 +2,7 @@
 title: github_does_file_contain
 parent: Conditions
 grand_parent: Building Your Quest
+nav_order: 9
 ---
 
 # github_does_file_contain

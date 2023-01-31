@@ -2,6 +2,7 @@
 title: k8s_secret_defined
 parent: Conditions
 grand_parent: Building Your Quest
+nav_order: 13
 ---
 
 # k8s_secret_defined

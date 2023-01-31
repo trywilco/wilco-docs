@@ -2,6 +2,7 @@
 title: github_is_user_valid
 parent: Conditions
 grand_parent: Building Your Quest
+nav_order: 5
 ---
 
 # github_is_user_valid
