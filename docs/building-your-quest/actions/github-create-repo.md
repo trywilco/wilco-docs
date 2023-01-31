@@ -2,6 +2,7 @@
 title: github_create_repo
 parent: Actions
 grand_parent: Building Your Quest
+nav_order: 3
 ---
 
 # github_create_repo

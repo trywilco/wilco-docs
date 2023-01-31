@@ -2,6 +2,7 @@
 title: github_open_issue
 parent: Actions
 grand_parent: Building Your Quest
+nav_order: 8
 ---
 
 # github_open_issue
