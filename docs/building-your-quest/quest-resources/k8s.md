@@ -20,7 +20,7 @@ Supported properties:
 - **config:** 
     deploy: true | false. Allows auto deploy after PR is merged.
     clear:
-      secrets: THe list of secrets to remove.
+      secrets: The list of secrets to remove.
 ```yaml
 resources:
   - name: k8s
