@@ -18,7 +18,6 @@ Add comment on a PR on behalf of one the bots
 
 ## Params
 
-- **person:** Name of the bot. e.g., `keen` or `lucca`
 - **message:** The comment text
     
     [Text Formatting]
@@ -34,7 +33,6 @@ No additional info is added to the global payload outputs.
 do:          
 - actionId: github_pr_comment
   params:
-    person: keen
     message: "On it, I'll review the changes right away."
 ```
 

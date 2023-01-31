@@ -38,4 +38,4 @@ githubAction: Github Actions configuration to run in opened PRs | optional
 [Triggers and Payload]: {% link docs/building-your-quest/triggers-and-payloads.md %}
 [Flow Nodes]: {% link docs/building-your-quest/flow-nodes.md %}
 [Actions]: {% link docs/building-your-quest/actions/index.md %}
-[Conditions]: {% link docs/building-your-quest/conditions.md %}
+[Conditions]: {% link docs/building-your-quest/conditions/index.md %}
