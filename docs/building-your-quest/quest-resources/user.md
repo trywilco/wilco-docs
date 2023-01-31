@@ -18,7 +18,7 @@ This resource allows the information stored in user to be modified. This is requ
 Supported properties:
 
 - **clear:** Allows clearing specific information from the user.
-    - attribute: The list of attributes to remove.
+    - attribute: A list of attributes to remove.
 
 ```yaml
 resources:
