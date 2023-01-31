@@ -116,7 +116,6 @@ if:
           delay: 1000
     - actionId: github_pr_approve
       params:
-        person: lucca
         message: "Looking good! You can merge the PR now."
 
   else:
@@ -129,7 +128,6 @@ if:
           delay: 1000
     - actionId: github_pr_reject
       params:
-        person: lucca
         message: "${pr_reject_message}"
         messageName: "${pr_reject_message_name}"
 ```
