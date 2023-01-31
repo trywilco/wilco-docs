@@ -12,7 +12,7 @@ When the step starts or when the user performs an action (trigger) that the step
 
 Each flow node contains any of the following:
 
-- **do:** list of actions to perform.
+- **do:** a list of actions to perform.
     
     ```yaml
     do:
@@ -31,7 +31,7 @@ Each flow node contains any of the following:
           ...
     ```
     
-- **if**: conditional statement. **if** statements evaluate conditions and continue to **then** or **else** flow node according to the result. The result is considered successful if all conditions are met  ( `condition_1 && condition_2 && condition_3` )
+- **if**: a conditional statement. **if** statements evaluate conditions and continue to **then** or **else** flow nodes according to the result. The result is considered successful if all conditions are met  ( `condition_1 && condition_2 && condition_3` )
     
     ```yaml
     if:
@@ -56,7 +56,7 @@ Each flow node contains any of the following:
           ...
     ```
     
-- **switch**: switch statement. **switch** evaluates a **key** property and continues to the appropriate flow node (one of the **cases**) according to the result.
+- **switch**: a switch statement. **switch** evaluates a **key** property and continues to the appropriate flow node (one of the **cases**) according to the result.
     
     ```yaml
     switch:
