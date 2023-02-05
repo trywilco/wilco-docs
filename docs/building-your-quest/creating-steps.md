@@ -10,7 +10,7 @@ This is a mandatory folder containing a file for each step defined in `quest.yml
 
 ```yaml
 id: Step id as specified in quest.yml file | mandatory
-learningObjectives: Bulletpoints stating what users will learn to do in the quest | mandatory
+learning objectives: Bulletpoints stating what users will learn to do in the quest. At least one bullet per step, 80 character limit | mandatory
 - learning_objective_1
 - learning_objective_2
 - ...
