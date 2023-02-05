@@ -61,7 +61,7 @@ Each part of the application can be defined with the following configuration key
         - [jest.config.js]
         - [jest-puppeteer.config.js]
         
-- `cmd`: In most cases, using the default `capabilities` and test commands should be enough, but sometimes there is a need for custom commands. `cmd` can take array of commands, each command will add an action with the structure:
+- `cmd`: In most cases, using the default `capabilities` and test commands should be enough, but sometimes there is a need for custom commands. `cmd` can take an array of commands, each command will add an action with the structure:
     
     ```yaml
       cmd: 
