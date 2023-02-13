@@ -15,7 +15,7 @@ A solution is a flow node similar to the start quest flow node, which allows the
   do:
     - actionId: bot_message
       params:
-        person: head-of-rd
+        person: lucca
         messages: 
           - text: Here's what you need to do in order to complete this step
           ...
