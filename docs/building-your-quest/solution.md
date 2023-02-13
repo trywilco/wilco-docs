@@ -21,4 +21,5 @@ A solution is a flow node similar to the start quest flow node, which allows the
           ...
 ```
 
-{: .note } You can omit the `person` parameter from the `bot_message` action, and the message will be sent from the bot the user has required the solution from
+{: .note }
+You can omit the `person` parameter from the `bot_message` action, and the message will be sent from the bot the user has required the solution from
