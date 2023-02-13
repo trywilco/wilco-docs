@@ -19,4 +19,4 @@ To set up auto-upload:
     4. Name the new secret `QUESTS_EDITOR_TOKEN` and copy the token to the `secret` text box. 
 4. Add the new workflow files to the GitHub repo:
     - If you used the quest template, the files are already a part of the repo and needs to be configured. The files are located in `github/workflows/upload-draft.yml` and `github/workflows/validate-draft.yml`. Open the files and modify the value of the key `quest-editor-user-email` to the email address associalted with your Wilco account.
-    - If the file are not part of your repo, [download it](https://app.wilco.gg/quest-builder-utils) and copy it to the `.github/workflows/` folder in your quest repo. No additional modifications to the files are required.
+    - If the file are not part of your repo, [download them](https://app.wilco.gg/quest-builder-utils) and copy it to the `.github/workflows/` folder in your quest repo. No additional modifications to the files are required.
