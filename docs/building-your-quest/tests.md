@@ -8,6 +8,6 @@ nav_order: 3
 
 The tests folder is optional and contains test files to be accessed by [GitHub Actions].
 
-For information on supported file types and usage:
+For information on supported file types and usage see [Github Actions].
 
 [GitHub Actions]: {% link docs/building-your-quest/github-actions.md %}
