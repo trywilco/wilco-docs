@@ -18,7 +18,7 @@ Test if a given expression is false in a boolean context. Falsy expressions are 
 
 ## Params
 
-- **value:** the expression to be checked for falsyness
+- **value:** the expression to be checked for falsiness
 
 ## Outputs
 
@@ -32,4 +32,4 @@ Similar to [isTruthy]
 
 All triggers
 
-[isTruthy] {% link docs/building-your-quest/conditions/is-truthy.md %}
+[isTruthy]: {% link docs/building-your-quest/conditions/is-truthy.md %}
