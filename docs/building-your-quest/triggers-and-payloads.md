@@ -5,7 +5,7 @@ parent: Building Your Quest
 
 # Triggers and Payloads
 
-System triggers can generate a payload that gets passed to `action` and `condition` blocks along with the global payload. When defining a call to an action/condition block in the flow node, developers specify how to map a parameter from the payload to a parameter passed to the block. 
+System triggers can generate a payload that gets passed to `action` and `condition` blocks along with the global payload. When defining a call to an action/condition block in the [Flow Nodes], developers specify how to map a parameter from the payload to a parameter passed to the block. 
 
 This document:
 
@@ -56,7 +56,7 @@ Generated payload:
     - `github_pr_merged:` User merged the PR
 - `githubPrNumber:` PR number
 - `githubRepository:` The name of the repository in which the PR was opened
-- `githubWorkflowRunUrl`: Defined when `eventType` is one of `github_pr_workflow_complete_success` and `github_pr_workflow_complete_failure`. Holds a URL of the workflow run. 
+- `githubWorkflowRunUrl`: Defined when `eventType` is one of `github_pr_workflow_complete_success` or `github_pr_workflow_complete_failure`. Holds a URL of the workflow run. 
 
 Here's an example of how to run the [Github Actions] and approve it once it all run successfully. Pay attention there's an action to finish the step only when they merge the PR (that's possible because the user can merge the PR only when you approve the PR)
 ```yml
@@ -83,7 +83,7 @@ trigger:
 
 ### PING
 
-Triggered when a ping event happens in the user’s Anythink repo. No specific payload.
+Triggered when a [ping] event happens in the user’s Anythink repo. No specific payload.
 
 ### CHAT_OPENED
 
@@ -179,14 +179,14 @@ In addition to specific payload passed by each trigger, a global payload is alwa
     - `githubuser:` User’s Github username
     - `repository:` User’s Github repo url
     - `repoName:` Name of the user’s Github repo
-    - `company`
-    - `K8sBackendUrl:` the url of the K8s backend app
+    - `company`: Name of the user's company
+    - `K8sBackendUrl:` url of the K8s backend app
     - `K8sFrontendUrl:` url of the K8s frontend app
     - `newrelic:` User’s New Relic account information
         - `accountId` New Relic account id
         - `apiKey` New Relic API key
     - `frameworks:` The backend and frontend frameworks chosen by the user
-        - `backend:` One of node/rails/pythob
+        - `backend:` One of node/rails/python
         - `frontend:` Currently only react
         - `database:` One of mongodb/postgresql
     
@@ -367,3 +367,7 @@ A default result is initialized for all conditions and actions.
     
     There's no need for `success` as conditions always return true/false and `success` is set according to the result. Meaning, `output.condition_name` will contain `success` as well.
 
+
+[Flow Nodes]: {% link docs/building-your-quest/flow-nodes.md %}
+[GitHub Actions]: {% link docs/building-your-quest/github-actions.md %}
+[ping]: https://docs.github.com/en/webhooks-and-events/webhooks/webhook-events-and-payloads#ping
