@@ -7,7 +7,7 @@ grand_parent: Building Your Quest
 # github_is_file_added
 
 Category: Github
-Description: Check if specified files was added as part of PR changes.
+Description: Check if the specified file was added as part of PR changes.
 Type: Condition
 
 ## Description
