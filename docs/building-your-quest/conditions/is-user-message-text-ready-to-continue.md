@@ -48,7 +48,3 @@ The `is_user_message_text_ready_to_continue` condition is used to verify that th
 ## Relevant Triggers
 
 - `user_message`
-
-## Outputs
-
-Condition does not add additional info to `payload.outputs`
