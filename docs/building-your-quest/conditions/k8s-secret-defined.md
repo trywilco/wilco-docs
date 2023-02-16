@@ -18,7 +18,7 @@ Check if secret is set (exists) for the K8s namepsace. Returns true or false.
 
 ## Params
 
-- **key:** The the secret name
+- **key:** The secret name
 
 ## Outputs
 
