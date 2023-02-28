@@ -2,10 +2,10 @@
 title: github_commit_file
 parent: Actions
 grand_parent: Building Your Quest
-nav_order: 11
+nav_order: 9
 ---
 
-# github_commit_file
+# github_create_branch
 
 Category: Github
 Type: Action
