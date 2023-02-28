@@ -20,10 +20,10 @@ Actions support the following params:
 
 | Name            | Type   | Mandatory | Default | Description                                                                                                                                                                    |
 |-----------------|--------|-----------|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| actionId        | String | YES       | -       | String representing the actions. See section below for supported actions ids.                                                                                                  |
+| actionId        | String | YES       | -       | String representing the action. See section below for supported actionIds.                                                                                                     |
 | name            | String | NO        | null    | Name is mandatory in order to use action outputs. If name is specified and action enriches payload outputs, it can be accessed using `${outputs.<action_name>.<param_name>}` . |
 | params          | Map    | NO        | null    | Each action specifies which parameters it requires. Some parameters are passed transparently from the trigger payload and some must be configured.                             |
-| paramsFramework | Map    | NO        | null    | Used in cases the framework selected by the user affects the parameters passed to the action. It is a map from the framework name to the parameters.                              |
+| paramsFramework | Map    | NO        | null    | Used in cases the framework selected by the user affects the parameters passed to the action. It is a map from the framework name to the parameters.                           |
 
 Example:
 
@@ -91,7 +91,7 @@ switch:
 
 
 {: .note }
-We look forward to adding new actions in the future. Please reach out to us at [Creators@wilcohq.com](creators@wilcohq.com) with any questions.
+We look forward to adding new actions in the future. Please reach out to us at <Creators@wilcohq.com> with any questions.
 
 [bot_message]: {% link docs/building-your-quest/actions/bot-message.md %}
 [github_create_repo]: {% link docs/building-your-quest/actions/github-create-repo.md %}
@@ -111,4 +111,3 @@ We look forward to adding new actions in the future. Please reach out to us at [
 [finish_step]: {% link docs/building-your-quest/actions/finish-step.md %}
 [quest_notification]: {% link docs/building-your-quest/actions/quest-notification.md %}
 [Triggers and Payloads]: {% link docs/building-your-quest/triggers-and-payloads.md %}
-
