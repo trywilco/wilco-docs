@@ -19,7 +19,7 @@ Check if file added in PR contains text that matches a regex
 ## Params
 
 - **fileName:** file path in the repository
-- **regex:** Regex string. Value is used as input to `RegExp` ******constructor
+- **regex:** Regex string. Value is used as input to `RegExp` constructor
 
 ## Outputs
 

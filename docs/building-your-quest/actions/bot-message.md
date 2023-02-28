@@ -2,6 +2,7 @@
 title: bot_message
 parent: Actions
 grand_parent: Building Your Quest
+nav_order: 2
 ---
 
 # bot_message

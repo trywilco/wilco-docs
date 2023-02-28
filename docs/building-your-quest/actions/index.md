@@ -69,20 +69,22 @@ switch:
 
 ## Supported Actions
 
-| Name                                     | Category  | Description                                                                         |
-| ---------------------------------------- | --------- | ----------------------------------------------------------------------------------- |
-| [bot_message]                            | Chat      | Send message from the user to a bot                                                 |
-| [github_create_repo]                     | GitHub    | Create a new repo for the user.                                                     |
-| [github_invite_user]                     | GitHub    | Invite the user to collaborate on a Github repo.                                    |
-| [github_pr_comment]                      | GitHub    | Add a comment on a PR on behalf of one the bots.                                    |
-| [github_pr_approve]                      | GitHub    | Approve the PR and add a comment on behalf of a bot.                                |
-| [github_pr_reject]                       | GitHub    | Reject the PR and add a comment on behalf of a bot.                                 |
-| [github_open_issue]                      | GitHub    | Opens an issue in the user’s Github repository                                      |
-| [github_commit_file]                     | GitHub    | Commit a file to the user's repository                                              |
-| [newrelic_configure_with_key]            | New Relic | Configure user New Relic properties using given a license key                       |
-| [network_http_request]                   | Network   | Perform an http request                                                     ≠≠≠        |
-| [finish_step]                            | Quest     | Advance the user to the next step or finish the quest in case this is the last step |
-| [quest_notification]                     | Quest     | Notify a user about an event that happened while in a quest.                        |
+| Name                                     | Category  | Description                                                                       |
+| ---------------------------------------- | --------- | --------------------------------------------------------------------------------- |
+| [bot_message]                            | Chat      | Send message from user to a bot                                                   |
+| [github_create_repo]                     | GitHub    | Create new repo for the user.                                                     |
+| [github_invite_user]                     | GitHub    | Invite user to collaborate on a Github repo.                                      |
+| [github_pr_comment]                      | GitHub    | Add comment on a PR on behalf of one the bots.                                    |
+| [github_pr_approve]                      | GitHub    | Approve the PR and add a comment on behalf of a bot.                              |
+| [github_pr_reject]                       | GitHub    | Reject the PR and add a comment on behalf of a bot.                               |
+| [github_open_issue]                      | GitHub    | Opens an issue in the user’s Github repository                                    |
+| [github_commit_file]                     | GitHub    | Fommit a file to the user's repository                                            |
+| [newrelic_configure_with_key]            | New Relic | Configure user New Relic properties using given license key                       |
+| [network_http_request]                   | Network   | Perform an http request                                                           |
+| [network_http_load]                      | Network   | Generate HTTP traffic on a specified URL                                          |
+| [network_find_selector]                  | Network   | Evaluate `innerText` of an element matching a specified selector in a page        |
+| [finish_step]                            | Quest     | Advance the user to next step or finish quest in case this is the last step       |
+| [quest_notification]                     | Quest     | Notify a user about an event that happened while in a quest.                      |
 
 
 {: .note }
@@ -98,6 +100,8 @@ We look forward to adding new actions in the future. Please reach out to us at <
 [github_commit_file]: {% link docs/building-your-quest/actions/github-commit-file.md %}
 [newrelic_configure_with_key]: {% link docs/building-your-quest/actions/newrelic-configure-with-key.md %}
 [network_http_request]: {% link docs/building-your-quest/actions/network-http-request.md %}
+[network_http_load]: {% link docs/building-your-quest/actions/network-http-load.md %}
+[network_find_selector]: {% link docs/building-your-quest/actions/network-find-selector.md %}
 [finish_step]: {% link docs/building-your-quest/actions/finish-step.md %}
 [quest_notification]: {% link docs/building-your-quest/actions/quest-notification.md %}
 [Triggers and Payloads]: {% link docs/building-your-quest/triggers-and-payloads.md %}

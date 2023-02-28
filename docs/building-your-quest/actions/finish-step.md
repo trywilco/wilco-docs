@@ -2,6 +2,7 @@
 title: finish_step
 parent: Actions
 grand_parent: Building Your Quest
+nav_order: 14
 ---
 
 # finish_step
@@ -33,4 +34,4 @@ An example from the `onboarding` quest can be found [here]
 
 All triggers
 
-[here]: https://github.com/trywilco/quest-template/blob/main/steps/funneldrop_analyze_data.yml
+[here]: https://github.com/trywilco/quest-docker-localsetup/blob/main/steps/setup_docker_accept_invite.yml

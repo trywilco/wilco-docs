@@ -37,7 +37,7 @@ if:
     ...
 ```
 
-The `github_is_file_added_in_push` condition is used to check if the file `reamde.md` was added to the repository in the user's branch
+The `github_is_file_added_in_push` condition is used to check if the file `readme.md` was added to the repository in the user's branch
 
 ## Relevant Triggers
 
