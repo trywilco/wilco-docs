@@ -37,14 +37,14 @@ quest.zip
 This is a mandatory file that must be placed at the root of the zip archive's structure. This file defines the metadata of the quest:
 
 ```yaml
-*id: a unique quest identifier. Should not change. 3-50 characters, must begin with a letter. Accepted characters are A-Z, a-z, 0-9, and "_" | mandatory
-*title: Quest title. 2-40 characters. All characters are accepted. "Funnel Drop" in the example below | mandatory
-*subtitle: Quest subtitle. 2-68 characters. All characters are accepted. "Find the cause of user traffic drop in production and fix it" in the example below | mandatory
-*description: Quest description. All characters are accepted. "What's worse.." in the example below | mandatory 
-*summary: Quest summary. Shown when users finish the quest | mandatory 
-*slogan: Quest slogan. 2-1000 characters. "It's time for.." in the example below | mandatory
-*level: Quest level. beginner/intermediate/advanced | mandatory
-*duration: Estimated number of hours required to finish the quest | mandatory
+id*: a unique quest identifier. Should not change. 3-50 characters, must begin with a letter. Accepted characters are A-Z, a-z, 0-9, and "_" | mandatory
+title*: Quest title. 2-40 characters. All characters are accepted. "Funnel Drop" in the example below | mandatory
+subtitle*: Quest subtitle. 2-68 characters. All characters are accepted. "Find the cause of user traffic drop in production and fix it" in the example below | mandatory
+description*: Quest description. All characters are accepted. "What's worse.." in the example below | mandatory 
+summary*: Quest summary. Shown when users finish the quest | mandatory 
+slogan*: Quest slogan. 2-1000 characters. "It's time for.." in the example below | mandatory
+level*: Quest level. beginner/intermediate/advanced | mandatory
+duration*: Estimated number of hours required to finish the quest | mandatory
 repository: The user's repo will be initialized to this repository when a quest starts. e.g. https://github.com/trywilco/Anythink-Market-Public | optional
 shouldResetRepo: Whether the user's repo will be reset to specific code, set it to false when the quest does not involve any code | optional
 resources: A list of resources that should be available to the user when the quest begins | optional 
@@ -52,12 +52,12 @@ resources: A list of resources that should be available to the user when the que
 - resource_2
 - ...
 - resource_n
-*steps: List of all quest step ids | mandatory
+steps*: List of all quest step ids | mandatory
 - step_id_1
 - step_id_2
 - ...
 - step_id_n
-*skills: List of skills the user will work on when playing the quest | mandatory
+skills*: List of skills the user will work on when playing the quest | mandatory
 - skill_1
 - skill_2
 - ...
