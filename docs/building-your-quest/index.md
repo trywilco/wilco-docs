@@ -42,7 +42,6 @@ title*: Quest title. 2-40 characters. All characters are accepted. "Funnel Drop"
 subtitle*: Quest subtitle. 2-68 characters. All characters are accepted. "Find the cause of user traffic drop in production and fix it" in the example below | mandatory
 description*: Quest description. All characters are accepted. "What's worse.." in the example below | mandatory 
 summary*: Quest summary. Shown when users finish the quest | mandatory 
-slogan*: Quest slogan. 2-1000 characters. "It's time for.." in the example below | mandatory
 level*: Quest level. beginner/intermediate/advanced | mandatory
 duration*: Estimated number of hours required to finish the quest | mandatory
 repository: The user's repo will be initialized to this repository when a quest starts. e.g. https://github.com/trywilco/Anythink-Market-Public | optional
