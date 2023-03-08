@@ -16,7 +16,7 @@ Merge a previously opened PR on the user's repository. The action finds the PR a
 ## Params
 
 - **headBranch:** The PR head branch.
-- **baseBranch:** The PR base branch
+- **baseBranch:** The PR base branch.
 
 ## Result
 
