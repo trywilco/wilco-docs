@@ -14,8 +14,8 @@ Checks if the file added in a PR contains text that matches a given regex.
 
 ## Params
 
-- **fileName:** The file path in the repository.
-- **regex:** The regex string. The value is used as input to for the `RegExp` constructor.
+- **fileName:** The file path in the repository
+- **regex:** The regex string. The value is used as input to for the `RegExp` constructor
 
 ## Outputs
 

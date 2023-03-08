@@ -2,19 +2,16 @@
 title: github_pr_comment
 parent: Actions
 grand_parent: Building Your Quest
+nav_order: 5
 ---
 
 # github_pr_comment
-
-Category: Github
-Description: Add comment on a PR on behalf of one the bots.
-Type: Action
 
 ## Description
 
 **Type**: Action
 
-Add comment on a PR on behalf of one the bots
+Add comment on a PR on behalf of one the bots.
 
 ## Params
 
@@ -22,7 +19,6 @@ Add comment on a PR on behalf of one the bots
     
     [Text Formatting]
     
-
 ## Result
 
 No additional info is added to the global payload outputs.
@@ -36,7 +32,7 @@ do:
     message: "On it, I'll review the changes right away."
 ```
 
-The `github_pr_comment` action is used to add comment from `keen` letting user know that she will review the PR.
+The `github_pr_comment` action is used to add comment from `keen` letting the user know that he will review the PR.
 
 ## Relevant Triggers
 

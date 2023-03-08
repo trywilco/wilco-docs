@@ -10,7 +10,7 @@ This is a mandatory folder containing a file for each step defined in `quest.yml
 
 ```yaml
 id: Step id as specified in quest.yml file | mandatory
-learningObjectives: Bulletpoints stating what users will learn to do in the quest | mandatory
+learning objectives: Bulletpoints stating what users will learn to do in the quest. At least one bullet per step, 80 character limit | mandatory
 - learning_objective_1
 - learning_objective_2
 - ...
@@ -26,6 +26,7 @@ trigger: Trigger type and flow node logic. Each step has one trigger | mandatory
   flowNode: Flow node logic to execute when user perform the action | mandatory
     ...
 githubAction: Github Actions configuration to run in opened PRs | optional
+solution: Flow node logic to execute when a user requests a solution | optional
 ```
 
 ## Additional Resources
@@ -33,9 +34,11 @@ githubAction: Github Actions configuration to run in opened PRs | optional
 - [Flow Nodes]
 - [Actions]
 - [Conditions]
+- [Solution]
     
 
 [Triggers and Payload]: {% link docs/building-your-quest/triggers-and-payloads.md %}
 [Flow Nodes]: {% link docs/building-your-quest/flow-nodes.md %}
 [Actions]: {% link docs/building-your-quest/actions/index.md %}
 [Conditions]: {% link docs/building-your-quest/conditions/index.md %}
+[Solution]: {% link docs/building-your-quest/solution.md %}

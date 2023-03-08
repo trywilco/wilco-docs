@@ -8,9 +8,9 @@ nav_order: 7
 
 Each step that requires the user to open and merge a pull request (PR) can include the GitHub Actions configuration. These actions will run as part of a workflow triggered on every PR when the PR code changes. 
 
-→ Read more about GitHub Workflows and Actions on their [official documentation].
+→ Read more about GitHub Workflows and Actions in their [official documentation].
 
-Configuring GitHub Actions on a step is done by adding the `githubActions` key to the step YAML file. `githubActions` can include one or both of the keys, `backend` or `frontend`. Each allows configuring the actions for the specific part of the application.
+Configuring GitHub Actions in a step is done by adding the `githubActions` key to the step YAML file. `githubActions` can include one or both of the keys `backend` and `frontend`. Each allows configuring the actions for that specific part of the application.
 
 ```yaml
 ...
@@ -28,7 +28,7 @@ githubActions:
 
 If `backend` is specified in `githubActions`, a server will be loaded inside the Github Workflow environment. If a running server is required for `frontend` actions, but no additional configurations are required for the `backend`, an empty backend configuration must be added to the YAML.
 
-The generated actions will install all required dependencies and run the server, both according to the current backend framework.
+The generated actions will install all required dependencies and run the server according to the current backend framework.
 
 ## Frontend
 
@@ -36,22 +36,22 @@ If `frontend` is specified in `githubActions` all frontend dependencies will be 
 
 ## Configuration
 
-Each part of the application can define the following configuration keys:
+Each part of the application can be defined with the following configuration keys:
 
 - `testFile`: A test file to be executed as part of the actions. This file must be placed in the `tests` folder of the quest file structure and is downloaded to the Github Workflow environment. The supported test file types are:
     - `js`: javascript file
     - `sql`: Structured Query Language files that contain code to work with relational databases
     
-    Unless specified differently by the `capabilities` and/or `cmd` configuration, the test file will be executed using following default commands:
+    Unless specified differently by the `capabilities` and/or `cmd` configuration, the test file will be executed using the following default commands:
     
     - Backend: `node ${testFile}`
     - Frontend: `yarn test --ci --watchAll=false --silent ./${testFile}`
     
-- `capabilities`: Capabilities are everything that is required to run the tests. The default behavior for `capabilities` is to install a library required by the test file. It means that the action generated will simply run the command `yarn add <capability>`.
+- `capabilities`: Capabilities are everything that is required to run the tests. The default behavior for `capabilities` is to install the library required by the test file. It means that the action generated will simply run the command `yarn add <capability>`.
     
     Some capabilities perform more complicated actions and are used to simplify the configuration of common behaviors:
     
-    - `seeds`: Seeds the database with information for tests which require seeded data. This will generate an action according to the current backend database type.
+    - `seeds`: This seeds the database with information for tests that require seeded data. This will generate an action according to the current backend database type.
     - `jest-puppeteer`: Frontend tests frequently require running [jest-puppeteer]. If this capability is set, default `jest-puppeteer` configuration files will be downloaded to the workflow environment and the test command will be replaced with:
         
         `yarn run jest -c src/jest.config.js`
@@ -61,21 +61,20 @@ Each part of the application can define the following configuration keys:
         - [jest.config.js]
         - [jest-puppeteer.config.js]
         
-- `cmd`: In most cases, using the default `capabilities` and test commands should be enough, but sometimes there is a need for custom commands. `cmd` can be either a single command or an array of commands. In any case, each command will add an action with the structure:
+- `cmd`: In most cases, using the default `capabilities` and test commands should be enough, but sometimes there is a need for custom commands. `cmd` can take an array of commands, each command will add an action with the structure:
     
-    ```json
-    {
-      "cmd": "<cmd>"
-      "cwd": "backend | frontend",
-    }
+    ```yaml
+      cmd: 
+      - "cmd1"
+      - "cmd2"
     ```
     
 
-- `paramsFramework`: In some scenarios, tests should use different files or commands according to the used frameworks. `paramsFramework` is a map from framework type to `capabilities` and `cmd` keys.
+- `paramsFramework`: In some scenarios, tests should use different files or commands according to the frameworks used. `paramsFramework` is a map from framework type to `capabilities` and `cmd` keys.
 
 ## Examples
 
-The following are a few examples of using GitHub Actions in steps YAML files:
+The following are a few examples of using GitHub Actions in steps in YAML files:
 
 ---
 
@@ -98,7 +97,6 @@ githubActions:
   frontend:
     capabilities:
     - jest-puppeteer
-    - puppeteer
     testFile: "search-empty.test.js"
 ```
 

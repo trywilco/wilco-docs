@@ -35,7 +35,7 @@ if:
     ...
 ```
 
-The `github_is_one_of_files_modified` condition is used to check if one of the `reamde.md` files in the repository was modified in the PR.
+The `github_is_one_of_files_modified` condition is used to check if one of the `readme.md` files in the repository was modified in the PR
 
 ## Relevant Triggers
 

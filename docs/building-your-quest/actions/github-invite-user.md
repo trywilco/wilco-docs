@@ -2,23 +2,20 @@
 title: github_invite_user
 parent: Actions
 grand_parent: Building Your Quest
+nav_order: 4
 ---
 
 # github_invite_user
-
-Category: Github
-Description: Invite user to collaborate on Github repo.
-Type: Action
 
 ## Description
 
 **Type**: Action
 
-Invite user to collaborate on Github repo
+Invites user to collaborate on Github repo.
 
 ## Params
 
-- **githubUserName:** user’s Github username
+- **githubUserName:** The user’s Github username.
 
 ## Result
 

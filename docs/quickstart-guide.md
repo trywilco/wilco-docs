@@ -18,6 +18,7 @@ nav_order: 3
 💡 To publish a quest only to users from your company, you'll need **Wilco for Teams**. Learn more [here].
 
 [quest development guidelines]: {% link docs/submitting-your-quest-for-review/quest-submission-checklist.md %}
+[Uploading and Testing Your Quest]: {% link docs/upload-and-test/index.md %}
 [Review Process and Submission Guidelines]: {% link docs/submitting-your-quest-for-review/index.md %}
 [Building Your Quest]: {% link docs/building-your-quest/index.md %}
 [here]: https://www.trywilco.com/teams/join

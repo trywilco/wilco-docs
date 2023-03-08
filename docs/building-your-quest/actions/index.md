@@ -20,10 +20,10 @@ Actions support the following params:
 
 | Name            | Type   | Mandatory | Default | Description                                                                                                                                                                    |
 |-----------------|--------|-----------|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| actionId        | String | YES       | -       | String representing the actions. See section below for supported actions ids.                                                                                                  |
+| actionId        | String | YES       | -       | String representing the action. See section below for supported actionIds.                                                                                                     |
 | name            | String | NO        | null    | Name is mandatory in order to use action outputs. If name is specified and action enriches payload outputs, it can be accessed using `${outputs.<action_name>.<param_name>}` . |
 | params          | Map    | NO        | null    | Each action specifies which parameters it requires. Some parameters are passed transparently from the trigger payload and some must be configured.                             |
-| paramsFramework | Map    | NO        | null    | Used in cases framework selected by the user affects the parameterss passed to the action. It is a map from the framework name to the parameters.                              |
+| paramsFramework | Map    | NO        | null    | Used in cases the framework selected by the user affects the parameters passed to the action. It is a map from the framework name to the parameters.                           |
 
 Example:
 
@@ -74,19 +74,24 @@ switch:
 | [bot_message]                            | Chat      | Send message from user to a bot                                                   |
 | [github_create_repo]                     | GitHub    | Create new repo for the user.                                                     |
 | [github_invite_user]                     | GitHub    | Invite user to collaborate on a Github repo.                                      |
-| [github_pr_comment]                      | GitHub    | Add comment on a PR on behalf of one the bots.                                    |
-| [github_pr_approve]                      | GitHub    | Approve the PR and add a comment on behalf of a bot.                              |
-| [github_pr_reject]                       | GitHub    | Reject the PR and add a comment on behalf of a bot.                               |
+| [github_pr_comment]                      | GitHub    | Add comment on a PR on behalf of one the bots                                    |
+| [github_pr_approve]                      | GitHub    | Approve the PR and add a comment on behalf of a bot                              |
+| [github_pr_reject]                       | GitHub    | Reject the PR and add a comment on behalf of a bot                               |
+| [github_open_pr]                         | GitHub    | Open a new GitHub PR                                                              |
+| [github_merge_pr]                        | GitHub    | Merge an open PR                                                                  |
 | [github_open_issue]                      | GitHub    | Opens an issue in the user’s Github repository                                    |
-| [github_commit_file]                     | GitHub    | Fommit a file to the user's repository                                            |
+| [github_commit_file]                     | GitHub    | Commit a file to the user's repository                                            |
+| [github_create_branch]                   | GitHub    | Create new branch on the user's repository                                        |
 | [newrelic_configure_with_key]            | New Relic | Configure user New Relic properties using given license key                       |
 | [network_http_request]                   | Network   | Perform an http request                                                           |
+| [network_http_load]                      | Network   | Generate HTTP traffic on a specified URL                                          |
+| [network_find_selector]                  | Network   | Evaluate `innerText` of an element matching a specified selector in a page        |
 | [finish_step]                            | Quest     | Advance the user to next step or finish quest in case this is the last step       |
 | [quest_notification]                     | Quest     | Notify a user about an event that happened while in a quest.                      |
 
 
 {: .note }
-We look forward to adding new actions in the future. Please reach out to us at [Creators@wilcohq.com](creators@wilcohq.com) with any questions.
+We look forward to adding new actions in the future. Please reach out to us at <Creators@wilcohq.com> with any questions.
 
 [bot_message]: {% link docs/building-your-quest/actions/bot-message.md %}
 [github_create_repo]: {% link docs/building-your-quest/actions/github-create-repo.md %}
@@ -94,11 +99,15 @@ We look forward to adding new actions in the future. Please reach out to us at [
 [github_pr_comment]: {% link docs/building-your-quest/actions/github-pr-comment.md %}
 [github_pr_approve]: {% link docs/building-your-quest/actions/github-pr-approve.md %}
 [github_pr_reject]: {% link docs/building-your-quest/actions/github-pr-reject.md %}
+[github_open_pr]: {% link docs/building-your-quest/actions/github-open-pr.md %}
+[github_merge_pr]: {% link docs/building-your-quest/actions/github-merge-pr.md %}
 [github_open_issue]: {% link docs/building-your-quest/actions/github-open-issue.md %}
 [github_commit_file]: {% link docs/building-your-quest/actions/github-commit-file.md %}
+[github_create_branch]: {% link docs/building-your-quest/actions/github-create-branch.md %}
 [newrelic_configure_with_key]: {% link docs/building-your-quest/actions/newrelic-configure-with-key.md %}
 [network_http_request]: {% link docs/building-your-quest/actions/network-http-request.md %}
+[network_http_load]: {% link docs/building-your-quest/actions/network-http-load.md %}
+[network_find_selector]: {% link docs/building-your-quest/actions/network-find-selector.md %}
 [finish_step]: {% link docs/building-your-quest/actions/finish-step.md %}
 [quest_notification]: {% link docs/building-your-quest/actions/quest-notification.md %}
 [Triggers and Payloads]: {% link docs/building-your-quest/triggers-and-payloads.md %}
-

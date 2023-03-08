@@ -2,19 +2,16 @@
 title: github_create_repo
 parent: Actions
 grand_parent: Building Your Quest
+nav_order: 3
 ---
 
 # github_create_repo
-
-Category: Github
-Description: Create new repo for the user.
-Type: Action
 
 ## Description
 
 **Type**: Action
 
-Create new repo for the user
+Creates new repo for the user.
 
 ## Params
 

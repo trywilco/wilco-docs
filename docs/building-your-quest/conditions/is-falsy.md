@@ -14,7 +14,7 @@ Tests if a given expression is false in a boolean context. Falsy expressions are
 
 ## Params
 
-- **value:** The expression to be checked for falsyness.
+- **value:** the expression to be checked for falsiness
 
 ## Outputs
 
