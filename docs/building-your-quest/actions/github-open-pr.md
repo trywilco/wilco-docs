@@ -11,7 +11,7 @@ nav_order: 8
 
 **Type**: Action
 
-Open new PR on the user's repository. 
+Open a new PR on the user's repository. 
 
 ## Params
 
