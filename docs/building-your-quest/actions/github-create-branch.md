@@ -17,7 +17,7 @@ Create a new branch on the user's repo. The new branch is created using a branch
 
 - **branchName:** The new branch's name.
 - **startRepositoryBranchName:** The branch name in the quest's start repository. 
-- **message:** The commit message to show on adding changes to new branch
+- **message:** The commit message to show when adding changes to the new branch.
 
 ## Result
 
