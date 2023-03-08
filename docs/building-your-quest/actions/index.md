@@ -74,11 +74,14 @@ switch:
 | [bot_message]                            | Chat      | Send message from user to a bot                                                   |
 | [github_create_repo]                     | GitHub    | Create new repo for the user.                                                     |
 | [github_invite_user]                     | GitHub    | Invite user to collaborate on a Github repo.                                      |
-| [github_pr_comment]                      | GitHub    | Add comment on a PR on behalf of one the bots.                                    |
-| [github_pr_approve]                      | GitHub    | Approve the PR and add a comment on behalf of a bot.                              |
-| [github_pr_reject]                       | GitHub    | Reject the PR and add a comment on behalf of a bot.                               |
+| [github_pr_comment]                      | GitHub    | Add comment on a PR on behalf of one the bots                                    |
+| [github_pr_approve]                      | GitHub    | Approve the PR and add a comment on behalf of a bot                              |
+| [github_pr_reject]                       | GitHub    | Reject the PR and add a comment on behalf of a bot                               |
+| [github_open_pr]                         | GitHub    | Open a new GitHub PR                                                              |
+| [github_merge_pr]                        | GitHub    | Merge an open PR                                                                  |
 | [github_open_issue]                      | GitHub    | Opens an issue in the user’s Github repository                                    |
-| [github_commit_file]                     | GitHub    | Fommit a file to the user's repository                                            |
+| [github_commit_file]                     | GitHub    | Commit a file to the user's repository                                            |
+| [github_create_branch]                   | GitHub    | Create new branch on the user's repository                                        |
 | [newrelic_configure_with_key]            | New Relic | Configure user New Relic properties using given license key                       |
 | [network_http_request]                   | Network   | Perform an http request                                                           |
 | [network_http_load]                      | Network   | Generate HTTP traffic on a specified URL                                          |
@@ -96,8 +99,11 @@ We look forward to adding new actions in the future. Please reach out to us at <
 [github_pr_comment]: {% link docs/building-your-quest/actions/github-pr-comment.md %}
 [github_pr_approve]: {% link docs/building-your-quest/actions/github-pr-approve.md %}
 [github_pr_reject]: {% link docs/building-your-quest/actions/github-pr-reject.md %}
+[github_open_pr]: {% link docs/building-your-quest/actions/github-open-pr.md %}
+[github_merge_pr]: {% link docs/building-your-quest/actions/github-merge-pr.md %}
 [github_open_issue]: {% link docs/building-your-quest/actions/github-open-issue.md %}
 [github_commit_file]: {% link docs/building-your-quest/actions/github-commit-file.md %}
+[github_create_branch]: {% link docs/building-your-quest/actions/github-create-branch.md %}
 [newrelic_configure_with_key]: {% link docs/building-your-quest/actions/newrelic-configure-with-key.md %}
 [network_http_request]: {% link docs/building-your-quest/actions/network-http-request.md %}
 [network_http_load]: {% link docs/building-your-quest/actions/network-http-load.md %}
