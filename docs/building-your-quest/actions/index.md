@@ -74,7 +74,7 @@ switch:
 | [bot_message]                            | Chat      | Send message from user to a bot                                                   |
 | [github_create_repo]                     | GitHub    | Create new repo for the user.                                                     |
 | [github_invite_user]                     | GitHub    | Invite user to collaborate on a Github repo.                                      |
-| [github_pr_comment]                      | GitHub    | Add comment on a PR on behalf of one the bots.                                    |
+| [github_pr_comment]                      | GitHub    | Add comment on a PR on behalf of one the bots                                    |
 | [github_pr_approve]                      | GitHub    | Approve the PR and add a comment on behalf of a bot.                              |
 | [github_pr_reject]                       | GitHub    | Reject the PR and add a comment on behalf of a bot.                               |
 | [github_open_pr]                         | GitHub    | Open a new GitHub PR                                                              |
