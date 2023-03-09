@@ -7,19 +7,15 @@ nav_order: 8
 
 # github_is_file_added
 
-Category: Github
-Description: Check if specified files was added as part of PR changes.
-Type: Condition
-
 ## Description
 
 **Type**: Condition
 
-Check if specified files was added as part of PR changes
+Checks if a specified files was added as part of a PR change.
 
 ## Params
 
-- **fileName:** file path in the repository
+- **fileName:** The file path in the repository.
 
 ## Outputs
 

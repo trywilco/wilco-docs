@@ -7,15 +7,11 @@ nav_order: 4
 
 # is_user_message_text_ready_to_continue
 
-Category: Chat
-Description: Check if user answered both with message that means they are ready to continue
-Type: Condition
-
 ## Description
 
 **Type**: Condition
 
-In some cases the bots just want confirmation from the user that they are ready to continue. This condition verifies that text mean “ready”. Examples for relevant keywords are:
+In some cases the bots just want confirmation from the user that they are ready to continue. This condition verifies that the text means “ready”. Examples for relevant keywords are:
 
 - ready
 - done
@@ -24,7 +20,7 @@ In some cases the bots just want confirmation from the user that they are ready 
 
 ## Params
 
-No params required. The condition uses `userMessageText` which is part of the payload sent along with the trigger when user sends message to bot
+No params required. The condition uses `userMessageText` which is part of the payload sent along with the trigger when the user sends a message to the bot.
 
 ## Outputs
 
@@ -35,7 +31,7 @@ No additional info is added to the global payload outputs.
 ```yaml
   type: user_message
   params:
-    person: keen
+    person: Keen
   flowNode:
     if:
       conditions:
@@ -44,12 +40,8 @@ No additional info is added to the global payload outputs.
         ...
 ```
 
-The `is_user_message_text_ready_to_continue` condition is used to verify that the message sent by the user to `keen` means he is ready to continue.
+The `is_user_message_text_ready_to_continue` condition is used to verify that the message sent by the user to `Keen` means he is ready to continue.
 
 ## Relevant Triggers
 
 - `user_message`
-
-## Outputs
-
-Condition does not add additional info to `payload.outputs`

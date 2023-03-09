@@ -2,28 +2,25 @@
 title: bot_message
 parent: Actions
 grand_parent: Building Your Quest
+nav_order: 2
 ---
 
 # bot_message
-
-Category: Chat
-Description: Send message from user to a bot
-Type: Action
 
 ## Description
 
 **Type**: Action
 
-Send message to the user on behalf of one of the bots. 
+Sends a message to the user on behalf of one of the bots. 
 
 ## Params
 
-- **person:** Name of the bot. e.g., `keen` or `lucca`
-- **messages:** list of messages, each contains `text` and `delay`. The latter is optional, and means the time it would take a real person to write this message. The message `Bot is typing…` will be presented in Snack during this time. If delay not specified, a value will be calculated according to the text length
+- **person:** The name of the bot. e.g., `keen` or `lucca`.
+- **messages:** A list of messages, each contains `text` and `delay`. The latter is optional, and means the time it would take a real person to write this message. The message `Bot is typing…` will be presented in Snack during this time. If delay not specified, a value will be calculated according to the text length.
     
   [Text Formatting]
 
-- **components** list of message components, which allows you to add interactivity to your communication
+- **components** A list of message components, which allows you to add interactivity to your communication.
 
   [Message Components]
     

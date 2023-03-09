@@ -7,15 +7,11 @@ nav_order: 7
 
 # github_is_one_of_files_modified
 
-Category: Github
-Description: Check if one of specified files was modified as part of PR changes
-Type: Condition
-
 ## Description
 
 **Type**: Condition
 
-Check if one of specified files was modified as part of PR changes
+Checks if one of specified files was modified as part of a PR change.
 
 ## Params
 
@@ -40,7 +36,7 @@ if:
     ...
 ```
 
-The `github_is_one_of_files_modified` condition is used to check if one of the `reamde.md` files in the repository was modified in the PR
+The `github_is_one_of_files_modified` condition is used to check if one of the `readme.md` files in the repository was modified in the PR
 
 ## Relevant Triggers
 

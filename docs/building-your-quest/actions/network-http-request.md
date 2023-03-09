@@ -2,17 +2,14 @@
 title: network_http_request
 parent: Actions
 grand_parent: Building Your Quest
+nav_order: 14
 ---
 
 # network_http_request
 
-Category: Network
-Description: Perform http request
-Type: Action
-
 ### Description
 
-**Type**: action
+**Type**: Action
 
 Perform http request using `axios`. 
 
@@ -20,14 +17,14 @@ Perform http request using `axios`.
 
 ## Params
 
-- **method:** Request method to be used when making the request. Defaults to `GET`
-- **url**: Full server url to be used for the request. URL must be specified
-- **params**: URL parameters to be sent with the request
-- **headers:** custom headers to be sent
+- **method:** The request method to be used when making the request. Defaults to `GET`.
+- **url**: The full server url to be used for the request. URL must be specified.
+- **params**: The URL parameters to be sent with the request.
+- **headers:** The custom headers to be sent.
 
 ## Outputs
 
-In case of success, the action will set the returned `data` on the outputs. In case of an error, the action will set the returned `error`.
+In the case of success, the action will set the returned `data` to the outputs. In case of an error, the action will set the returned output to `error`.
 
 These can be accessed using:
 

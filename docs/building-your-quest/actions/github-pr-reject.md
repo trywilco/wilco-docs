@@ -2,19 +2,16 @@
 title: github_pr_reject
 parent: Actions
 grand_parent: Building Your Quest
+nav_order: 7
 ---
 
 # github_pr_reject
-
-Category: Github
-Description: Reject the PR and add comment on behalf of a bot.
-Type: Action
 
 ## Description
 
 **Type**: Action
 
-Reject the PR (request changes) and add comment on behalf of a bot.
+Rejects the PR (request changes) and adds a comment on behalf of a bot.
 
 ## Params
 
@@ -22,7 +19,6 @@ Reject the PR (request changes) and add comment on behalf of a bot.
     
     [Text Formatting]
     
-
 ## Result
 
 No additional info is added to the global payload outputs.

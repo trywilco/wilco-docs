@@ -2,30 +2,27 @@
 title: newrelic_configure_with_key
 parent: Actions
 grand_parent: Building Your Quest
+nav_order: 13
 ---
 
 # newrelic_configure_with_key
-
-Category: NewRelic
-Description: Configure user New Relic properties using given license key
-Type: Action
 
 ## Description
 
 **Type**: Action
 
-Configure user New Relic properties using given license key.
+Configures the user's New Relic properties using the given license key.
 
 ## Params
 
-- **newRelicKey:** New Relic license key
+- **newRelicKey:** The New Relic license key.
 
 ## Outputs
 
-The action sets `success` and `error` on its outputs. In case a failure happened, `success` will be false and `error` will be set to one of:
+The action sets `success` and `error` on its outputs. In case a failure has occured, `success` will be false and `error` will be set to one of:
 
-- `invalid_key_format` - key does not match the format of a valid New Relic license key. Format should match the regex `(NRAK-[A**-**Z0**-**9]{27})`
-- `invalid_key`- key has valid format but is declined by New Relic.
+- `invalid_key_format` - the key does not match the format of a valid New Relic license key. The format should match the regex `(NRAK-[A**-**Z0**-**9]{27})`
+- `invalid_key`- The key is in a valid format but is declined by New Relic.
 
 These can be accessed using:
 

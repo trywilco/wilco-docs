@@ -7,19 +7,15 @@ nav_order: 14
 
 # newrelic_license_key_valid
 
-Category: NewRelic
-Description: Check if given key is a valid new relic license key.
-Type: Condition
-
 ## Description
 
 **Type**: Condition
 
-Check if given key is a valid new relic license key.
+Checks if a given key is a valid new relic license key.
 
 ## Params
 
-- **key:** The config var key
+- **key:** The config var key.
 
 ## Outputs
 

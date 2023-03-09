@@ -5,9 +5,14 @@ parent: Building Your Quest
 
 # Start Repository
 
-Each Wilco quest is associated with a start repository. When the user starts a new quest, their repository will be initialized using the start repository defined in the quest. The repository must be public.
+Quests can be associated with a start repository. When the user starts a new quest, their repository will be initialized using the start repository defined in the quest. The repository must be public. 
 
-If a start repository was not defined in the `quest.yml` file, The [Anythink Market] repository will be used.
+If your quest doesn't require a repository, you should explicitly state this in the `quest.yml` by providing a null value - `repository: null`. 
+
+{: .note-title }
+> Anythink Market Repository
+>
+> You can always start from the [Anythink Market] repository, which includes a functional backend, frontend and database.
 
 Reasons to use a start repository could be, for example:
 1. Adding a bug to the code that users will be asked to fix.
