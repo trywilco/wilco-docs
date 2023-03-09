@@ -6,15 +6,11 @@ grand_parent: Building Your Quest
 
 # k8s_secret_defined
 
-Category: K8s
-Description: Check if a secret is set (exists) for the K8s namespace.
-Type: Condition
-
 ## Description
 
 **Type**: Condition
 
-Check if secret is set (exists) for the K8s namepsace. Returns true or false.
+Checks if a secret is set (exists) for the K8s namepsace. Returns true or false.
 
 ## Params
 

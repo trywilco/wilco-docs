@@ -6,15 +6,11 @@ grand_parent: Building Your Quest
 
 # is_falsy
 
-Category: General
-Description: Test if expression is falsy
-Type: Condition
-
 ### Description
 
-**Type**: condition
+**Type**: Condition
 
-Test if a given expression is false in a boolean context. Falsy expressions are expressions that evaluates to `false`,  `null`, or `undefined`. Strings that equal to one of those are also considered falsy. 
+Tests if a given expression is false in a boolean context. Falsy expressions are expressions that evaluate to `false`,  `null`, or `undefined`. Strings that are equal to one of those are also considered falsy. 
 
 ## Params
 

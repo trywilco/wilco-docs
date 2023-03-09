@@ -6,20 +6,16 @@ grand_parent: Building Your Quest
 
 # text_contains_strings
 
-Category: String
-Description: Check if text contains subset of strings.
-Type: Condition
-
 ## Description
 
-**Type**: condition
+**Type**: Condition
 
-Check if text contains one of possible strings.
+Checks if text contains one of possible strings.
 
 ## Params
 
-- **text:** Input string
-- **strings:** An array of items where each item is either a string or array of strings. In case the item is array of strings, all strings must be found in the text.
+- **text:** The input string.
+- **strings:** An array of items where each item is either a string or array of strings. If the item is an array of strings, all strings must be found in the text.
 
 ## Outputs
 
@@ -41,9 +37,9 @@ if:
     ...
 ```
 
-The `text_contains_strings` condition is used to verify that text entered by the user in Snack means mobile/ios/android.
+The `text_contains_strings` condition is used to verify that the text entered by the user in Snack means mobile/ios/android.
 
-In case each string param is array of strings, the condition will search for one of the string, so for example:
+If each string param is an array of strings, the condition will search for one of the string, so for example:
 ```yaml
       strings:
       - one
