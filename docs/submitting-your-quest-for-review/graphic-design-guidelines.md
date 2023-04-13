@@ -9,7 +9,7 @@ Welcome to the Wilco Quest Builder! So, you’ve created an amazing and informat
 
 First and foremost, Please download the design template file **[here](https://drive.google.com/file/d/1BwGL7DgUpXSwxdjjBPjWIMdnSJHHmERY/view?usp=sharing)**.
 
-In order to publish your quest, you need two assets: The Quest Cover and the Quest Logo.
+In order to publish your quest, you need only one asset: The Quest Cover.
 
 ## The Quest Cover
 
@@ -37,12 +37,6 @@ Here are some of our Favorite Quest Covers for your inspiration:
 ![adding-a-feature-cover]{:.centered}
 
 Once you have completed your quest cover, you can move on to the next part.
-
-## The Quest Logo
-
-The quest logo is pretty straightforward - using the quest cover you have created, export the Main title as an SVG File. Please note you need to convert the font to outlines first, otherwise it will be changed to a less pleasing system font - which we like to avoid.
-
-We have attached several open-source fonts you can use in the design template file - which you probably downloaded already, right?
 
 That’s it! We can’t wait to see the amazing covers you have created.
 

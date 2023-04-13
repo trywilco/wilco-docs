@@ -40,10 +40,9 @@ parent: Submitting Your Quest for Review
 
 ## Graphics
 
-- [ ]  Cover image and logo adhere to [Graphics Design Guidelines]
+- [ ]  Cover image adhere to [Graphics Design Guidelines]
 - [ ]  Cover image file is named `Cover`
-- [ ]  Logo file is named `Logo`
-- [ ]  Cover and logo images use supported file types: `png|jpg|jpeg|svg`
+- [ ]  Cover use supported file types: `png|jpg|jpeg|svg`
 
 [Grammarly]: http://www.grammarly.com
 [Wordtune]: http://www.wordtune.com
