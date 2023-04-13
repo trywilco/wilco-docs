@@ -38,12 +38,6 @@ Here are some of our Favorite Quest Covers for your inspiration:
 
 Once you have completed your quest cover, you can move on to the next part.
 
-## The Quest Logo
-
-The quest logo is pretty straightforward - using the quest cover you have created, export the Main title as an SVG File. Please note you need to convert the font to outlines first, otherwise it will be changed to a less pleasing system font - which we like to avoid.
-
-We have attached several open-source fonts you can use in the design template file - which you probably downloaded already, right?
-
 That’s it! We can’t wait to see the amazing covers you have created.
 
 [Readex Pro]: https://fonts.google.com/specimen/Readex+Pro?query=readex
