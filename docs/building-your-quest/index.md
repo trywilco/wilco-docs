@@ -19,7 +19,6 @@ quest.zip
 │
 ├── assets
 │   ├── cover.jpeg
-│   └── logo.svg
 ├── steps
 │   ├── <step_id_1>.yml
 │   ├── <step_id_2>.yml
