@@ -20,10 +20,6 @@ The following files must be placed in the assets folder:
 - **cover:**  The main cover image of the quest, shown in the catalog. The name of this file must be `cover`.
     
     ![gitting-started]
-    
-- **logo**: The logo image presented when selecting a quest from the catalog. The name of this file must be `logo`.
-    
-    ![gitting-started-catalog]
 
 [Graphic Design Guidelines]
 
