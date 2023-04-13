@@ -9,7 +9,7 @@ Welcome to the Wilco Quest Builder! So, you’ve created an amazing and informat
 
 First and foremost, Please download the design template file **[here](https://drive.google.com/file/d/1BwGL7DgUpXSwxdjjBPjWIMdnSJHHmERY/view?usp=sharing)**.
 
-In order to publish your quest, you need two assets: The Quest Cover and the Quest Logo.
+In order to publish your quest, you need only one asset: The Quest Cover.
 
 ## The Quest Cover
 
