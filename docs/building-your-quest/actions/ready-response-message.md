@@ -31,7 +31,7 @@ startFlow:
       person: keen
 ```
 
-The action `ready_message` is used to send "ready"/"not ready" button when you want to get the readiness confirmation from the usre.
+The action `ready_message` sends "ready"/"not ready" buttons to the user in order to confirm their readiness.
 
 Here is how it will look like:
 ![Ready Message Component]
