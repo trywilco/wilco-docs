@@ -89,7 +89,7 @@ switch:
 | [network_find_selector]                  | Network   | Evaluate `innerText` of an element matching a specified selector in a page.        |
 | [finish_step]                            | Quest     | Advance the user to the next step or finish the quest if this is the last step.       |
 | [quest_notification]                     | Quest     | Notify a user about an event that happened while in a quest.                      |
-| [ready_response_message]                 | Chat      | Send ready/not yet buttons to the user to get a readiness signal                  |
+| [ready_response_message]                 | Chat      | Send the "ready"/"not yet" buttons to the user for a readiness signal.                  |
 
 
 {: .note }
