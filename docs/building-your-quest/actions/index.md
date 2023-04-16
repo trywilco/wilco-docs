@@ -89,6 +89,7 @@ switch:
 | [network_find_selector]                  | Network   | Evaluate `innerText` of an element matching a specified selector in a page        |
 | [finish_step]                            | Quest     | Advance the user to next step or finish quest in case this is the last step       |
 | [quest_notification]                     | Quest     | Notify a user about an event that happened while in a quest.                      |
+| [ready_response_message]                 | Chat      | Send ready/not yet buttons to the user to get a readiness signal                  |
 
 
 {: .note }
@@ -113,3 +114,4 @@ We look forward to adding new actions in the future. Please reach out to us at <
 [finish_step]: {% link docs/building-your-quest/actions/finish-step.md %}
 [quest_notification]: {% link docs/building-your-quest/actions/quest-notification.md %}
 [Triggers and Payloads]: {% link docs/building-your-quest/triggers-and-payloads.md %}
+[ready_response_message]: {% link docs/building-your-quest/ready-response-message.md %}
