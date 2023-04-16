@@ -114,4 +114,4 @@ We look forward to adding new actions in the future. Please reach out to us at <
 [finish_step]: {% link docs/building-your-quest/actions/finish-step.md %}
 [quest_notification]: {% link docs/building-your-quest/actions/quest-notification.md %}
 [Triggers and Payloads]: {% link docs/building-your-quest/triggers-and-payloads.md %}
-[ready_response_message]: {% link docs/building-your-quest/ready-response-message.md %}
+[ready_response_message]: {% link docs/building-your-quest/actions/ready-response-message.md %}
