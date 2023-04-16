@@ -32,3 +32,10 @@ startFlow:
 ```
 
 The action `ready_message` is used to send "ready"/"not ready" button when you want to get the readiness confirmation from the usre.
+
+Here is how it will look like:
+![Ready Message Component]
+
+
+[Ready Message Component]: {% link assets/images/building-your-quest/ready-message.png %}
+
