@@ -24,7 +24,7 @@ The following repository outlines how to create a quest from scratch or using pr
 
 ### **Getting started with a tutorial quest**
 You can also start by playing a quest that teaches you how to build quests. It's crazy, we know!
-You can try it out [here](https://app.wilco.gg/guest?directQuestId=build_your_first_quest)
+Try it out [here](https://app.wilco.gg/guest?directQuestId=build_your_first_quest)
 
 ### **Issues**
 If you have encountered a problem while working with the Builder SDK or this documentation, please create a new [issue] to bring it to our team’s attention. 
