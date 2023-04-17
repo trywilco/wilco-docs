@@ -1,11 +1,11 @@
 ---
-title: bot_message
+title: ready_message
 parent: Actions
 grand_parent: Building Your Quest
 nav_order: 2
 ---
 
-# bot_message
+# ready_message
 
 ## Description
 
