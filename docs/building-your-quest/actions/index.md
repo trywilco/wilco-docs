@@ -86,9 +86,10 @@ switch:
 | [newrelic_configure_with_key]            | New Relic | Configure user New Relic properties using given license key                       |
 | [network_http_request]                   | Network   | Perform an http request                                                           |
 | [network_http_load]                      | Network   | Generate HTTP traffic on a specified URL                                          |
-| [network_find_selector]                  | Network   | Evaluate `innerText` of an element matching a specified selector in a page        |
-| [finish_step]                            | Quest     | Advance the user to next step or finish quest in case this is the last step       |
+| [network_find_selector]                  | Network   | Evaluate `innerText` of an element matching a specified selector in a page.        |
+| [finish_step]                            | Quest     | Advance the user to the next step or finish the quest if this is the last step.       |
 | [quest_notification]                     | Quest     | Notify a user about an event that happened while in a quest.                      |
+| [ready_response_message]                 | Chat      | Send the "ready"/"not yet" buttons to the user for a readiness signal.                  |
 
 
 {: .note }
@@ -113,3 +114,4 @@ We look forward to adding new actions in the future. Please reach out to us at <
 [finish_step]: {% link docs/building-your-quest/actions/finish-step.md %}
 [quest_notification]: {% link docs/building-your-quest/actions/quest-notification.md %}
 [Triggers and Payloads]: {% link docs/building-your-quest/triggers-and-payloads.md %}
+[ready_response_message]: {% link docs/building-your-quest/actions/ready-response-message.md %}
