@@ -29,12 +29,21 @@ startFlow:
   - actionId: ready_message
     params:
       person: keen
+trigger:
+  type: user_ready_response
+  flowNode:
+    do:
+      - actionId: finish_step
 ```
 
 The action `ready_message` sends "ready"/"not ready" buttons to the user in order to confirm their readiness.
 
 Here is how it will look like:
 ![Ready Message Component]
+
+## Relevant Triggers
+
+- `user_ready_response`
 
 
 [Ready Message Component]: {% link assets/images/building-your-quest/ready-message.png %}
