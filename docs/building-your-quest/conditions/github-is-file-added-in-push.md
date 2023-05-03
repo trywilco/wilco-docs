@@ -1,5 +1,6 @@
 ---
 title: github_is_file_added_in_push
+description: Check if a file was added in a push when building your dev challenge (Quest Builder Conditions).
 parent: Conditions
 grand_parent: Building Your Quest
 ---
