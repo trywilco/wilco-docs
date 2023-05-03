@@ -1,5 +1,6 @@
 ---
 title: Planning Your Quest
+description: Plan your own hands-on developer challenge ("quest") on Wilco using our Quest Builder
 nav_order: 4
 ---
 
