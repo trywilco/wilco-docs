@@ -1,5 +1,6 @@
 ---
 title: user_check_authentication_exists
+description: Check if user authentication exists for a given Wilco user when building your dev challenge (Quest Builder Conditions)
 parent: Conditions
 grand_parent: Building Your Quest
 ---
