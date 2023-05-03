@@ -1,5 +1,6 @@
 ---
 title: action_success
+description: Check if a previously executed action block was finished successfully when building your dev challenge (Quest Builder Conditions)
 parent: Conditions
 grand_parent: Building Your Quest
 ---
