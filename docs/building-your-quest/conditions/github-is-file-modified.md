@@ -1,5 +1,6 @@
 ---
 title: github_is_file_modified
+description: Check if a specified file was modified as part of a PR change when building your dev challenge (Quest Builder Conditions).
 parent: Conditions
 grand_parent: Building Your Quest
 ---
