@@ -1,5 +1,6 @@
 ---
 title: is_falsy
+description: Check if a given expression is false in a boolean context when building your dev challenge (Quest Builder Conditions)
 parent: Conditions
 grand_parent: Building Your Quest
 ---
