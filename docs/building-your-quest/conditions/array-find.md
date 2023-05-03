@@ -1,6 +1,7 @@
 ---
 title: array_find
 parent: Conditions
+description: Find an element in an array that matches specified conditions when building your dev challenge (Quest Builder Conditions).
 grand_parent: Building Your Quest
 ---
 
