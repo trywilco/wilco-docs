@@ -1,5 +1,6 @@
 ---
 title: github_is_repo_collaborator
+description: Check if the user accepted the invitation for their repo when building your dev challenge (Quest Builder Conditions).
 parent: Conditions
 grand_parent: Building Your Quest
 ---
