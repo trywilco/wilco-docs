@@ -1,5 +1,6 @@
 ---
 title: array_every
+description: Test wheter all elements in an array pass the specified conditions when building your dev challenge (Quest Builder Conditions)
 parent: Conditions
 grand_parent: Building Your Quest
 ---
