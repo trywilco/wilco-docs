@@ -1,6 +1,7 @@
 ---
 title: database_check_connection_url
 parent: Conditions
+description: Verify if the database connection URL is valid when building your dev challenge (Quest Builder Conditions).
 grand_parent: Building Your Quest
 ---
 
