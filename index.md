@@ -1,5 +1,6 @@
 ---
 title: Home
+description: Create hands-on developer challenges ("quests") on Wilco with the Quest Builder.
 layout: home
 nav_order: 1
 ---
