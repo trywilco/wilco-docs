@@ -1,5 +1,6 @@
 ---
 title: github_is_file_added
+description: Check if specified files were added as part of a PR change when building your dev challenge (Quest Builder Conditions).
 parent: Conditions
 grand_parent: Building Your Quest
 ---
@@ -10,7 +11,7 @@ grand_parent: Building Your Quest
 
 **Type**: Condition
 
-Checks if a specified files was added as part of a PR change.
+Checks if specified files were added as part of a PR change.
 
 ## Params
 
