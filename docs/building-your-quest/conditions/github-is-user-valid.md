@@ -1,5 +1,6 @@
 ---
 title: github_is_user_valid
+description: Check if a username exists in Github when building your dev challenge (Quest Builder Conditions)
 parent: Conditions
 grand_parent: Building Your Quest
 ---
