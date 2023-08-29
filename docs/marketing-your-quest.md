@@ -23,7 +23,6 @@ Having a quest gives you an opportunity to showcase your development skills to t
 - **Influencers and content creators** - you can reach out to influencers, thought leaders and content creators who are relevant to the domain your quest is on, and ask them to try it out and possibly spread the word. 
 - **Open source communities** 
 - **Reddit** -  if you’re an active user on Reddit then creating conversations about your quest…
-- **Discord communities** - depending on the topics, skills, and technologies you can find many discord communities that have a relevant audience…
 - **Hackernews** 
 - **Press coverage** - while in most cases press coverage isn’t likely for this type of content
 - **Press release for SEO distribution**
