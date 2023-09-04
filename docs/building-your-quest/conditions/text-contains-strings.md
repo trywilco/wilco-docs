@@ -10,7 +10,7 @@ grand_parent: Building Your Quest
 
 **Type**: Condition
 
-Checks if text contains one of possible strings.
+Checks if text contains one of possible strings (not case-sensitive).
 
 ## Params
 
@@ -37,7 +37,7 @@ if:
     ...
 ```
 
-The `text_contains_strings` condition is used to verify that the text entered by the user in Snack means mobile/ios/android.
+The `text_contains_strings` condition is used to verify that the text entered by the user in Snack means mobile/Mobie/ios/iOS/android.
 
 If each string param is an array of strings, the condition will search for one of the string, so for example:
 ```yaml
