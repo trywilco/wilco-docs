@@ -164,10 +164,76 @@ trigger:
 ```
 
 
+
+### Multi Select Form
+
+Allows you to ask the user for a secret (i.e API key, connection string) that will be send in an encrypted manner and won't be shared with third parties.
+This form is handled with it's own trigger `secret_submitted`
+
+```yml
+  - components:
+      - type: form
+        form:
+          id: generic_mongo_connection_string_form
+          type: secret_input_form
+```
+
+{: .note-title }
+> How will it look in Snack?
+>
+> ![secret_input_form]
+
+The submitted value can later be used to validate it's correctnes, and to be saved on the user for future use.
+The value can be found in the trigger payload, using the following notation: `"${secretValue}"`
+
+For example, here is a connection string submitted by the user:
+
+```
+trigger:
+  type: secret_submitted
+  flowNode:
+    if:
+      conditions:
+        - conditionId: text_match_regex
+          name: connection_string_prefix
+          params:
+            text: "${secretValue}"
+            regex: "^mongodb"
+        - conditionId: database_check_connection_url
+          params:
+            type: mongodb
+            url: "${secretValue}"
+
+      then:
+        do:
+          - actionId: user_set_integration_property
+            params:
+              integration: mongo
+              key: connectionString
+              value: ${secretValue}
+
+          - actionId: bot_message
+            params:
+              person: ${defaultPerson}
+              messages:
+                - text: "That connection string looks good! we are ready to move on to the next step."
+                  delay: 1300
+          - actionId: finish_step
+      else:
+        do:
+          - actionId: bot_message
+            params:
+              person: ${defaultPerson}
+              messages:
+                - text: "That's not correct, try again!"
+```
+
+
 [button component]: {% link assets/images/message-components/navigate.png %}
 {:width="50%"}
 [single-select form]: {% link assets/images/message-components/single-select.png %}
 [multi-select form]: {% link assets/images/message-components/multi-select.png %}
+[secret_input_form]: {% link assets/images/message-components/secret_input_form.png %}
 
 [`chat_form_submitted`]: {% link docs/building-your-quest/triggers-and-payloads.md %}#chat_form_submitted
 [`text_contains_strings`]: {% link docs/building-your-quest/conditions/text-contains-strings.md %}
