@@ -167,6 +167,32 @@ And the equivalent event:
 curl -X POST https://engine.wilco.gg/users/${WILCO_USER_ID}/event -d '{"event":"test", "metadata": {"prop": "value"}}' -H 'Content-Type: application/json'
 ```
 
+### SECRET_SUBMITTED
+
+Triggers when a a user submit a secret using the `secret_input_form` on Snack.
+Payload:
+- `secretValue`: the value of the secret submitted by the user
+
+For example:
+
+```yaml
+trigger:
+  type: secret_submitted
+  flowNode:
+    if:
+      conditions:
+        - conditionId: text_match_regex
+          name: connection_string_prefix
+          params:
+            text: "${secretValue}"
+            regex: "^mongodb"
+        - conditionId: database_check_connection_url
+          params:
+            type: mongodb
+            url: "${secretValue}"
+
+      then:
+```
 
 ## Global Payload
 
