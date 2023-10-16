@@ -21,6 +21,8 @@ The following files must be placed in the assets folder:
     
     ![gitting-started]
 
+- **creator logo:**  The logo of your company, shown in the catalog. The name of this file must be `creator_logo`.
+
 [Graphic Design Guidelines]
 
 [Graphic Design Guidelines]: {% link docs/submitting-your-quest-for-review/graphic-design-guidelines.md %}   
