@@ -90,6 +90,7 @@ switch:
 | [finish_step]                            | Quest     | Advance the user to the next step or finish the quest if this is the last step.       |
 | [quest_notification]                     | Quest     | Notify a user about an event that happened while in a quest.                      |
 | [ready_response_message]                 | Chat      | Send the "ready"/"not yet" buttons to the user for a readiness signal.                  |
+| [store_user_property]                    | User      | Save a string on the user so you'll be able to use it later                  |
 
 
 {: .note }
@@ -115,3 +116,4 @@ We look forward to adding new actions in the future. Please reach out to us at <
 [quest_notification]: {% link docs/building-your-quest/actions/quest-notification.md %}
 [Triggers and Payloads]: {% link docs/building-your-quest/triggers-and-payloads.md %}
 [ready_response_message]: {% link docs/building-your-quest/actions/ready-response-message.md %}
+[store_user_property]: {% link docs/building-your-quest/actions/store-user-property.md %}
