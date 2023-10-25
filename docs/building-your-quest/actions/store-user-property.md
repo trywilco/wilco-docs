@@ -1,16 +1,16 @@
 ---
-title: store_user_propery
+title: store_user_property
 parent: Actions
 grand_parent: Building Your Quest
 ---
 
-# store_user_propery
+# store_user_property
 
 ### Description
 
 **Type**: Action
 
-Save a value under the user, so you'll able to use it later
+Save a value under the user, so you'll be able to use it later.
 
 ## Params
 
@@ -29,8 +29,8 @@ No additional info is added to the global payload outputs.
       name: answer
       value: ${userMessageText}
 ```
-In this example we store the user response under the `answer` key, then later we can access this value using: `${user.properties.answer}`
-Those propse are shared between any of your quests, so for example you can ask user property in one quest and use it later in different quest.
+In this example, we store the user's response under the `answer`` key. Later, we can access this value using `${user.properties.answer}``.
+These properties are shared across all of your quests. For example, you can ask for a user property in one quest and use it later in a different quest.
 
 ## Relevant Triggers
 
