@@ -29,7 +29,7 @@ No additional info is added to the global payload outputs.
       name: answer
       value: ${userMessageText}
 ```
-In this example, we store the user's response under the `answer`` key. Later, we can access this value using `${user.properties.answer}``.
+In this example, we store the user's response under the `answer` key. Later, we can access this value using `${user.properties.answer}``.
 These properties are shared across all of your quests. For example, you can ask for a user property in one quest and use it later in a different quest.
 
 ## Relevant Triggers
