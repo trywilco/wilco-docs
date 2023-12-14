@@ -44,7 +44,6 @@ summary*: Quest summary. Shown when users finish the quest | mandatory
 level*: Quest level. beginner/intermediate/advanced | mandatory
 duration*: Estimated number of hours required to finish the quest | mandatory
 repository: The user's repo will be initialized to this repository when a quest starts. e.g. https://github.com/trywilco/Anythink-Market-Public | optional
-shouldResetRepo: Whether the user's repo will be reset to specific code, set it to false when the quest does not involve any code | optional
 resources: A list of resources that should be available to the user when the quest begins | optional 
 - resource_1
 - resource_2
