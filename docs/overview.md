@@ -12,7 +12,7 @@ If you just want to experience Wilco as an end user and browse our catalog or pu
 ## The Wilco experience
 
 Unlike other learning platforms, Wilco has chosen a playful and interactive experience using a "Slack-like" interface
-where players/students can interact with a virtual assistance instead of reading massive walls of text
+where players/students can interact with a virtual assistant instead of reading massive walls of text.
 
 ![snack]
 
@@ -23,7 +23,7 @@ The actual task is accomplished in a different system. For several of our quests
 
 ## Quest building blocks
 
-All components of a quest can be described in files and you can store them in a Git repository for better organization and management. The basic components of a quest are 
+All components of a quest can be described in files and you can store them in a Git repository for better organization and management. The basic components of a quest are:
 
 * A `quest.yml` file that describes what your quest does and its dependencies
 * Resources that your quest needs such as a database, a queue, a Kubernetes cluster, a VM etc
@@ -45,7 +45,7 @@ Checks can be very simple such as asking the player itself something or checking
 
 ## Creating your own quest
 
-To create your own quest you need to do the following
+To create your own quest you need to do the following:
 
 1. Create all your quest assets (images, text, infrastructure)
 1. Write all required files that describe your quest and how all components work together
