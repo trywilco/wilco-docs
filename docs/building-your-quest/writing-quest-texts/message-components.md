@@ -179,8 +179,7 @@ trigger:
 >
 > ![secret-input form]
 
-A form designed for sharing a secret in an encrepyed manner. Can be used for storing users' private data.
-
+A form designed for sharing a secret in an encrypted manner. Can be used for storing users' private data.
 
 ```yml
 trigger:
