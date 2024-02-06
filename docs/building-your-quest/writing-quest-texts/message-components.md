@@ -163,11 +163,45 @@ trigger:
           - actionId: action to do if they were not found
 ```
 
+### Secret Input Form
+
+```yml
+- components:
+    - type: form
+      form:
+        id: connection_string_form_mongodb
+        type: secret_input_form
+
+```
+
+{: .note-title }
+> How will it look in Snack?
+>
+> ![secret-input form]
+
+A form designed for sharing a secret in an encrepyed manner. Can be used for storing users' private data.
+
+
+```yml
+trigger:
+  type: chat_form_submitted
+  flowNode:
+    if:
+      conditions:
+        - conditionId: database_check_connection_url
+          name: connection_test
+          params:
+            type: mongodb
+            url: "${formSubmission}"
+```
+
 
 [button component]: {% link assets/images/message-components/navigate.png %}
 {:width="50%"}
 [single-select form]: {% link assets/images/message-components/single-select.png %}
 [multi-select form]: {% link assets/images/message-components/multi-select.png %}
+[secret-input form]: {% link assets/images/message-components/secret-input.png %}
+
 
 [`chat_form_submitted`]: {% link docs/building-your-quest/triggers-and-payloads.md %}#chat_form_submitted
 [`text_contains_strings`]: {% link docs/building-your-quest/conditions/text-contains-strings.md %}
