@@ -7,14 +7,14 @@ grand_parent: Building Your Quest
 # run_command
 
 Category: Remote Machine
-Description: Run a command on a remote machine
+Description: Run a command on the user's remote codespace
 Type: Action
 
 ### Description
 
 **Type**: action
 
-Run a command on a remote machine. The action uses an agent running on the remote machine.
+Run a command on the user's codespace. The action uses an agent running on the remote machine.
 
 ## Params
 
