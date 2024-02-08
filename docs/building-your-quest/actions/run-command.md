@@ -19,7 +19,7 @@ Run a command on the user's codespace. The action uses an agent running on the r
 ## Params
 
 - **command:** The command to run on the remote machine. i.e. `ls -l`
-- **timeout**: The maximal time in seconds to wait for the command to finish. The default is 60 seconds.
+- **timeout**: The maximal time in seconds to wait for the command to finish. The default is 30 seconds.
 
 ## Outputs
 
