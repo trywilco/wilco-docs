@@ -24,17 +24,38 @@ Run a command on the user's codespace. The action uses an agent running on the r
 ## Outputs
 
 Stdout and stderr of the command are added to the global payload outputs.
+In case of error, the error message will be added to the global payload outputs.
 
 ## Usage Example
 
 ```yaml
-do:
-- actionId: run_command
-  params:
-    command: ls -l
+ do:
+   - actionId: run_command
+     name: command
+     params:
+       command: pwd
+
+   - actionId: run_command
+     name: error_check
+     params:
+       command: non_existing_command
+
+
+   - actionId: bot_message
+     params:
+       person: keen
+       messages:
+         - text: "command1: ${outputs.command.data}"
+
+   - actionId: bot_message
+     params:
+       person: keen
+       messages:
+         - text: "command2: ${outputs.error_check.data}"
 ```
 
-In this example, the command `ls -l` is run on the remote machine, and the output is added to the global payload outputs.
+In this example, the command `pwd` is run on the remote machine, and the output is added to the global payload outputs. 
+Then, a non-existing command is run, and the error message is also added to the global payload outputs.
 
 ## Relevant Triggers
 
