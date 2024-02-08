@@ -36,7 +36,7 @@ In case of error, the error message will be added to the global payload outputs.
        command: pwd
 
    - actionId: run_command
-     name: error_check
+     name: failed_command
      params:
        command: non_existing_command
 
@@ -51,7 +51,7 @@ In case of error, the error message will be added to the global payload outputs.
      params:
        person: keen
        messages:
-         - text: "command2: ${outputs.error_check.data}"
+         - text: "command2:${JSON.stringify(outputs.failed_command.error)}"
 ```
 
 In this example, the command `pwd` is run on the remote machine, and the output is added to the global payload outputs. 
