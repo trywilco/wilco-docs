@@ -83,6 +83,9 @@ You can add GIFs and images in Snack messages using the following format: `![](u
 
 You can also use a basic JS functions manipulations like `slice` `split` `substring` or `toUpperCase`. You can also have all the [Lodash](https://lodash.com/docs/) utility functions, and you can use it by `Lodash.someX...`
 
+### Files
+You can use the files from your assets folder directly using ${file.name}
+
 ### Input
 Use `:input[clickable text to display]{text='message to type on click'}` to create an inline clickable text that will type a given message on behalf of the user.
 
