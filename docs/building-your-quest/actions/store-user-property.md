@@ -24,7 +24,7 @@ No additional info is added to the global payload outputs.
 ## Usage Example
 
 ```yaml
-  - actionId: store_user_propery
+  - actionId: store_user_property
     params:
       name: answer
       value: ${userMessageText}
