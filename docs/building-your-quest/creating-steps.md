@@ -29,6 +29,21 @@ githubAction: Github Actions configuration to run in opened PRs | optional
 solution: Flow node logic to execute when a user requests a solution | optional
 ```
 
+## Default Steps
+A quest that requires a GitHub repository will automatically include the default step `codespace_start_docker_compose` at the beginning. This step prompts users to open their codespace and run `docker compose up` to start their application.
+If you prefer, you can manually add this step in a different order. For example:
+```yaml
+
+steps:
+  - load_data
+  - create_index
+  - codespace_start_docker_compose
+  - chat_server
+...
+```
+
+
+
 ## Additional Resources
 - [Triggers and Payload]
 - [Flow Nodes]
