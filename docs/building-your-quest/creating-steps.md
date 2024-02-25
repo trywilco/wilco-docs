@@ -30,7 +30,7 @@ solution: Flow node logic to execute when a user requests a solution | optional
 ```
 
 ## Default Steps
-A quest that requires a GitHub repository will automatically include the default step `codespace_start_docker_compose` at the beginning. This step prompts users to open their codespace and run `docker compose up` to start their application.
+A quest that requires a [GitHub repository] will automatically include the default step `codespace_start_docker_compose` at the beginning. This step prompts users to open their codespace and run `docker compose up` to start their application.
 If you prefer, you can manually add this step in a different order. For example:
 ```yaml
 
@@ -41,7 +41,6 @@ steps:
   - chat_server
 ...
 ```
-
 
 
 ## Additional Resources
@@ -57,3 +56,5 @@ steps:
 [Actions]: {% link docs/building-your-quest/actions/index.md %}
 [Conditions]: {% link docs/building-your-quest/conditions/index.md %}
 [Solution]: {% link docs/building-your-quest/solution.md %}
+[GitHub repository]: {% link docs/building-your-quest/repository.md %}
+
