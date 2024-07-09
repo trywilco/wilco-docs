@@ -66,6 +66,11 @@ frameworks: Frameworks this quest will be available in | optional
   - node
   frontend:
   - react
+sidebarTools: A list of links to a tool that will be displayed on Snack(our chat) sidebar | optional
+  - name: tool 1 
+    link: https://tool1.com
+  - name: tool 2
+    link: https://tool2.com
 ```
 
 → [Start Repository]
@@ -74,6 +79,7 @@ frameworks: Frameworks this quest will be available in | optional
 
 → [Quest Resources]
 
+→ [Sidebar tools]
 
 [Steps]: {% link docs/building-your-quest/creating-steps.md %}
 [Assets]: {% link docs/building-your-quest/assets.md %}
@@ -81,3 +87,4 @@ frameworks: Frameworks this quest will be available in | optional
 [Start Repository]: {% link docs/building-your-quest/repository.md %}
 [Supported Skills]: {% link docs/building-your-quest/supported-skills.md %}
 [Quest Resources]: {% link docs/building-your-quest/quest-resources/index.md %}
+[Sidebar tools]: {% link docs/building-your-quest/sidebar-tools.md %}
