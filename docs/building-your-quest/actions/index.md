@@ -72,8 +72,6 @@ switch:
 | Name                                     | Category  | Description                                                                     |
 | ---------------------------------------- |-----------|---------------------------------------------------------------------------------|
 | [bot_message]                            | Chat      | Send message from user to a bot                                                 |
-| [github_create_repo]                     | GitHub    | Create new repo for the user.                                                   |
-| [github_invite_user]                     | GitHub    | Invite user to collaborate on a Github repo.                                    |
 | [github_pr_comment]                      | GitHub    | Add comment on a PR on behalf of one the bots                                   |
 | [github_pr_approve]                      | GitHub    | Approve the PR and add a comment on behalf of a bot                             |
 | [github_pr_reject]                       | GitHub    | Reject the PR and add a comment on behalf of a bot                              |
@@ -97,8 +95,6 @@ switch:
 We look forward to adding new actions in the future. Please reach out to us at <Creators@wilcohq.com> with any questions.
 
 [bot_message]: {% link docs/building-your-quest/actions/bot-message.md %}
-[github_create_repo]: {% link docs/building-your-quest/actions/github-create-repo.md %}
-[github_invite_user]: {% link docs/building-your-quest/actions/github-invite-user.md %}
 [github_pr_comment]: {% link docs/building-your-quest/actions/github-pr-comment.md %}
 [github_pr_approve]: {% link docs/building-your-quest/actions/github-pr-approve.md %}
 [github_pr_reject]: {% link docs/building-your-quest/actions/github-pr-reject.md %}
