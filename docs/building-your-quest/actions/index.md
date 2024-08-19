@@ -69,27 +69,29 @@ switch:
 
 ## Supported Actions
 
-| Name                                     | Category  | Description                                                                     |
-| ---------------------------------------- |-----------|---------------------------------------------------------------------------------|
-| [bot_message]                            | Chat      | Send message from user to a bot                                                 |
-| [github_pr_comment]                      | GitHub    | Add comment on a PR on behalf of one the bots                                   |
-| [github_pr_approve]                      | GitHub    | Approve the PR and add a comment on behalf of a bot                             |
-| [github_pr_reject]                       | GitHub    | Reject the PR and add a comment on behalf of a bot                              |
-| [github_open_pr]                         | GitHub    | Open a new GitHub PR                                                            |
-| [github_merge_pr]                        | GitHub    | Merge an open PR                                                                |
-| [github_open_issue]                      | GitHub    | Opens an issue in the user’s Github repository                                  |
-| [github_commit_file]                     | GitHub    | Commit a file to the user's repository                                          |
-| [github_add_secret]                      | GitHub    | Adds a secret to the user's repository                                          |
-| [github_create_branch]                   | GitHub    | Create new branch on the user's repository                                      |
-| [newrelic_configure_with_key]            | New Relic | Configure user New Relic properties using given license key                     |
-| [network_http_request]                   | Network   | Perform an http request                                                         |
-| [network_http_load]                      | Network   | Generate HTTP traffic on a specified URL                                        |
-| [network_find_selector]                  | Network   | Evaluate `innerText` of an element matching a specified selector in a page.     |
-| [finish_step]                            | Quest     | Advance the user to the next step or finish the quest if this is the last step. |
-| [quest_notification]                     | Quest     | Notify a user about an event that happened while in a quest.                    |
-| [ready_response_message]                 | Chat      | Send the "ready"/"not yet" buttons to the user for a readiness signal.          |
-| [store_user_property]                    | User      | Save a string on the user so you'll be able to use it later                     |
-| [run_command]                            | Codespace | Run a command on the user's codespace.                                          |
+| Name                          | Category  | Description                                                         |
+|-------------------------------|-----------|---------------------------------------------------------------------|
+| [bot_message]                 | Chat      | Send message from user to a bot                                     |
+| [github_pr_comment]           | GitHub    | Add comment on a PR on behalf of one the bots                       |
+| [github_pr_approve]           | GitHub    | Approve the PR and add a comment on behalf of a bot                 |
+| [github_pr_reject]            | GitHub    | Reject the PR and add a comment on behalf of a bot                  |
+| [github_open_pr]              | GitHub    | Open a new GitHub PR                                                |
+| [github_merge_pr]             | GitHub    | Merge an open PR                                                    |
+| [github_open_issue]           | GitHub    | Opens an issue in the user’s Github repository                      |
+| [github_commit_file]          | GitHub    | Commit a file to the user's repository                              |
+| [github_add_secret]           | GitHub    | Adds a secret to the user's repository                              |
+| [github_create_branch]        | GitHub    | Create new branch on the user's repository                          |
+| [github_reply_to_discussion]  | GitHub    | Reply to a discussion on a user's repository                        |
+| [github_repo_api]             | GitHub    |  a request to the GitHub repository API                             |
+| [newrelic_configure_with_key] | New Relic | Configure user New Relic properties using given license key         |
+| [network_http_request]        | Network   | Perform an http request                                             |
+| [network_http_load]           | Network   | Generate HTTP traffic on a specified URL                            |
+| [network_find_selector]       | Network   | Evaluate `innerText` of an element matching a specified selector in a page. |
+| [finish_step]                 | Quest     | Advance the user to the next step or finish the quest if this is the last step. |
+| [quest_notification]          | Quest     | Notify a user about an event that happened while in a quest.        |
+| [ready_response_message]      | Chat      | Send the "ready"/"not yet" buttons to the user for a readiness signal. |
+| [store_user_property]         | User      | Save a string on the user so you'll be able to use it later         |
+| [run_command]                 | Codespace | Run a command on the user's codespace.                              |
 
 {: .note }
 We look forward to adding new actions in the future. Please reach out to us at <Creators@wilcohq.com> with any questions.
@@ -104,6 +106,8 @@ We look forward to adding new actions in the future. Please reach out to us at <
 [github_commit_file]: {% link docs/building-your-quest/actions/github-commit-file.md %}
 [github_create_branch]: {% link docs/building-your-quest/actions/github-create-branch.md %}
 [github_add_secret]: {% link docs/building-your-quest/actions/github-add-secret.md %}
+[github_reply_to_discussion]: {% link docs/building-your-quest/actions/github-reply-to-discussion.md %}
+[github-repo-api]: {% link docs/building-your-quest/actions/github-repo-api.md %}
 [newrelic_configure_with_key]: {% link docs/building-your-quest/actions/newrelic-configure-with-key.md %}
 [network_http_request]: {% link docs/building-your-quest/actions/network-http-request.md %}
 [network_http_load]: {% link docs/building-your-quest/actions/network-http-load.md %}
