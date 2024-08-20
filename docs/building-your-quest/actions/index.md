@@ -107,7 +107,7 @@ We look forward to adding new actions in the future. Please reach out to us at <
 [github_create_branch]: {% link docs/building-your-quest/actions/github-create-branch.md %}
 [github_add_secret]: {% link docs/building-your-quest/actions/github-add-secret.md %}
 [github_reply_to_discussion]: {% link docs/building-your-quest/actions/github-reply-to-discussion.md %}
-[github-repo-api]: {% link docs/building-your-quest/actions/github-repo-api.md %}
+[github_repo_api]: {% link docs/building-your-quest/actions/github-repo-api.md %}
 [newrelic_configure_with_key]: {% link docs/building-your-quest/actions/newrelic-configure-with-key.md %}
 [network_http_request]: {% link docs/building-your-quest/actions/network-http-request.md %}
 [network_http_load]: {% link docs/building-your-quest/actions/network-http-load.md %}
