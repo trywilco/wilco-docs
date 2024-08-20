@@ -83,31 +83,31 @@ trigger:
 
 ### GITHUB_ISSUE_CREATED
 
-Triggered when the user creates an issue on their repository
+Triggered when the user creates an issue on their repository.
 
 ### GITHUB_BRANCH_CREATED
 
-Triggered when the user creates a remote branch on their repository
+Triggered when the user creates a remote branch on their repository.
 
 ### GITHUB_DISCUSSION_CREATED
 
-Triggered when the user creates a discussion on their repository
+Triggered when the user creates a discussion on their repository.
 
 Generated payload:
 
 - `githubDiscussionNumber`: the discussion number of the created discussion
 
 An example:
-    ```yml
-    trigger:
-      type: github_discussion_created
-      flowNode:
-        do:
-          - actionId: github_reply_to_discussion
-            params:
-              discussionNumber: "${githubDiscussionNumber}"
-              body: "Message body"
-    ```
+```yml
+trigger:
+  type: github_discussion_created
+  flowNode:
+    do:
+      - actionId: github_reply_to_discussion
+        params:
+          discussionNumber: "${githubDiscussionNumber}"
+          body: "Message body"
+```
 
 ### PING
 

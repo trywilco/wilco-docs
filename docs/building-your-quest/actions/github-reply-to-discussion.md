@@ -16,7 +16,7 @@ Reply to a GitHub discussion.
 ## Params
 
 - **discussionNumber:** The discussion number. Can be used with the `github_discussion_created` trigger and the `${githubDiscussionNumber}` parameter.
-- **body:** The branch name in the quest's start repository. 
+- **body:** The content of the reply.
 
 ## Result
 
