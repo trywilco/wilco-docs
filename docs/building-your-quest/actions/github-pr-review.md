@@ -19,13 +19,16 @@ Review the PR using AI based on the chat instructions.
   - **person:** (string, required) The name of the bot who is sending the message
   - **approved:** (string, not required) The chat message to be sent when the PR is approved, if not present it will use the response from the AI.
   - **rejected:** (string, not required) The chat message to be sent when the PR is rejected, if not present it will use the response from the AI.
-- **solution:** (string, not required) The solution to the PR. This is used to compare the PR with the solution and decide if the PR is correct or not, if not used it will base the solution on the chat instructions. 
+- **solution:** (string, not required) The solution to the PR. A free text which will be used to compare the PR with the solution and decide if the PR is correct or not. if not used it will base the solution on the chat instructions. 
 
 ## Result
 
 No additional info is added to the global payload outputs.
 
 ## Usage Example
+### Example 
+The `github_pr_review` action is used to approve or reject the PR based on the chat instructions. 
+It will let user know they should merge it. The message is sent on behalf of the bot `person`.
 
 ```yaml
 do:
@@ -38,7 +41,20 @@ do:
 
 ```
 
-The `github_pr_review` action is used to approve or reject the PR and let user know they should merge it. The message is sent on behalf of the bot `person`
+### Example - using solution 
+Here the `github_pr_review` action is used to approve or reject the PR based on a solution.
+
+```yaml
+do:
+  - actionId: github_pr_review
+    params:
+      solution: "Check the that PR includes a new file called 'new_file.txt' with the content 'Hello World!'"
+      messages:
+        person: lucca
+        approved: "Nice work! Now you can merge it."
+        rejected: "Are you sure you changed correctly the relevant file?"
+
+```
 
 ## Relevant Triggers
 
